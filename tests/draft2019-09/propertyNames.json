@@ -12,7 +12,8 @@
                     "f": {},
                     "foo": {}
                 },
-                "valid": true
+                "valid": true,
+                "id": "cdf4e7f5050efe955dd43099f3db5a35"
             },
             {
                 "description": "some property names invalid",
@@ -20,27 +21,32 @@
                     "foo": {},
                     "foobar": {}
                 },
-                "valid": false
+                "valid": false,
+                "id": "d4dbb75fc5606b03a87a6bb26ea6af2f"
             },
             {
                 "description": "object without properties is valid",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "c01cb8cf95fec6fe30d98d33c25d8898"
             },
             {
                 "description": "ignores arrays",
                 "data": [1, 2, 3, 4],
-                "valid": true
+                "valid": true,
+                "id": "c1b24944548af388595ba244afa17a25"
             },
             {
                 "description": "ignores strings",
                 "data": "foobar",
-                "valid": true
+                "valid": true,
+                "id": "4e9fa7e0a4f97e4e02f6e73c2c2e6005"
             },
             {
                 "description": "ignores other non-objects",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "9056c6668a4a59edee308f6f26ef5f46"
             }
         ]
     },
@@ -58,19 +64,22 @@
                     "aa": {},
                     "aaa": {}
                 },
-                "valid": true
+                "valid": true,
+                "id": "e1a19b24d7805d529dca5f60b16aa4bf"
             },
             {
                 "description": "non-matching property name is invalid",
                 "data": {
                     "aaA": {}
                 },
-                "valid": false
+                "valid": false,
+                "id": "8fa40fe66b400ae0b9543974606aff3a"
             },
             {
                 "description": "object without properties is valid",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "140a05918270d60e6a3b776d1378a145"
             }
         ]
     },
@@ -84,12 +93,14 @@
             {
                 "description": "object with any properties is valid",
                 "data": {"foo": 1},
-                "valid": true
+                "valid": true,
+                "id": "7dae625b83313166a9885ddb3f240e44"
             },
             {
                 "description": "empty object is valid",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "0468450c248e71af404ff776b9d76a7f"
             }
         ]
     },
@@ -103,12 +114,14 @@
             {
                 "description": "object with any properties is invalid",
                 "data": {"foo": 1},
-                "valid": false
+                "valid": false,
+                "id": "272ea845a42db2013ca103b9522657df"
             },
             {
                 "description": "empty object is valid",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "3d703ce61fb4a2e49b655b253d364742"
             }
         ]
     },
@@ -122,17 +135,20 @@
             {
                 "description": "object with property foo is valid",
                 "data": {"foo": 1},
-                "valid": true
+                "valid": true,
+                "id": "91707ae2829721b25a36b160e14fe42b"
             },
             {
                 "description": "object with any other property is invalid",
                 "data": {"bar": 1},
-                "valid": false
+                "valid": false,
+                "id": "bb8b28efbdfbb378670306c8dd7a5311"
             },
             {
                 "description": "empty object is valid",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "5cc3107aa8c246b770613e5a4b0e645f"
             }
         ]
     },
@@ -146,22 +162,26 @@
             {
                 "description": "object with property foo is valid",
                 "data": {"foo": 1},
-                "valid": true
+                "valid": true,
+                "id": "f97a28fe12689be46d42fbf718e127ac"
             },
             {
                 "description": "object with property foo and bar is valid",
                 "data": {"foo": 1, "bar": 1},
-                "valid": true
+                "valid": true,
+                "id": "feadc60bdae8dbf13c58a71d6d190c86"
             },
             {
                 "description": "object with any other property is invalid",
                 "data": {"baz": 1},
-                "valid": false
+                "valid": false,
+                "id": "a7598d78e501d8300a02941ae684eab5"
             },
             {
                 "description": "empty object is valid",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "293d75db93b4085226e91ddd982c9093"
             }
         ]
     }

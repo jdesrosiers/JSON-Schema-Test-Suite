@@ -9,52 +9,62 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "2f9c33ef55b2e27003de5e419f1459ad"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "c4bad6567c164d61d14918fc3f31aa26"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "242e632cea98b6cf3e5bd2c1a19b2135"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "1e92c42a811e6cd312d6d2c688d8faa2"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "b60bc08ee314ed8e534343e55663b446"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "382f939428ef0c11e5808587755dc34a"
             },
             {
                 "description": "a valid uri-template",
                 "data": "http://example.com/dictionary/{term:1}/{term}",
-                "valid": true
+                "valid": true,
+                "id": "413ea38cf5b6bcc95cee3f9ffde68ff1"
             },
             {
                 "description": "an invalid uri-template",
                 "data": "http://example.com/dictionary/{term:1}/{term",
-                "valid": false
+                "valid": false,
+                "id": "88ef63bee8a2874af02d73bad743991f"
             },
             {
                 "description": "a valid uri-template without variables",
                 "data": "http://example.com/dictionary",
-                "valid": true
+                "valid": true,
+                "id": "c5b4428bb646e361790fb654124af248"
             },
             {
                 "description": "a valid relative uri-template",
                 "data": "dictionary/{term:1}/{term}",
-                "valid": true
+                "valid": true,
+                "id": "c73fdab3e4aaaa6f35ef5a6f016db55f"
             }
         ]
     }

@@ -6,17 +6,20 @@
             {
                 "description": "int by int",
                 "data": 10,
-                "valid": true
+                "valid": true,
+                "id": "99b7c2271cb1a764acd659ddd8486c7b"
             },
             {
                 "description": "int by int fail",
                 "data": 7,
-                "valid": false
+                "valid": false,
+                "id": "6a62d777eb6ca9fc90bb5544bfc918af"
             },
             {
                 "description": "ignores non-numbers",
                 "data": "foo",
-                "valid": true
+                "valid": true,
+                "id": "e806c74ea38f4ddaab23bca219f12c48"
             }
         ]
     },
@@ -27,17 +30,20 @@
             {
                 "description": "zero is multiple of anything",
                 "data": 0,
-                "valid": true
+                "valid": true,
+                "id": "9c5410c61d28be0b9781c4e777e2ea23"
             },
             {
                 "description": "4.5 is multiple of 1.5",
                 "data": 4.5,
-                "valid": true
+                "valid": true,
+                "id": "43309bf9cd19bb21dc1afcd18a771f4d"
             },
             {
                 "description": "35 is not multiple of 1.5",
                 "data": 35,
-                "valid": false
+                "valid": false,
+                "id": "870a01b55728d21753db367be2c8d14c"
             }
         ]
     },
@@ -48,12 +54,14 @@
             {
                 "description": "0.0075 is multiple of 0.0001",
                 "data": 0.0075,
-                "valid": true
+                "valid": true,
+                "id": "018eff71f76644fe01131055bbf72506"
             },
             {
                 "description": "0.00751 is not multiple of 0.0001",
                 "data": 0.00751,
-                "valid": false
+                "valid": false,
+                "id": "27176b9f0397f244212ecc514ad9d2e2"
             }
         ]
     },
@@ -64,7 +72,8 @@
             {
                 "description": "invalid, but naive implementations may raise an overflow error",
                 "data": 1e308,
-                "valid": false
+                "valid": false,
+                "id": "31d7b997e0b80da724255bffdd78f9d4"
             }
         ]
     },
@@ -75,7 +84,8 @@
             {
                 "description": "any integer is a multiple of 1e-8",
                 "data": 12391239123,
-                "valid": true
+                "valid": true,
+                "id": "54872754a811189a820887294c7c9c98"
             }
         ]
     }

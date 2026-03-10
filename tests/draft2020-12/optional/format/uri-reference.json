@@ -9,89 +9,106 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "02729e58996dffce1bca1cf295b8ee1a"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "6d7dbea2c16dc26378eab622eb6ed1ef"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "524e99e8745ce67249f8f1f54e9f3848"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "5114d269ac9443c78962e6ac00b0e882"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "9079de07d3923c0617a78c113bc2add2"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "354eadb2235e533a7b637c1ff67ee97e"
             },
             {
                 "description": "a valid URI",
                 "data": "http://foo.bar/?baz=qux#quux",
-                "valid": true
+                "valid": true,
+                "id": "df076afa19f7a005cc0aad506d41f37d"
             },
             {
                 "description": "a valid protocol-relative URI Reference",
                 "data": "//foo.bar/?baz=qux#quux",
-                "valid": true
+                "valid": true,
+                "id": "32ec274456b934c55a4f50321733d5fa"
             },
             {
                 "description": "a valid relative URI Reference",
                 "data": "/abc",
-                "valid": true
+                "valid": true,
+                "id": "e7288c105d989329c2b80eabe6234685"
             },
             {
                 "description": "an invalid URI Reference",
                 "data": "\\\\WINDOWS\\fileshare",
-                "valid": false
+                "valid": false,
+                "id": "f31561818fdd6616c504710641148d08"
             },
             {
                 "description": "a valid URI Reference",
                 "data": "abc",
-                "valid": true
+                "valid": true,
+                "id": "aed96c1ca490b02818f4ac87fcebb915"
             },
             {
                 "description": "a valid URI fragment",
                 "data": "#fragment",
-                "valid": true
+                "valid": true,
+                "id": "1c872f46326fb369d420c65cda7a21bb"
             },
             {
                 "description": "an invalid URI fragment",
                 "data": "#frag\\ment",
-                "valid": false
+                "valid": false,
+                "id": "c9aa474718177bb39bc542e672e6e214"
             },
             {
                 "description": "unescaped non US-ASCII characters",
                 "data": "/foobar®.txt",
-                "valid": false
+                "valid": false,
+                "id": "c1d984481df7e981ede1a026f3e1f09e"
             },
             {
                 "description": "invalid backslash character",
                 "data": "https://example.org/foobar\\.txt",
-                "valid": false
+                "valid": false,
+                "id": "9a8c9af4c65d9e34c0db9bf5068c8906"
             },
             {
                 "description": "URI with leading-zero IPv4 is structurally valid as a reg-name",
                 "comment": "RFC 3986, Section 3.2.2: If an IP literal fails strict IPv4address parsing, it falls back to reg-name. A string of digits and dots is valid under unreserved characters. JSON Schema format asserts syntax, not scheme-specific DNS semantics.",
                 "data": "http://087.10.0.1/",
-                "valid": true
+                "valid": true,
+                "id": "8f71d0cc09ae794a0f31f6d2871eb7ef"
             },
             {
                 "description": "URI with out-of-bounds IPv4 is structurally valid as a reg-name",
                 "comment": "RFC 3986, Section 3.2.2: Fallback to reg-name allows digits and dots.",
                 "data": "http://999.999.999.999/",
-                "valid": true
+                "valid": true,
+                "id": "681b5a1bab28f04fc1a48c73047f23b5"
             }
         ]
     }

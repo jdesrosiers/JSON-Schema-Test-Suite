@@ -11,32 +11,38 @@
             {
                 "description": "both properties present and valid is valid",
                 "data": {"foo": 1, "bar": "baz"},
-                "valid": true
+                "valid": true,
+                "id": "d7134e2869ca7ecc0cdef844fd114491"
             },
             {
                 "description": "one property invalid is invalid",
                 "data": {"foo": 1, "bar": {}},
-                "valid": false
+                "valid": false,
+                "id": "cad81128e9aebb998ae0690b432a55f5"
             },
             {
                 "description": "both properties invalid is invalid",
                 "data": {"foo": [], "bar": {}},
-                "valid": false
+                "valid": false,
+                "id": "dea58a4f43b7a7d855ce1d85c57af615"
             },
             {
                 "description": "doesn't invalidate other properties",
                 "data": {"quux": []},
-                "valid": true
+                "valid": true,
+                "id": "15a332477ec01e8befe291819ed1bb27"
             },
             {
                 "description": "ignores arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "37204e85a192adeac06b9b633ba0df48"
             },
             {
                 "description": "ignores other non-objects",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "ac757fd1a8b213804cfdeb5a2941cd87"
             }
         ]
     },
@@ -55,42 +61,50 @@
             {
                 "description": "property validates property",
                 "data": {"foo": [1, 2]},
-                "valid": true
+                "valid": true,
+                "id": "b6c210885c0cd2e771b213ff63ca7b3b"
             },
             {
                 "description": "property invalidates property",
                 "data": {"foo": [1, 2, 3, 4]},
-                "valid": false
+                "valid": false,
+                "id": "0f7bc6e60347f5e93b3ca7abaf983891"
             },
             {
                 "description": "patternProperty invalidates property",
                 "data": {"foo": []},
-                "valid": false
+                "valid": false,
+                "id": "5230c24fdc88dbbd8c529d88b065da9f"
             },
             {
                 "description": "patternProperty validates nonproperty",
                 "data": {"fxo": [1, 2]},
-                "valid": true
+                "valid": true,
+                "id": "f93ed9554aaf49f3f1833c4c315bff8d"
             },
             {
                 "description": "patternProperty invalidates nonproperty",
                 "data": {"fxo": []},
-                "valid": false
+                "valid": false,
+                "id": "2db6e344432105f241e2eb2e9ad0a3c7"
             },
             {
                 "description": "additionalProperty ignores property",
                 "data": {"bar": []},
-                "valid": true
+                "valid": true,
+                "id": "86c65309eb5b7a3331a1503d55a97f29"
             },
             {
                 "description": "additionalProperty validates others",
                 "data": {"quux": 3},
-                "valid": true
+                "valid": true,
+                "id": "e0087ad6ab647a8f82789af55bd85608"
             },
             {
                 "description": "additionalProperty invalidates others",
                 "data": {"quux": "foo"},
-                "valid": false
+                "valid": false,
+                "id": "7c3fb36c146e0802e71545f3fd6835de"
             }
         ]
     },
@@ -117,7 +131,8 @@
                     "foo\tbar": 1,
                     "foo\fbar": 1
                 },
-                "valid": true
+                "valid": true,
+                "id": "d786d3ad47595666bc45a1b2d8568b83"
             },
             {
                 "description": "object with strings is invalid",
@@ -129,7 +144,8 @@
                     "foo\tbar": "1",
                     "foo\fbar": "1"
                 },
-                "valid": false
+                "valid": false,
+                "id": "83892f2d4e47aa1ff181f6f5b3570172"
             }
         ]
     },
@@ -144,7 +160,8 @@
             {
                 "description": "allows null values",
                 "data": {"foo": null},
-                "valid": true
+                "valid": true,
+                "id": "6672d24c5cd807f76577aa237175e9ae"
             }
         ]
     },
@@ -164,32 +181,38 @@
             {
                 "description": "ignores arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "c1ca86c5836fd09dd4c5f4e2c8dc52e6"
             },
             {
                 "description": "ignores other non-objects",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "df78d45837e97bb392d7ed57ce6b1b87"
             },
             {
                 "description": "none of the properties mentioned",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "1fa7dbe33ee7154a7d13853f724ac7ab"
             },
             {
                 "description": "__proto__ not valid",
                 "data": { "__proto__": "foo" },
-                "valid": false
+                "valid": false,
+                "id": "fc6342bd5b3d7671a518469e80a5670c"
             },
             {
                 "description": "toString not valid",
                 "data": { "toString": { "length": 37 } },
-                "valid": false
+                "valid": false,
+                "id": "deef5020d9101e384ba68f99fe4fd7e3"
             },
             {
                 "description": "constructor not valid",
                 "data": { "constructor": { "length": 37 } },
-                "valid": false
+                "valid": false,
+                "id": "f0eac52f2949892de2f72377afcfc7bd"
             },
             {
                 "description": "all present and valid",
@@ -198,7 +221,8 @@
                     "toString": { "length": "foo" },
                     "constructor": 37
                 },
-                "valid": true
+                "valid": true,
+                "id": "4bc1661456543220d9921393087ab44b"
             }
         ]
     }

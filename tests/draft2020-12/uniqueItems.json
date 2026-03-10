@@ -9,57 +9,68 @@
             {
                 "description": "unique array of integers is valid",
                 "data": [1, 2],
-                "valid": true
+                "valid": true,
+                "id": "fb68d78530335693faa42e86c8c244bb"
             },
             {
                 "description": "non-unique array of integers is invalid",
                 "data": [1, 1],
-                "valid": false
+                "valid": false,
+                "id": "581e4ff32b39e4b73ecc8bd70ef1beab"
             },
             {
                 "description": "non-unique array of more than two integers is invalid",
                 "data": [1, 2, 1],
-                "valid": false
+                "valid": false,
+                "id": "45f0ad4c7261e8cd9a297176a4e1af41"
             },
             {
                 "description": "numbers are unique if mathematically unequal",
                 "data": [1.0, 1.00, 1],
-                "valid": false
+                "valid": false,
+                "id": "6b0ff9908bc53c186e09b58b40806507"
             },
             {
                 "description": "false is not equal to zero",
                 "data": [0, false],
-                "valid": true
+                "valid": true,
+                "id": "9e374ca89c6b4a6fc972e85ae0c0f4f9"
             },
             {
                 "description": "true is not equal to one",
                 "data": [1, true],
-                "valid": true
+                "valid": true,
+                "id": "e81ac447c37c0bf27b374dd80ee21bf7"
             },
             {
                 "description": "unique array of strings is valid",
                 "data": ["foo", "bar", "baz"],
-                "valid": true
+                "valid": true,
+                "id": "f3ff3434819597a8d52a3f9688007216"
             },
             {
                 "description": "non-unique array of strings is invalid",
                 "data": ["foo", "bar", "foo"],
-                "valid": false
+                "valid": false,
+                "id": "4accf1b2f3cae907cc8d625268c474a2"
             },
             {
                 "description": "unique array of objects is valid",
                 "data": [{"foo": "bar"}, {"foo": "baz"}],
-                "valid": true
+                "valid": true,
+                "id": "ec83eabf59e1b36ac3231092d91320c9"
             },
             {
                 "description": "non-unique array of objects is invalid",
                 "data": [{"foo": "bar"}, {"foo": "bar"}],
-                "valid": false
+                "valid": false,
+                "id": "6887d5dfbe0eb476b7b4b673b43e4c43"
             },
             {
                 "description": "property order of array of objects is ignored",
                 "data": [{"foo": "bar", "bar": "foo"}, {"bar": "foo", "foo": "bar"}],
-                "valid": false
+                "valid": false,
+                "id": "0e00b297858f09a8dff2860e7cd4a488"
             },
             {
                 "description": "unique array of nested objects is valid",
@@ -67,7 +78,8 @@
                     {"foo": {"bar" : {"baz" : true}}},
                     {"foo": {"bar" : {"baz" : false}}}
                 ],
-                "valid": true
+                "valid": true,
+                "id": "3aa4f6759667fe9063c384bd36075f15"
             },
             {
                 "description": "non-unique array of nested objects is invalid",
@@ -75,82 +87,98 @@
                     {"foo": {"bar" : {"baz" : true}}},
                     {"foo": {"bar" : {"baz" : true}}}
                 ],
-                "valid": false
+                "valid": false,
+                "id": "3a219c72bb3debe40fc05ef87b578032"
             },
             {
                 "description": "unique array of arrays is valid",
                 "data": [["foo"], ["bar"]],
-                "valid": true
+                "valid": true,
+                "id": "e1fb943ff5a932d6405d4cdbe133292c"
             },
             {
                 "description": "non-unique array of arrays is invalid",
                 "data": [["foo"], ["foo"]],
-                "valid": false
+                "valid": false,
+                "id": "d92069ae77dcb1781310479c25b4754d"
             },
             {
                 "description": "non-unique array of more than two arrays is invalid",
                 "data": [["foo"], ["bar"], ["foo"]],
-                "valid": false
+                "valid": false,
+                "id": "1c16b6ff34a3811a7d70057374b7c9b2"
             },
             {
                 "description": "1 and true are unique",
                 "data": [1, true],
-                "valid": true
+                "valid": true,
+                "id": "e81ac447c37c0bf27b374dd80ee21bf7"
             },
             {
                 "description": "0 and false are unique",
                 "data": [0, false],
-                "valid": true
+                "valid": true,
+                "id": "9e374ca89c6b4a6fc972e85ae0c0f4f9"
             },
             {
                 "description": "[1] and [true] are unique",
                 "data": [[1], [true]],
-                "valid": true
+                "valid": true,
+                "id": "c37e1756d21f211686e35fcebb63f395"
             },
             {
                 "description": "[0] and [false] are unique",
                 "data": [[0], [false]],
-                "valid": true
+                "valid": true,
+                "id": "bcceffffa4169bcdb430e03437801a87"
             },
             {
                 "description": "nested [1] and [true] are unique",
                 "data": [[[1], "foo"], [[true], "foo"]],
-                "valid": true
+                "valid": true,
+                "id": "52a4a61de7ec47c2506d67a09eca0d18"
             },
             {
                 "description": "nested [0] and [false] are unique",
                 "data": [[[0], "foo"], [[false], "foo"]],
-                "valid": true
+                "valid": true,
+                "id": "287ff25f2e01211122ad6ee55f4ef69b"
             },
             {
                 "description": "unique heterogeneous types are valid",
                 "data": [{}, [1], true, null, 1, "{}"],
-                "valid": true
+                "valid": true,
+                "id": "9acb4ca5896979665dec2868c42e5774"
             },
             {
                 "description": "non-unique heterogeneous types are invalid",
                 "data": [{}, [1], true, null, {}, 1],
-                "valid": false
+                "valid": false,
+                "id": "752e7db52ca6e2faee89aaf37832d7cd"
             },
             {
                 "description": "different objects are unique",
                 "data": [{"a": 1, "b": 2}, {"a": 2, "b": 1}],
-                "valid": true
+                "valid": true,
+                "id": "fa592234ea5698ab7ccc246d30b23a5d"
             },
             {
                 "description": "objects are non-unique despite key order",
                 "data": [{"a": 1, "b": 2}, {"b": 2, "a": 1}],
-                "valid": false
+                "valid": false,
+                "id": "8a6374259d6108b8fbbbf8b46d253263"
             },
             {
                 "description": "{\"a\": false} and {\"a\": 0} are unique",
                 "data": [{"a": false}, {"a": 0}],
-                "valid": true
+                "valid": true,
+                "id": "9236ffc646d65ac72031fe7a5e4254d5"
             },
             {
                 "description": "{\"a\": true} and {\"a\": 1} are unique",
                 "data": [{"a": true}, {"a": 1}],
-                "valid": true
+                "valid": true,
+                "id": "fce37fb81f3363d08b4844e0f8b99150"
             }
         ]
     },
@@ -165,42 +193,50 @@
             {
                 "description": "[false, true] from items array is valid",
                 "data": [false, true],
-                "valid": true
+                "valid": true,
+                "id": "63081877dfeaf5abe8c2e3aa52eb5600"
             },
             {
                 "description": "[true, false] from items array is valid",
                 "data": [true, false],
-                "valid": true
+                "valid": true,
+                "id": "e6bc585a0dc3e98f00ad57211b62a82d"
             },
             {
                 "description": "[false, false] from items array is not valid",
                 "data": [false, false],
-                "valid": false
+                "valid": false,
+                "id": "bda0220fdb423f90632fde1a56289696"
             },
             {
                 "description": "[true, true] from items array is not valid",
                 "data": [true, true],
-                "valid": false
+                "valid": false,
+                "id": "d8f30a2349b8525d46ebd2aa76a396c5"
             },
             {
                 "description": "unique array extended from [false, true] is valid",
                 "data": [false, true, "foo", "bar"],
-                "valid": true
+                "valid": true,
+                "id": "2f5ee1910fa5619f1defbdfcb8b28563"
             },
             {
                 "description": "unique array extended from [true, false] is valid",
                 "data": [true, false, "foo", "bar"],
-                "valid": true
+                "valid": true,
+                "id": "4b71f41f25ffda299fde5a72c27e1776"
             },
             {
                 "description": "non-unique array extended from [false, true] is not valid",
                 "data": [false, true, "foo", "foo"],
-                "valid": false
+                "valid": false,
+                "id": "3738966edc128798d122fd452c9c7abe"
             },
             {
                 "description": "non-unique array extended from [true, false] is not valid",
                 "data": [true, false, "foo", "foo"],
-                "valid": false
+                "valid": false,
+                "id": "fdb49cf6a27a318e2fb3aaa661bef7f9"
             }
         ]
     },
@@ -216,27 +252,32 @@
             {
                 "description": "[false, true] from items array is valid",
                 "data": [false, true],
-                "valid": true
+                "valid": true,
+                "id": "e1544fccf6f0b5cda3fd09cd83743729"
             },
             {
                 "description": "[true, false] from items array is valid",
                 "data": [true, false],
-                "valid": true
+                "valid": true,
+                "id": "f1bafbc1280ff35da05b9ada4c8ba590"
             },
             {
                 "description": "[false, false] from items array is not valid",
                 "data": [false, false],
-                "valid": false
+                "valid": false,
+                "id": "a6a1517c616a73c53e9c685c60a72cc9"
             },
             {
                 "description": "[true, true] from items array is not valid",
                 "data": [true, true],
-                "valid": false
+                "valid": false,
+                "id": "bf8883961fc6ec36bb01710898132e18"
             },
             {
                 "description": "extra items are invalid even if unique",
                 "data": [false, true, null],
-                "valid": false
+                "valid": false,
+                "id": "4d5658ba3ad8d77e80a543429855e54e"
             }
         ]
     },
@@ -250,37 +291,44 @@
             {
                 "description": "unique array of integers is valid",
                 "data": [1, 2],
-                "valid": true
+                "valid": true,
+                "id": "8e876f8ae1387f862b9edb83a61d72b3"
             },
             {
                 "description": "non-unique array of integers is valid",
                 "data": [1, 1],
-                "valid": true
+                "valid": true,
+                "id": "95e7b3d801f046cf2033cdf1e5937dd7"
             },
             {
                 "description": "numbers are unique if mathematically unequal",
                 "data": [1.0, 1.00, 1],
-                "valid": true
+                "valid": true,
+                "id": "7078a832802662302b8436feccd86d6a"
             },
             {
                 "description": "false is not equal to zero",
                 "data": [0, false],
-                "valid": true
+                "valid": true,
+                "id": "622da53f8c9fdecb15403f1fad3c4f01"
             },
             {
                 "description": "true is not equal to one",
                 "data": [1, true],
-                "valid": true
+                "valid": true,
+                "id": "f43f564b62d0f38bb9cddab9a619fc38"
             },
             {
                 "description": "unique array of objects is valid",
                 "data": [{"foo": "bar"}, {"foo": "baz"}],
-                "valid": true
+                "valid": true,
+                "id": "48e11f413ccbf33b3651ce88b8efdb81"
             },
             {
                 "description": "non-unique array of objects is valid",
                 "data": [{"foo": "bar"}, {"foo": "bar"}],
-                "valid": true
+                "valid": true,
+                "id": "8978e17eb512ecb7080f69f76e29a323"
             },
             {
                 "description": "unique array of nested objects is valid",
@@ -288,7 +336,8 @@
                     {"foo": {"bar" : {"baz" : true}}},
                     {"foo": {"bar" : {"baz" : false}}}
                 ],
-                "valid": true
+                "valid": true,
+                "id": "23de7a93e68b5668598b60467f84b8c4"
             },
             {
                 "description": "non-unique array of nested objects is valid",
@@ -296,37 +345,44 @@
                     {"foo": {"bar" : {"baz" : true}}},
                     {"foo": {"bar" : {"baz" : true}}}
                 ],
-                "valid": true
+                "valid": true,
+                "id": "956d42b7485a7b8df0686ff1aad349c8"
             },
             {
                 "description": "unique array of arrays is valid",
                 "data": [["foo"], ["bar"]],
-                "valid": true
+                "valid": true,
+                "id": "34a5e73687d9d31adab1513b6f588b28"
             },
             {
                 "description": "non-unique array of arrays is valid",
                 "data": [["foo"], ["foo"]],
-                "valid": true
+                "valid": true,
+                "id": "f5b399025b4ed7ca3db7a6c4d4669474"
             },
             {
                 "description": "1 and true are unique",
                 "data": [1, true],
-                "valid": true
+                "valid": true,
+                "id": "f43f564b62d0f38bb9cddab9a619fc38"
             },
             {
                 "description": "0 and false are unique",
                 "data": [0, false],
-                "valid": true
+                "valid": true,
+                "id": "622da53f8c9fdecb15403f1fad3c4f01"
             },
             {
                 "description": "unique heterogeneous types are valid",
                 "data": [{}, [1], true, null, 1],
-                "valid": true
+                "valid": true,
+                "id": "ea988d8c5695dee52b81b3ccd465dc11"
             },
             {
                 "description": "non-unique heterogeneous types are valid",
                 "data": [{}, [1], true, null, {}, 1],
-                "valid": true
+                "valid": true,
+                "id": "946928f64b2e71a792baacd85e5034fd"
             }
         ]
     },
@@ -341,42 +397,50 @@
             {
                 "description": "[false, true] from items array is valid",
                 "data": [false, true],
-                "valid": true
+                "valid": true,
+                "id": "b0e734b7aedf3d6838fa6f86b5464b67"
             },
             {
                 "description": "[true, false] from items array is valid",
                 "data": [true, false],
-                "valid": true
+                "valid": true,
+                "id": "5085a2fc00ca9b3f8fd66a03d0edf871"
             },
             {
                 "description": "[false, false] from items array is valid",
                 "data": [false, false],
-                "valid": true
+                "valid": true,
+                "id": "b0527589a7bb81619c134ef9f1a6cd7b"
             },
             {
                 "description": "[true, true] from items array is valid",
                 "data": [true, true],
-                "valid": true
+                "valid": true,
+                "id": "6ab993296de8b30fc3cb2dbae3a519a4"
             },
             {
                 "description": "unique array extended from [false, true] is valid",
                 "data": [false, true, "foo", "bar"],
-                "valid": true
+                "valid": true,
+                "id": "9db3be62f11bdc0d5e3cf0d6e57977c6"
             },
             {
                 "description": "unique array extended from [true, false] is valid",
                 "data": [true, false, "foo", "bar"],
-                "valid": true
+                "valid": true,
+                "id": "fe08fa62aace383a1aa8bcd4657c73e5"
             },
             {
                 "description": "non-unique array extended from [false, true] is valid",
                 "data": [false, true, "foo", "foo"],
-                "valid": true
+                "valid": true,
+                "id": "8fc53c37d7bf19b3a720860272577b6a"
             },
             {
                 "description": "non-unique array extended from [true, false] is valid",
                 "data": [true, false, "foo", "foo"],
-                "valid": true
+                "valid": true,
+                "id": "ae2a2e878acde40072fbd31b44e63802"
             }
         ]
     },
@@ -392,27 +456,32 @@
             {
                 "description": "[false, true] from items array is valid",
                 "data": [false, true],
-                "valid": true
+                "valid": true,
+                "id": "c901c54c41be02afb8ff9e7deb8c3e9b"
             },
             {
                 "description": "[true, false] from items array is valid",
                 "data": [true, false],
-                "valid": true
+                "valid": true,
+                "id": "fbb63aeabf96d07b43599c6bca3843b6"
             },
             {
                 "description": "[false, false] from items array is valid",
                 "data": [false, false],
-                "valid": true
+                "valid": true,
+                "id": "003714ec98748357e0bff4144c46dfeb"
             },
             {
                 "description": "[true, true] from items array is valid",
                 "data": [true, true],
-                "valid": true
+                "valid": true,
+                "id": "890a30271b751e60f30156abfdf1a8d0"
             },
             {
                 "description": "extra items are invalid even if unique",
                 "data": [false, true, null],
-                "valid": false
+                "valid": false,
+                "id": "bc7325c926b7befba8885900a37b7edf"
             }
         ]
     }

@@ -11,12 +11,14 @@
                 "description": "first item not a string is invalid",
                 "comment": "if the implementation is not processing the $ref as a 2020-12 schema, this test will fail",
                 "data": [1, 2, 3],
-                "valid": false
+                "valid": false,
+                "id": "b558b6e841885fa236aab5a4fecf3707"
             },
             {
                 "description": "first item is a string is valid",
                 "data": ["a string", 1, 2, 3],
-                "valid": true
+                "valid": true,
+                "id": "a306daca3f7c0fcf2b783c101b5c8ab5"
             }
         ]
     },
@@ -34,7 +36,8 @@
                 "description": "missing bar is valid",
                 "comment": "if the implementation is not processing the $ref as a draft 7 schema, this test will fail",
                 "data": {"foo": "any value"},
-                "valid": true
+                "valid": true,
+                "id": "84948727865f890449f5cf0ebb2bbffa"
             }
         ]
     }

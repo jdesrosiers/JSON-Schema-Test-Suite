@@ -9,32 +9,38 @@
             {
                 "description": "longer is valid",
                 "data": {"foo": 1, "bar": 2},
-                "valid": true
+                "valid": true,
+                "id": "459cd6ec6969be37fdca5bf7eeae4da9"
             },
             {
                 "description": "exact length is valid",
                 "data": {"foo": 1},
-                "valid": true
+                "valid": true,
+                "id": "1d5e6453ed09421b3c89a2f200f847ab"
             },
             {
                 "description": "too short is invalid",
                 "data": {},
-                "valid": false
+                "valid": false,
+                "id": "25b00f4666f77cbe176e713a1a50ca93"
             },
             {
                 "description": "ignores arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "7969bb9aa3f9c9776b65cb68272d0065"
             },
             {
                 "description": "ignores strings",
                 "data": "",
-                "valid": true
+                "valid": true,
+                "id": "1ced183da1e26e72690094d4d886f2cf"
             },
             {
                 "description": "ignores other non-objects",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "4507c51d0138d342ec30fa1b79e4512e"
             }
         ]
     },
@@ -48,12 +54,14 @@
             {
                 "description": "longer is valid",
                 "data": {"foo": 1, "bar": 2},
-                "valid": true
+                "valid": true,
+                "id": "459cd6ec6969be37fdca5bf7eeae4da9"
             },
             {
                 "description": "too short is invalid",
                 "data": {},
-                "valid": false
+                "valid": false,
+                "id": "25b00f4666f77cbe176e713a1a50ca93"
             }
         ]
     }

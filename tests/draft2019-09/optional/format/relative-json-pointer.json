@@ -9,92 +9,110 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "727ce6c3eb7a1da7a549cb3e265f5b4b"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "c48d1e3691c84db107496f24c4e5ccb9"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "2250b3caeb6c6c77e93c96aa3670eb07"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "d199a3ef5dff4b80a8884c168014e61b"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "b6389df5bd14aca1b2d2eef12eabf985"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "a8f43ba6e38138e298d65a4f27e07e8c"
             },
             {
                 "description": "a valid upwards RJP",
                 "data": "1",
-                "valid": true
+                "valid": true,
+                "id": "f7c3c337d599e1305caf4cd430d182d9"
             },
             {
                 "description": "a valid downwards RJP",
                 "data": "0/foo/bar",
-                "valid": true
+                "valid": true,
+                "id": "75bd7db509499a4f8f19ba9ed0b56d81"
             },
             {
                 "description": "a valid up and then down RJP, with array index",
                 "data": "2/0/baz/1/zip",
-                "valid": true
+                "valid": true,
+                "id": "da7cf277b01c7686d2ad3311311771d6"
             },
             {
                 "description": "a valid RJP taking the member or index name",
                 "data": "0#",
-                "valid": true
+                "valid": true,
+                "id": "39d00c03332f54317ee427ecb6082955"
             },
             {
                 "description": "an invalid RJP that is a valid JSON Pointer",
                 "data": "/foo/bar",
-                "valid": false
+                "valid": false,
+                "id": "fb4baa11c92cd8ac65d29e9ac7162ba6"
             },
             {
                 "description": "negative prefix",
                 "data": "-1/foo/bar",
-                "valid": false
+                "valid": false,
+                "id": "14c79cced3c6ef6168bf534406c30b6b"
             },
             {
                 "description": "explicit positive prefix",
                 "data": "+1/foo/bar",
-                "valid": false
+                "valid": false,
+                "id": "c705459b097a9a8b7a6c3e06f9c586d8"
             },
             {
                 "description": "## is not a valid json-pointer",
                 "data": "0##",
-                "valid": false
+                "valid": false,
+                "id": "91ec1d9bb7260dd5a3f914fa408e8826"
             },
             {
                 "description": "zero cannot be followed by other digits, plus json-pointer",
                 "data": "01/a",
-                "valid": false
+                "valid": false,
+                "id": "69d38777bfce69598f1fe539855af569"
             },
             {
                 "description": "zero cannot be followed by other digits, plus octothorpe",
                 "data": "01#",
-                "valid": false
+                "valid": false,
+                "id": "4165c432de0061ae684bb2ad066b4168"
             },
             {
                 "description": "empty string",
                 "data": "",
-                "valid": false
+                "valid": false,
+                "id": "d3567f9005ed4c682bc231a0005c7030"
             },
             {
                 "description": "multi-digit integer prefix",
                 "data": "120/foo/bar",
-                "valid": true
+                "valid": true,
+                "id": "abfe5575ee17d3f8c13f5b8f1e9fb8cf"
             }
         ]
     }

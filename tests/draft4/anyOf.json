@@ -15,22 +15,26 @@
             {
                 "description": "first anyOf valid",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "6efb3c703c993f943ff8d138cd8ffd33"
             },
             {
                 "description": "second anyOf valid",
                 "data": 2.5,
-                "valid": true
+                "valid": true,
+                "id": "52a67f337d28cb89ca9f65610436bef1"
             },
             {
                 "description": "both anyOf valid",
                 "data": 3,
-                "valid": true
+                "valid": true,
+                "id": "505160af4de1e81d0a4479d8485c8c89"
             },
             {
                 "description": "neither anyOf valid",
                 "data": 1.5,
-                "valid": false
+                "valid": false,
+                "id": "710d7fac45c00ad1d105323432e06d29"
             }
         ]
     },
@@ -51,17 +55,20 @@
             {
                 "description": "mismatch base schema",
                 "data": 3,
-                "valid": false
+                "valid": false,
+                "id": "3710596b026e4374cb9443ce443b2683"
             },
             {
                 "description": "one anyOf valid",
                 "data": "foobar",
-                "valid": true
+                "valid": true,
+                "id": "e6a2c30f5a22d6cdf42d4495a7623802"
             },
             {
                 "description": "both anyOf invalid",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "077484984a7c8e2a80c80719408fb8a6"
             }
         ]
     },
@@ -87,22 +94,26 @@
             {
                 "description": "first anyOf valid (complex)",
                 "data": {"bar": 2},
-                "valid": true
+                "valid": true,
+                "id": "58df711332c9fa5885605dd48788a16d"
             },
             {
                 "description": "second anyOf valid (complex)",
                 "data": {"foo": "baz"},
-                "valid": true
+                "valid": true,
+                "id": "4f40ae70196c999ac315d885f8f7c5f8"
             },
             {
                 "description": "both anyOf valid (complex)",
                 "data": {"foo": "baz", "bar": 2},
-                "valid": true
+                "valid": true,
+                "id": "2f13ae957b7ae00a3b773fae1cc8d9d0"
             },
             {
                 "description": "neither anyOf valid (complex)",
                 "data": {"foo": 2, "bar": "quux"},
-                "valid": false
+                "valid": false,
+                "id": "8bdc89af8e10dcc2fb9ff297962ade02"
             }
         ]
     },
@@ -118,12 +129,14 @@
             {
                 "description": "string is valid",
                 "data": "foo",
-                "valid": true
+                "valid": true,
+                "id": "5772907ad1a241e1d66d5b31a1b4450a"
             },
             {
                 "description": "number is valid",
                 "data": 123,
-                "valid": true
+                "valid": true,
+                "id": "8c60f23bb06f50dede3975a3e79bc228"
             }
         ]
     },
@@ -144,12 +157,14 @@
             {
                 "description": "null is valid",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "a9fc75a6d76f74913b9542f85ed3796f"
             },
             {
                 "description": "anything non-null is invalid",
                 "data": 123,
-                "valid": false
+                "valid": false,
+                "id": "d249aeb29652e1b5b8169e686427c9fd"
             }
         ]
     }

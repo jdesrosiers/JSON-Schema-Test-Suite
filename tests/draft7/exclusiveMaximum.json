@@ -8,22 +8,26 @@
             {
                 "description": "below the exclusiveMaximum is valid",
                 "data": 2.2,
-                "valid": true
+                "valid": true,
+                "id": "0e812aa14d3f06ffa3159f6a87a24824"
             },
             {
                 "description": "boundary point is invalid",
                 "data": 3.0,
-                "valid": false
+                "valid": false,
+                "id": "8ee25b3a2916960a2219726ad7c836e2"
             },
             {
                 "description": "above the exclusiveMaximum is invalid",
                 "data": 3.5,
-                "valid": false
+                "valid": false,
+                "id": "87c81d85638d7347bfa4a4b749a913c1"
             },
             {
                 "description": "ignores non-numbers",
                 "data": "x",
-                "valid": true
+                "valid": true,
+                "id": "f86a73bee925f06e9d0efd317928dea7"
             }
         ]
     }

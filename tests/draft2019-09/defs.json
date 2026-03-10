@@ -9,12 +9,14 @@
             {
                 "description": "valid definition schema",
                 "data": {"$defs": {"foo": {"type": "integer"}}},
-                "valid": true
+                "valid": true,
+                "id": "cd3a2b1889c4e1b18edc319030020bcf"
             },
             {
                 "description": "invalid definition schema",
                 "data": {"$defs": {"foo": {"type": 1}}},
-                "valid": false
+                "valid": false,
+                "id": "a6129756a57e8d441f33ca3b8014720f"
             }
         ]
     }

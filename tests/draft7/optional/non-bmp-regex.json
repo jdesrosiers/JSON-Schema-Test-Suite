@@ -7,37 +7,44 @@
             {
                 "description": "matches empty",
                 "data": "",
-                "valid": true
+                "valid": true,
+                "id": "a70e2535f15976f4e5fe166b3950bb2d"
             },
             {
                 "description": "matches single",
                 "data": "🐲",
-                "valid": true
+                "valid": true,
+                "id": "024eaa6d985265de3c047db2a9111c38"
             },
             {
                 "description": "matches two",
                 "data": "🐲🐲",
-                "valid": true
+                "valid": true,
+                "id": "cd4b781fc941108ee4dfd6122d4b6704"
             },
             {
                 "description": "doesn't match one",
                 "data": "🐉",
-                "valid": false
+                "valid": false,
+                "id": "4b336774f04501792a338649eadbc49e"
             },
             {
                 "description": "doesn't match two",
                 "data": "🐉🐉",
-                "valid": false
+                "valid": false,
+                "id": "22b46501c643c428bd9ca19afe89d8f0"
             },
             {
                 "description": "doesn't match one ASCII",
                 "data": "D",
-                "valid": false
+                "valid": false,
+                "id": "b918ae6839fdcb51d607f980a5f7dcfa"
             },
             {
                 "description": "doesn't match two ASCII",
                 "data": "DD",
-                "valid": false
+                "valid": false,
+                "id": "b5b6211f0c4108b2696959039e7e945a"
             }
         ]
     },
@@ -55,27 +62,32 @@
             {
                 "description": "matches empty",
                 "data": { "": 1 },
-                "valid": true
+                "valid": true,
+                "id": "4c1be7214c409f0d069962a8560ecf9a"
             },
             {
                 "description": "matches single",
                 "data": { "🐲": 1 },
-                "valid": true
+                "valid": true,
+                "id": "d66eeab185eb74854b5101f6e1850def"
             },
             {
                 "description": "matches two",
                 "data": { "🐲🐲": 1 },
-                "valid": true
+                "valid": true,
+                "id": "8b8caa68c882196b2d916cc659881a4e"
             },
             {
                 "description": "doesn't match one",
                 "data": { "🐲": "hello" },
-                "valid": false
+                "valid": false,
+                "id": "654c20cc3b0a80ba0b61a7af3b3c312a"
             },
             {
                 "description": "doesn't match two",
                 "data": { "🐲🐲": "hello" },
-                "valid": false
+                "valid": false,
+                "id": "2958a8a3dcffa6ce8c7f4d7fc17d0bdf"
             }
         ]
     }

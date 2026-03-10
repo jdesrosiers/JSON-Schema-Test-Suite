@@ -9,37 +9,44 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "ff9675b1de22aec12b414f8785a98df7"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "5eea712de779d8278559f08b5dd4cb95"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "d123c2297cae79d9179544cab7b1268f"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "ec895e976b75d7226705734482dec96e"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "5ab319c395b5aba0b4a40f64790be0af"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "ec0001e8920c807fd7c2da1908d2fb68"
             },
             {
                 "description": "invalid email string is only an annotation by default",
                 "data": "2962",
-                "valid": true
+                "valid": true,
+                "id": "57ca90fe777a1b7be8712d2fba2113fd"
             }
         ]
     },
@@ -53,37 +60,44 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "e8be77292f992aa3f19b8a27d87300ea"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "0cab32be82502a25805e3cf7feefd7f6"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "d73d980ed07fc69ceb787b0c9e65db4b"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "cee2cd04a90492b74a7fb8f40bd20261"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "701a5437a19fd8c0c2d30441c39c2bf4"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "b0c0a9ade6427f9eeedec3350ada25be"
             },
             {
                 "description": "invalid idn-email string is only an annotation by default",
                 "data": "2962",
-                "valid": true
+                "valid": true,
+                "id": "304f1a262d631ae67a652c2635041034"
             }
         ]
     },
@@ -97,37 +111,44 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "9415b534eb6753884061f12cf8e57d5a"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "05b32e93c3f8017b004c5d649a42c0ba"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "4cbb2db507981f53412f6384d5c1b5c1"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "69fd9bc660031e2042ed517db8d2c820"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "202651c6adff4d5e13eedcc655b4bfa6"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "dd0651aad01fceb2cd90fafc4dc427bf"
             },
             {
                 "description": "invalid regex string is only an annotation by default",
                 "data": "^(abc]",
-                "valid": true
+                "valid": true,
+                "id": "53b5ba610e24dfd51e6d67fa8c8eba97"
             }
         ]
     },
@@ -141,37 +162,44 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "dfdd6d7e24ec3ba5615189d67c4ed5c4"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "2fc60a29df13ffc875a5e00441872045"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "88169be43099868d2b8231eff3e5c325"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "94b4300b867ef9359e94f48643e3dea2"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "62649c56e98ef884066318052bfc2456"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "75421dab6d634e0c9be301be718a0ca6"
             },
             {
                 "description": "invalid ipv4 string is only an annotation by default",
                 "data": "127.0.0.0.1",
-                "valid": true
+                "valid": true,
+                "id": "0e405b234e9b6b8e174ad8a5dee5ba96"
             }
         ]
     },
@@ -185,37 +213,44 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "35dcada7a2461ad0e498722991d4a403"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "0df0519f3fac3750653577c6f3add903"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "a143746204eee07cc43f29e4288070e5"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "2a865fadca2d5c733eecdefa4343d1c5"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "669a43367004597157140129a9d17859"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "add0e0d262c5ff1671e2e2cb3ccf45d1"
             },
             {
                 "description": "invalid ipv6 string is only an annotation by default",
                 "data": "12345::",
-                "valid": true
+                "valid": true,
+                "id": "f1d615110b8005b1227e3d01c2baca01"
             }
         ]
     },
@@ -229,37 +264,44 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "75b39c97b2dfd02872370ef15d8697b7"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "afb973b834e52d7da0606332e529d5de"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "4e439afb1b404214cff02e6d03755065"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "1497c6fcc269bd7dab4df0cd006e3bd9"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "f790493e32f1e9860cb4496164b3c603"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "140969b7d5fd5ebc6dffb86c7cf2b38c"
             },
             {
                 "description": "invalid idn-hostname string is only an annotation by default",
                 "data": "〮실례.테스트",
-                "valid": true
+                "valid": true,
+                "id": "153c089df65903e4c448ae7c8cd83125"
             }
         ]
     },
@@ -273,37 +315,44 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "d14aa406b0ee6b62ca1297ea81e5bd57"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "63f7809e99af1184afb43cf5dca0b7b8"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "60f65acc4644f8f3588c3169ccd6fbd8"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "4b0ab78038998b2bcbd2d17c820ca532"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "0f56a6cc8972f05ff1005b14008d4b60"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "35ae19bdccd2f22460a2d59908764a3e"
             },
             {
                 "description": "invalid hostname string is only an annotation by default",
                 "data": "-a-host-name-that-starts-with--",
-                "valid": true
+                "valid": true,
+                "id": "e340cd0218a5081973072f2c357f1c37"
             }
         ]
     },
@@ -317,37 +366,44 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "6b4588799b872662bf3db4365e90f345"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "b78de69a31bc106f5934c768e578c00f"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "829ff16895b7e3f06c6b2a40f4dd6503"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "08a387499e165a3989bd0dd4c0933aba"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "b02f886ae7ea2ba04f1ebf0871a35fff"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "874ee36cf4b040d060f07a84e14306b4"
             },
             {
                 "description": "invalid date string is only an annotation by default",
                 "data": "06/19/1963",
-                "valid": true
+                "valid": true,
+                "id": "5dd8ac93d1d4076a5fba2d2fc17daf34"
             }
         ]
     },
@@ -361,37 +417,44 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "19004fae898309cfd55f45ec63da4448"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "07eb7213d24dc0a58fa612243d3230ff"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "e83768a94dd94831bf73bccb0c30f764"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "49fc8c1bb5fa41d1073ca06b8089e8d5"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "8e6107bcd15a2a0b8c3c89e5746a1549"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "dbbd11701498f1c42401354d2bf68f3a"
             },
             {
                 "description": "invalid date-time string is only an annotation by default",
                 "data": "1990-02-31T15:59:60.123-08:00",
-                "valid": true
+                "valid": true,
+                "id": "d8852bb512ebe11b91da6a3c52eea487"
             }
         ]
     },
@@ -405,37 +468,44 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "79600cdeaf17601e5dce02d9b958e3f4"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "8e63cdd62a900e6ad21820a80d68252f"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "93443132a5c393fe2f6c618a0e1f6edd"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "c3721d863d28cfe55d9f0777c1005d03"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "67c6c369c912f20faa34068d872104ff"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "b4453385eb05500e9d2e25fef1cd0828"
             },
             {
                 "description": "invalid time string is only an annotation by default",
                 "data": "08:30:06 PST",
-                "valid": true
+                "valid": true,
+                "id": "67d3d0bd165a5866aa0cfdacd495ff07"
             }
         ]
     },
@@ -449,37 +519,44 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "4c3955d1a2b238a15693610a5a1a680c"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "a729d6bfdbd93517bbb7fbfc8b7bc799"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "95cd1f9083ff3435363f84d30bb5f17d"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "5c257b9b629367dba1ee0250a3724c1c"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "92a9443d80d047c9e64500bd4717cecb"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "1a90c48afc9caf2f680a812c73ec319c"
             },
             {
                 "description": "invalid json-pointer string is only an annotation by default",
                 "data": "/foo/bar~",
-                "valid": true
+                "valid": true,
+                "id": "79a23661a17a892303763a6564373a3e"
             }
         ]
     },
@@ -493,37 +570,44 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "f10a617757b1ebed5206311ee6cf1e70"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "ece1bbd2d562883691bac0b9cab212ff"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "f301f4b0224e1162bd4e8d75fac2b8a0"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "906e2a4d3cc07e1af0c1e8a39f74f188"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "7a76d8862f6b37c99c9ed1605a197c25"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "6772c19f5ced8ba422e5a6d854cdd645"
             },
             {
                 "description": "invalid relative-json-pointer string is only an annotation by default",
                 "data": "/foo/bar",
-                "valid": true
+                "valid": true,
+                "id": "eff4871f626adb7200de9260467177e8"
             }
         ]
     },
@@ -537,37 +621,44 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "2d0c367c22ac6dfdb97771ac0e012fd7"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "78a3853ae64c55cf112b87d3a148fcf6"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "a4e105d33e3ded12b89eea63baead301"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "ab3e4361eb40b6e5c272263879b06d9d"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "0acde0e9d88fe6a4c7837a7c345b28f8"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "04179f2f178c2c9a3efd3fe0bf5c9011"
             },
             {
                 "description": "invalid iri string is only an annotation by default",
                 "data": "http://2001:0db8:85a3:0000:0000:8a2e:0370:7334",
-                "valid": true
+                "valid": true,
+                "id": "f083b3c7035efd8ab716326151d95b7b"
             }
         ]
     },
@@ -581,37 +672,44 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "ac8d4c6483b0f64a5b7a47b380e65c8d"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "bf91652230f74089e919ae25fe8b8bdc"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "68171540be848b3245f580d453a402c1"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "68052c87bf43f1f17c22d06decab52bb"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "25a3e1b9816c4ef18739a9df5dd15365"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "45c1a3d491a39593dc7933e4d5940faf"
             },
             {
                 "description": "invalid iri-reference string is only an annotation by default",
                 "data": "\\\\WINDOWS\\filëßåré",
-                "valid": true
+                "valid": true,
+                "id": "21d7017c404154f8c38a45bc5c782f34"
             }
         ]
     },
@@ -625,37 +723,44 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "62f6e32554404babaffa99e2803b61e0"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "3cf664374343997cb1f1fce34f15dfa9"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "098af32a321ea4737002d49995e67005"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "7d51e6ee3e411e766844aad560222265"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "d65dea9d42a36f546cb57fd5daad3fa9"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "2ea43c25f250414f0b30f9c878da2147"
             },
             {
                 "description": "invalid uri string is only an annotation by default",
                 "data": "//foo.bar/?baz=qux#quux",
-                "valid": true
+                "valid": true,
+                "id": "7cfbe3307d3d0b43dce37e31c2897c9f"
             }
         ]
     },
@@ -669,37 +774,44 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "ac1ba43c6ebda85035043df8c762c0b6"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "24433d141d6df1913b3cc096cd60c8a5"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "666667a64a20e6ab25453a41b411eb07"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "bfc6c566b5b480cc25eee7da4d1dd594"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "a2f0ca7b7f106e4324508fa4017337d8"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "5d8a4311cbe20ca42865c54225d06dd5"
             },
             {
                 "description": "invalid uri-reference string is only an annotation by default",
                 "data": "\\\\WINDOWS\\fileshare",
-                "valid": true
+                "valid": true,
+                "id": "5f78d8e47810bd500488543a95932981"
             }
         ]
     },
@@ -713,37 +825,44 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "99ca6ff670b20aacd67ef44bb126e513"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "7b69fae817fdb600d5b798866b1d2102"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "e15f719435ccc45dae4c880b15030766"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "bf1809952bfce8fb3da5afaaa6512744"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "bd02e855716f59f2ad5924a0f5d6b50d"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "22aeffbb944b23ee26497454fa6495dc"
             },
             {
                 "description": "invalid uri-template string is only an annotation by default",
                 "data": "http://example.com/dictionary/{term:1}/{term",
-                "valid": true
+                "valid": true,
+                "id": "1acbf31d1b21ea81bbd0d807eed47526"
             }
         ]
     },
@@ -757,37 +876,44 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "3cfc4277243d9f21b690770193ec4adc"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "65112402b660e534a7ddfae4f2741b49"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "f382651fb7d5c6dafcf083d7fe87ef79"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "7e08b09aeb5edbe4ac267c7824f81844"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "2a12674381123997dd3dfa5cdfb2a541"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "6858d2038059216db7c56f7bfea5b8f6"
             },
             {
                 "description": "invalid uuid string is only an annotation by default",
                 "data": "2eb8aa08-aa98-11ea-b4aa-73b441d1638",
-                "valid": true
+                "valid": true,
+                "id": "249119fc5793d857e60943e812090994"
             }
         ]
     },
@@ -801,37 +927,44 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "698ff84b13d06288270ca754a7e7b2e9"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "9493355256d4c093d217433a7a639841"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "b7fd4f6cb012576eab9a7f420f441610"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "00fc0ce7e87df791ea7ea845813bab4d"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "ed846e7c713471bbd41b990b668693ab"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "9b06989fff26ee967e66e86a8b2228c0"
             },
             {
                 "description": "invalid duration string is only an annotation by default",
                 "data": "PT1D",
-                "valid": true
+                "valid": true,
+                "id": "2c3c3c04fbbbcc547fa59e9c7f074f36"
             }
         ]
     }

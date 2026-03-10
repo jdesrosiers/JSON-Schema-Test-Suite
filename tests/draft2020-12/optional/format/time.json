@@ -9,232 +9,278 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "6adf9c87788614349093adaf1005aee5"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "85f1dfec4020ad6cfdc0e1bbd84356ad"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "2ea30be7f2eaf7b0ebbb92e004bc5a78"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "0c01b8d8d0d51a88c867ba90f31e686a"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "140542070cbd7c4d0d68ebe8e0615615"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "e03f050c90d612081ec0373ec64a7c4e"
             },
             {
                 "description": "a valid time string",
                 "data": "08:30:06Z",
-                "valid": true
+                "valid": true,
+                "id": "4fad19777d7421a2244dd1d4634e6dd7"
             },
             {
                 "description": "invalid time string with extra leading zeros",
                 "data": "008:030:006Z",
-                "valid": false
+                "valid": false,
+                "id": "3c92e7c442b8a2ba81d0f3362a20c644"
             },
             {
                 "description": "invalid time string with no leading zero for single digit",
                 "data": "8:3:6Z",
-                "valid": false
+                "valid": false,
+                "id": "819d48f6a84ddb8f1b7c2cf89e0a80c6"
             },
             {
                 "description": "hour, minute, second must be two digits",
                 "data": "8:0030:6Z",
-                "valid": false
+                "valid": false,
+                "id": "fe946dbd4f7757870ad3d1bcc67fa65c"
             },
             {
                 "description": "a valid time string with leap second, Zulu",
                 "data": "23:59:60Z",
-                "valid": true
+                "valid": true,
+                "id": "87b6b1f7693307bc60dc38c64cf9128d"
             },
             {
                 "description": "invalid leap second, Zulu (wrong hour)",
                 "data": "22:59:60Z",
-                "valid": false
+                "valid": false,
+                "id": "b3885d153855099fe83a2df8490e435e"
             },
             {
                 "description": "invalid leap second, Zulu (wrong minute)",
                 "data": "23:58:60Z",
-                "valid": false
+                "valid": false,
+                "id": "60140055c6ad3ca998c877126984f502"
             },
             {
                 "description": "valid leap second, zero time-offset",
                 "data": "23:59:60+00:00",
-                "valid": true
+                "valid": true,
+                "id": "10c16a443e316bb121325fa3cf608fe7"
             },
             {
                 "description": "invalid leap second, zero time-offset (wrong hour)",
                 "data": "22:59:60+00:00",
-                "valid": false
+                "valid": false,
+                "id": "5d2c25804925e7848e4cff14fed6cc5d"
             },
             {
                 "description": "invalid leap second, zero time-offset (wrong minute)",
                 "data": "23:58:60+00:00",
-                "valid": false
+                "valid": false,
+                "id": "d0f297ca2cefb33b85e54964f007b536"
             },
             {
                 "description": "valid leap second, positive time-offset",
                 "data": "01:29:60+01:30",
-                "valid": true
+                "valid": true,
+                "id": "5a7536a265eae18780ddd7b2456f1abb"
             },
             {
                 "description": "valid leap second, large positive time-offset",
                 "data": "23:29:60+23:30",
-                "valid": true
+                "valid": true,
+                "id": "ebff5670d600551462ec27da245c9e8a"
             },
             {
                 "description": "invalid leap second, positive time-offset (wrong hour)",
                 "data": "23:59:60+01:00",
-                "valid": false
+                "valid": false,
+                "id": "92240a167ca856b07d488460c6cd8b3d"
             },
             {
                 "description": "invalid leap second, positive time-offset (wrong minute)",
                 "data": "23:59:60+00:30",
-                "valid": false
+                "valid": false,
+                "id": "189c66ce2c8b9eb1d72856724ec84cc4"
             },
             {
                 "description": "valid leap second, negative time-offset",
                 "data": "15:59:60-08:00",
-                "valid": true
+                "valid": true,
+                "id": "68a893edfa387a7083b705ad7e72b85f"
             },
             {
                 "description": "valid leap second, large negative time-offset",
                 "data": "00:29:60-23:30",
-                "valid": true
+                "valid": true,
+                "id": "f18d6490ec518250ea7ed617a5553667"
             },
             {
                 "description": "invalid leap second, negative time-offset (wrong hour)",
                 "data": "23:59:60-01:00",
-                "valid": false
+                "valid": false,
+                "id": "19c9dcbdd46b59f8fccc9ae3f36fd7b6"
             },
             {
                 "description": "invalid leap second, negative time-offset (wrong minute)",
                 "data": "23:59:60-00:30",
-                "valid": false
+                "valid": false,
+                "id": "0a97298924264a975febf3aecc8d2145"
             },
             {
                 "description": "a valid time string with second fraction",
                 "data": "23:20:50.52Z",
-                "valid": true
+                "valid": true,
+                "id": "d5be8a68837a1d1811cb487b64daf2ee"
             },
             {
                 "description": "a valid time string with precise second fraction",
                 "data": "08:30:06.283185Z",
-                "valid": true
+                "valid": true,
+                "id": "0cf28cad1fca465ce0f288ed3335044d"
             },
             {
                 "description": "a valid time string with plus offset",
                 "data": "08:30:06+00:20",
-                "valid": true
+                "valid": true,
+                "id": "d8a769c8a5f3af92d25157f151456e70"
             },
             {
                 "description": "a valid time string with minus offset",
                 "data": "08:30:06-08:00",
-                "valid": true
+                "valid": true,
+                "id": "2b1fc893e2e0604d818c753fc4726a6c"
             },
             {
                 "description": "hour, minute in time-offset must be two digits",
                 "data": "08:30:06-8:000",
-                "valid": false
+                "valid": false,
+                "id": "cb029527d86ef8033a5aa9c4baafc761"
             },
             {
                 "description": "a valid time string with case-insensitive Z",
                 "data": "08:30:06z",
-                "valid": true
+                "valid": true,
+                "id": "5b4108aa266cf5742708e4903cb97d3a"
             },
             {
                 "description": "an invalid time string with invalid hour",
                 "data": "24:00:00Z",
-                "valid": false
+                "valid": false,
+                "id": "848590bc8a57e263c89191793d227720"
             },
             {
                 "description": "an invalid time string with invalid minute",
                 "data": "00:60:00Z",
-                "valid": false
+                "valid": false,
+                "id": "8894722eac55a022e8eeab6a15ae0ca4"
             },
             {
                 "description": "an invalid time string with invalid second",
                 "data": "00:00:61Z",
-                "valid": false
+                "valid": false,
+                "id": "8170fa2da9526df6f5ae03e57c0ea26e"
             },
             {
                 "description": "an invalid time string with invalid leap second (wrong hour)",
                 "data": "22:59:60Z",
-                "valid": false
+                "valid": false,
+                "id": "b3885d153855099fe83a2df8490e435e"
             },
             {
                 "description": "an invalid time string with invalid leap second (wrong minute)",
                 "data": "23:58:60Z",
-                "valid": false
+                "valid": false,
+                "id": "60140055c6ad3ca998c877126984f502"
             },
             {
                 "description": "an invalid time string with invalid time numoffset hour",
                 "data": "01:02:03+24:00",
-                "valid": false
+                "valid": false,
+                "id": "76c3cde3f114ec2f42fbbaa234b3d3b7"
             },
             {
                 "description": "an invalid time string with invalid time numoffset minute",
                 "data": "01:02:03+00:60",
-                "valid": false
+                "valid": false,
+                "id": "0c1739947e4fa4ff44fa4f904151255c"
             },
             {
                 "description": "an invalid time string with invalid time with both Z and numoffset",
                 "data": "01:02:03Z+00:30",
-                "valid": false
+                "valid": false,
+                "id": "ca25e6e50d31aa529612ba487eaddd54"
             },
             {
                 "description": "an invalid offset indicator",
                 "data": "08:30:06 PST",
-                "valid": false
+                "valid": false,
+                "id": "8cc427cab8c4309c98511959970c3b66"
             },
             {
                 "description": "only RFC3339 not all of ISO 8601 are valid",
                 "data": "01:01:01,1111",
-                "valid": false
+                "valid": false,
+                "id": "14b62c9e779d867c45d7305bd7642da3"
             },
             {
                 "description": "no time offset",
                 "data": "12:00:00",
-                "valid": false
+                "valid": false,
+                "id": "ba3311b46e77d98d99bd8c9608f0c462"
             },
             {
                 "description": "no time offset with second fraction",
                 "data": "12:00:00.52",
-                "valid": false
+                "valid": false,
+                "id": "fc5ed4d4a614e0bd8c040ac534c67473"
             },
             {
                 "description": "invalid non-ASCII '২' (a Bengali 2)",
                 "data": "1২:00:00Z",
-                "valid": false
+                "valid": false,
+                "id": "6b04a64c06a191b9d6e7c2e82b10fe93"
             },
             {
                 "description": "offset not starting with plus or minus",
                 "data": "08:30:06#00:20",
-                "valid": false
+                "valid": false,
+                "id": "21574e4d98f10e315fd7f0ae4928c715"
             },
             {
                 "description": "contains letters",
                 "data": "ab:cd:ef",
-                "valid": false
+                "valid": false,
+                "id": "3a7198ad4b67510b41fa279220797351"
             },
             {
                 "description": "an invalid time string in date-time format",
                 "data": "2020-11-28T23:55:45Z",
-                "valid": false
+                "valid": false,
+                "id": "e22ca13d7caee8a3dcd44bc1ac500e64"
             }
         ]
     }

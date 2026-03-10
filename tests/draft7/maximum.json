@@ -6,22 +6,26 @@
             {
                 "description": "below the maximum is valid",
                 "data": 2.6,
-                "valid": true
+                "valid": true,
+                "id": "8863e8604e12133739f9806c3271d640"
             },
             {
                 "description": "boundary point is valid",
                 "data": 3.0,
-                "valid": true
+                "valid": true,
+                "id": "acd05187c2813046b78ca45a1f9d5796"
             },
             {
                 "description": "above the maximum is invalid",
                 "data": 3.5,
-                "valid": false
+                "valid": false,
+                "id": "c43769b8eb5a7f5912643d20f6524122"
             },
             {
                 "description": "ignores non-numbers",
                 "data": "x",
-                "valid": true
+                "valid": true,
+                "id": "d655d9cc64e1e19a7d9c879415161019"
             }
         ]
     },
@@ -32,22 +36,26 @@
             {
                 "description": "below the maximum is valid",
                 "data": 299.97,
-                "valid": true
+                "valid": true,
+                "id": "c0a83a2baaec6170eb719c5feb7b9cfb"
             },
             {
                 "description": "boundary point integer is valid",
                 "data": 300,
-                "valid": true
+                "valid": true,
+                "id": "0fd8f1756c73b640d14febba3483b11b"
             },
             {
                 "description": "boundary point float is valid",
                 "data": 300.00,
-                "valid": true
+                "valid": true,
+                "id": "0fd8f1756c73b640d14febba3483b11b"
             },
             {
                 "description": "above the maximum is invalid",
                 "data": 300.5,
-                "valid": false
+                "valid": false,
+                "id": "a482ad20a9b022b7add93d395d4d901c"
             }
         ]
     }

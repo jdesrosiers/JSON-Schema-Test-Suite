@@ -6,27 +6,32 @@
             {
                 "description": "shorter is valid",
                 "data": "f",
-                "valid": true
+                "valid": true,
+                "id": "acb42220a9cb51a1ec6c116713db313b"
             },
             {
                 "description": "exact length is valid",
                 "data": "fo",
-                "valid": true
+                "valid": true,
+                "id": "becd40616907b42046f12e86ee1ba14d"
             },
             {
                 "description": "too long is invalid",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "f738f9d810e481535ef451ed5ba101d7"
             },
             {
                 "description": "ignores non-strings",
                 "data": 100,
-                "valid": true
+                "valid": true,
+                "id": "7906e32d1f020ac49cc08d6c65d7ab2b"
             },
             {
                 "description": "two graphemes is long enough",
                 "data": "\uD83D\uDCA9\uD83D\uDCA9",
-                "valid": true
+                "valid": true,
+                "id": "576f51e7ce037dbe91478a88be373e0f"
             }
         ]
     }

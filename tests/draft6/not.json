@@ -8,12 +8,14 @@
             {
                 "description": "allowed",
                 "data": "foo",
-                "valid": true
+                "valid": true,
+                "id": "753632e46a1414ad6201716ee72bcb22"
             },
             {
                 "description": "disallowed",
                 "data": 1,
-                "valid": false
+                "valid": false,
+                "id": "62125eff8a05989652bec7f622f129ab"
             }
         ]
     },
@@ -26,17 +28,20 @@
             {
                 "description": "valid",
                 "data": "foo",
-                "valid": true
+                "valid": true,
+                "id": "ecb6734e7b99adebe6284cb79ac78e2a"
             },
             {
                 "description": "mismatch",
                 "data": 1,
-                "valid": false
+                "valid": false,
+                "id": "680ffbad66bb67e82c7cace65783185d"
             },
             {
                 "description": "other mismatch",
                 "data": true,
-                "valid": false
+                "valid": false,
+                "id": "df8e68ddeab53624922b9bbc41e649d7"
             }
         ]
     },
@@ -56,17 +61,20 @@
             {
                 "description": "match",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "dd01c96f60edd28d7097c2e2a0caac71"
             },
             {
                 "description": "other match",
                 "data": {"foo": 1},
-                "valid": true
+                "valid": true,
+                "id": "1332a63be074b4ca58c832803f87d9d2"
             },
             {
                 "description": "mismatch",
                 "data": {"foo": "bar"},
-                "valid": false
+                "valid": false,
+                "id": "45399186147b0e561cf161cb338941ef"
             }
         ]
     },
@@ -83,12 +91,14 @@
             {
                 "description": "property present",
                 "data": {"foo": 1, "bar": 2},
-                "valid": false
+                "valid": false,
+                "id": "eeea05aae069ff4c6aaf51a9c4f82845"
             },
             {
                 "description": "property absent",
                 "data": {"bar": 1, "baz": 2},
-                "valid": true
+                "valid": true,
+                "id": "556e1cd44898656e6ddb072d7e8fd62e"
             }
         ]
     },
@@ -99,47 +109,56 @@
             {
                 "description": "number is invalid",
                 "data": 1,
-                "valid": false
+                "valid": false,
+                "id": "4d371069de32779b138c0f9675ef3b19"
             },
             {
                 "description": "string is invalid",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "2e6b2cd587c2a143162a53ec45610758"
             },
             {
                 "description": "boolean true is invalid",
                 "data": true,
-                "valid": false
+                "valid": false,
+                "id": "78bae472f74315d128b52de355d2cf81"
             },
             {
                 "description": "boolean false is invalid",
                 "data": false,
-                "valid": false
+                "valid": false,
+                "id": "4d6910a7e065e5c9a6f3b21b5693359e"
             },
             {
                 "description": "null is invalid",
                 "data": null,
-                "valid": false
+                "valid": false,
+                "id": "615acd818cbb8eb924c35954c0417c0d"
             },
             {
                 "description": "object is invalid",
                 "data": {"foo": "bar"},
-                "valid": false
+                "valid": false,
+                "id": "1d2e38aa79dfe6fd5642d87de22889dd"
             },
             {
                 "description": "empty object is invalid",
                 "data": {},
-                "valid": false
+                "valid": false,
+                "id": "71fc7eeedfb8e7a84020c64392bf1440"
             },
             {
                 "description": "array is invalid",
                 "data": ["foo"],
-                "valid": false
+                "valid": false,
+                "id": "09a88d98ed50565a3ba13c367599da15"
             },
             {
                 "description": "empty array is invalid",
                 "data": [],
-                "valid": false
+                "valid": false,
+                "id": "0bcc690296d7956e940dd810715292f7"
             }
         ]
     },
@@ -150,47 +169,56 @@
             {
                 "description": "number is invalid",
                 "data": 1,
-                "valid": false
+                "valid": false,
+                "id": "7ca66d79fada179dbd599202b25bbbb9"
             },
             {
                 "description": "string is invalid",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "33800edc2bdd390fade1a78ee20fd54e"
             },
             {
                 "description": "boolean true is invalid",
                 "data": true,
-                "valid": false
+                "valid": false,
+                "id": "52c3ee565efa7c5818077d9b70744528"
             },
             {
                 "description": "boolean false is invalid",
                 "data": false,
-                "valid": false
+                "valid": false,
+                "id": "933a51c6a4abd7cb6918b4fbb071161a"
             },
             {
                 "description": "null is invalid",
                 "data": null,
-                "valid": false
+                "valid": false,
+                "id": "4f68772012ba14b8a6c15b9db01ad5da"
             },
             {
                 "description": "object is invalid",
                 "data": {"foo": "bar"},
-                "valid": false
+                "valid": false,
+                "id": "057a7ab27b16f1d8f80832c7f3d64d15"
             },
             {
                 "description": "empty object is invalid",
                 "data": {},
-                "valid": false
+                "valid": false,
+                "id": "750d41fbe729a626df1e9ef50c7c1f3c"
             },
             {
                 "description": "array is invalid",
                 "data": ["foo"],
-                "valid": false
+                "valid": false,
+                "id": "7b97844eaeb2b487b9086aaebaeadc98"
             },
             {
                 "description": "empty array is invalid",
                 "data": [],
-                "valid": false
+                "valid": false,
+                "id": "9aca0ad0df08dd6b8a9ba2db1c9c0b6f"
             }
         ]
     },
@@ -201,47 +229,56 @@
             {
                 "description": "number is valid",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "e5464543dd7a16f4dd6a3f4053defa5d"
             },
             {
                 "description": "string is valid",
                 "data": "foo",
-                "valid": true
+                "valid": true,
+                "id": "ddb97a2d926d828b9fe6f2285d79116d"
             },
             {
                 "description": "boolean true is valid",
                 "data": true,
-                "valid": true
+                "valid": true,
+                "id": "40be5bf6a882a4a65c5c28ab94e90fe7"
             },
             {
                 "description": "boolean false is valid",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "18bce09b76a9a36e5940342bff774b3c"
             },
             {
                 "description": "null is valid",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "eeaa136bbc79afbc32aa7da7afd48cef"
             },
             {
                 "description": "object is valid",
                 "data": {"foo": "bar"},
-                "valid": true
+                "valid": true,
+                "id": "fe18620c42d6f6b1dbb44e9fdda1e60a"
             },
             {
                 "description": "empty object is valid",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "7edb4e5f0cceba35a54ce39ebd0ad36a"
             },
             {
                 "description": "array is valid",
                 "data": ["foo"],
-                "valid": true
+                "valid": true,
+                "id": "7af6548f5f92003fb63608ed926f4c3a"
             },
             {
                 "description": "empty array is valid",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "6bc7e2727724eef69ac15215c8a3b3ee"
             }
         ]
     },
@@ -252,7 +289,8 @@
             {
                 "description": "any value is valid",
                 "data": "foo",
-                "valid": true
+                "valid": true,
+                "id": "8ccae52ed60bff9ab0a2fe4d08fe7ca2"
             }
         ]
     }

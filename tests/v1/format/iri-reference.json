@@ -9,67 +9,80 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "ac8d4c6483b0f64a5b7a47b380e65c8d"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "bf91652230f74089e919ae25fe8b8bdc"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "68171540be848b3245f580d453a402c1"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "68052c87bf43f1f17c22d06decab52bb"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "25a3e1b9816c4ef18739a9df5dd15365"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "45c1a3d491a39593dc7933e4d5940faf"
             },
             {
                 "description": "a valid IRI",
                 "data": "http://ƒøø.ßår/?∂éœ=πîx#πîüx",
-                "valid": true
+                "valid": true,
+                "id": "88c87da99c82a33b889be4b13f795ba8"
             },
             {
                 "description": "a valid protocol-relative IRI Reference",
                 "data": "//ƒøø.ßår/?∂éœ=πîx#πîüx",
-                "valid": true
+                "valid": true,
+                "id": "eea231b564c8288f101265fe62a39aea"
             },
             {
                 "description": "a valid relative IRI Reference",
                 "data": "/âππ",
-                "valid": true
+                "valid": true,
+                "id": "1c1d5be5878d2c66e6b10643fbd67dc5"
             },
             {
                 "description": "an invalid IRI Reference",
                 "data": "\\\\WINDOWS\\filëßåré",
-                "valid": false
+                "valid": false,
+                "id": "1066209f4f0be903ffaa10f9615fa67e"
             },
             {
                 "description": "a valid IRI Reference",
                 "data": "âππ",
-                "valid": true
+                "valid": true,
+                "id": "1fccc7b454c7800eb82eae90cab23ddb"
             },
             {
                 "description": "a valid IRI fragment",
                 "data": "#ƒrägmênt",
-                "valid": true
+                "valid": true,
+                "id": "348bb063e17d985b46d5b1b8d0cdc93d"
             },
             {
                 "description": "an invalid IRI fragment",
                 "data": "#ƒräg\\mênt",
-                "valid": false
+                "valid": false,
+                "id": "890149774cdf415c6ac8b4d3850dd674"
             }
         ]
     }

@@ -13,12 +13,14 @@
                 "description": "missing bar is invalid",
                 "comment": "if the implementation is not processing the $ref as a 2019-09 schema, this test will fail",
                 "data": {"foo": "any value"},
-                "valid": false
+                "valid": false,
+                "id": "bfbf67bbd99ab58f5d149622c4f37c09"
             },
             {
                 "description": "present bar is valid",
                 "data": {"foo": "any value", "bar": "also any value"},
-                "valid": true
+                "valid": true,
+                "id": "72e92410f7d8cbf8889e7cf744aacf3c"
             }
         ]
     }

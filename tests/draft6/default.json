@@ -13,12 +13,14 @@
             {
                 "description": "valid when property is specified",
                 "data": {"foo": 13},
-                "valid": true
+                "valid": true,
+                "id": "de9388ac97ab335f978a169482a5ae31"
             },
             {
                 "description": "still valid when the invalid default is used",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "bf8186aae9698c83c2cfc4bf53645b0c"
             }
         ]
     },
@@ -37,12 +39,14 @@
             {
                 "description": "valid when property is specified",
                 "data": {"bar": "good"},
-                "valid": true
+                "valid": true,
+                "id": "50479a82893887340ecad26d2b51f9e7"
             },
             {
                 "description": "still valid when the invalid default is used",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "53a71c28a9d4272bc06cac9efc13e319"
             }
         ]
     },
@@ -62,17 +66,20 @@
             {
                 "description": "an explicit property value is checked against maximum (passing)",
                 "data": { "alpha": 1 },
-                "valid": true
+                "valid": true,
+                "id": "0a2a6e4335b9943940176c14cd7e69e6"
             },
             {
                 "description": "an explicit property value is checked against maximum (failing)",
                 "data": { "alpha": 5 },
-                "valid": false
+                "valid": false,
+                "id": "d1b399678dd8b6dfc4495994904dbe9f"
             },
             {
                 "description": "missing properties are not filled in with the default",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "965f6c5bde3244f430bab82bd517c3b8"
             }
         ]
     }

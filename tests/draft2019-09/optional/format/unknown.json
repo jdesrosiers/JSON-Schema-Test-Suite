@@ -9,37 +9,44 @@
             {
                 "description": "unknown formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "8ca661b8589a77538bc0415096b64234"
             },
             {
                 "description": "unknown formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "2fbc2d52e597e3f19efeeabd49f7ef55"
             },
             {
                 "description": "unknown formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "94a5ae96580107cb6ce1296bfe5c9f66"
             },
             {
                 "description": "unknown formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "3f525694b28b446fcb232459c02c577c"
             },
             {
                 "description": "unknown formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "b827f8ab4c46d39416d42e6a5aac865b"
             },
             {
                 "description": "unknown formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "5c87a292207367b8bbbd7663fd54678d"
             },
             {
                 "description": "unknown formats ignore strings",
                 "data": "string",
-                "valid": true
+                "valid": true,
+                "id": "0e337b735fe1b2665644345c1e05e1a1"
             }
         ]
     }

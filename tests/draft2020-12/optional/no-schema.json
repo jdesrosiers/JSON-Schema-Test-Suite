@@ -9,17 +9,20 @@
             {
                 "description": "a 3-character string is valid",
                 "data": "foo",
-                "valid": true
+                "valid": true,
+                "id": "e93429b67cb4347e3986d1a3a89921a4"
             },
             {
                 "description": "a 1-character string is not valid",
                 "data": "a",
-                "valid": false
+                "valid": false,
+                "id": "a6d0f3c486b93ec952bcce72262e09c8"
             },
             {
                 "description": "a non-string is valid",
                 "data": 5,
-                "valid": true
+                "valid": true,
+                "id": "81db2cd331643c0a5e87873ea55fef0e"
             }
         ]
     }

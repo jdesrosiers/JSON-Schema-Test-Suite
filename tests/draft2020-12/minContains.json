@@ -9,12 +9,14 @@
             {
                 "description": "one item valid against lone minContains",
                 "data": [ 1 ],
-                "valid": true
+                "valid": true,
+                "id": "43002f3f5dc52a3eed9e4644c5286d55"
             },
             {
                 "description": "zero items still valid against lone minContains",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "c3dd30607d9181c78c981d96759132f9"
             }
         ]
     },
@@ -29,27 +31,32 @@
             {
                 "description": "empty data",
                 "data": [ ],
-                "valid": false
+                "valid": false,
+                "id": "6eb7c91f2fb48ed632139ba7c411ab4f"
             },
             {
                 "description": "no elements match",
                 "data": [ 2 ],
-                "valid": false
+                "valid": false,
+                "id": "5e8d43074ffd40b071fbdc7f89d3f5be"
             },
             {
                 "description": "single element matches, valid minContains",
                 "data": [ 1 ],
-                "valid": true
+                "valid": true,
+                "id": "501d59e91e11871c420d598b95834982"
             },
             {
                 "description": "some elements match, valid minContains",
                 "data": [ 1, 2 ],
-                "valid": true
+                "valid": true,
+                "id": "ae8fc84bede7607a3603dc6971159b47"
             },
             {
                 "description": "all elements match, valid minContains",
                 "data": [ 1, 1 ],
-                "valid": true
+                "valid": true,
+                "id": "0dad6a8b27bdb3a793171d4b59fb8d7f"
             }
         ]
     },
@@ -64,32 +71,38 @@
             {
                 "description": "empty data",
                 "data": [ ],
-                "valid": false
+                "valid": false,
+                "id": "6e6bd7da9935b945b466cad5af00e3a3"
             },
             {
                 "description": "all elements match, invalid minContains",
                 "data": [ 1 ],
-                "valid": false
+                "valid": false,
+                "id": "332df63bb3a0a5ee85c4112fddd3a939"
             },
             {
                 "description": "some elements match, invalid minContains",
                 "data": [ 1, 2 ],
-                "valid": false
+                "valid": false,
+                "id": "a1742d79f763bdc43349674ce0660b54"
             },
             {
                 "description": "all elements match, valid minContains (exactly as needed)",
                 "data": [ 1, 1 ],
-                "valid": true
+                "valid": true,
+                "id": "18d477032341c26fefa041a635ecaa48"
             },
             {
                 "description": "all elements match, valid minContains (more than needed)",
                 "data": [ 1, 1, 1 ],
-                "valid": true
+                "valid": true,
+                "id": "512b23a46981c61fb53d5e594b855a22"
             },
             {
                 "description": "some elements match, valid minContains",
                 "data": [ 1, 2, 1 ],
-                "valid": true
+                "valid": true,
+                "id": "f8ae8318ad99c2c5b9a96e519f968e16"
             }
         ]
     },
@@ -104,12 +117,14 @@
             {
                 "description": "one element matches, invalid minContains",
                 "data": [ 1 ],
-                "valid": false
+                "valid": false,
+                "id": "332df63bb3a0a5ee85c4112fddd3a939"
             },
             {
                 "description": "both elements match, valid minContains",
                 "data": [ 1, 1 ],
-                "valid": true
+                "valid": true,
+                "id": "18d477032341c26fefa041a635ecaa48"
             }
         ]
     },
@@ -125,22 +140,26 @@
             {
                 "description": "empty data",
                 "data": [ ],
-                "valid": false
+                "valid": false,
+                "id": "26b57f0c5f3d56adacc394e1f97594bb"
             },
             {
                 "description": "all elements match, invalid minContains",
                 "data": [ 1 ],
-                "valid": false
+                "valid": false,
+                "id": "67ca717aba6294794923b13b74e16880"
             },
             {
                 "description": "all elements match, invalid maxContains",
                 "data": [ 1, 1, 1 ],
-                "valid": false
+                "valid": false,
+                "id": "4f8063345a1530d10bd3dab7e822ff9d"
             },
             {
                 "description": "all elements match, valid maxContains and minContains",
                 "data": [ 1, 1 ],
-                "valid": true
+                "valid": true,
+                "id": "95c70895556b2c5dcb930e6c055a98b2"
             }
         ]
     },
@@ -156,22 +175,26 @@
             {
                 "description": "empty data",
                 "data": [ ],
-                "valid": false
+                "valid": false,
+                "id": "042f6916fc018d542751018227f1c271"
             },
             {
                 "description": "invalid minContains",
                 "data": [ 1 ],
-                "valid": false
+                "valid": false,
+                "id": "b0803a026ed72927585bede4e5921de8"
             },
             {
                 "description": "invalid maxContains",
                 "data": [ 1, 1, 1 ],
-                "valid": false
+                "valid": false,
+                "id": "a1722a5780bbac1402ed787160354013"
             },
             {
                 "description": "invalid maxContains and minContains",
                 "data": [ 1, 1 ],
-                "valid": false
+                "valid": false,
+                "id": "5efdd87cbdb6d5ddd319b7619f068b23"
             }
         ]
     },
@@ -186,12 +209,14 @@
             {
                 "description": "empty data",
                 "data": [ ],
-                "valid": true
+                "valid": true,
+                "id": "91dcc9621fb6bfc2f11b96f0ce80418b"
             },
             {
                 "description": "minContains = 0 makes contains always pass",
                 "data": [ 2 ],
-                "valid": true
+                "valid": true,
+                "id": "9a30d810d59632424ad97bbb70e08279"
             }
         ]
     },
@@ -207,17 +232,20 @@
             {
                 "description": "empty data",
                 "data": [ ],
-                "valid": true
+                "valid": true,
+                "id": "b9299eb5060c57af0cb5563ce70709a2"
             },
             {
                 "description": "not more than maxContains",
                 "data": [ 1 ],
-                "valid": true
+                "valid": true,
+                "id": "bde478c928de9eeee096ce85f327c0a5"
             },
             {
                 "description": "too many",
                 "data": [ 1, 1 ],
-                "valid": false
+                "valid": false,
+                "id": "af869ab948dc30259ce8714fd991473c"
             }
         ]
     }

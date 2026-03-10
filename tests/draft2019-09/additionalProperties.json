@@ -12,32 +12,38 @@
             {
                 "description": "no additional properties is valid",
                 "data": {"foo": 1},
-                "valid": true
+                "valid": true,
+                "id": "0376894b1da7418fd152595e3ffb8467"
             },
             {
                 "description": "an additional property is invalid",
                 "data": {"foo" : 1, "bar" : 2, "quux" : "boom"},
-                "valid": false
+                "valid": false,
+                "id": "5918a0c5ccc3037879c437d35f5d0013"
             },
             {
                 "description": "ignores arrays",
                 "data": [1, 2, 3],
-                "valid": true
+                "valid": true,
+                "id": "72644ff75f11363619bab17d9eea3027"
             },
             {
                 "description": "ignores strings",
                 "data": "foobarbaz",
-                "valid": true
+                "valid": true,
+                "id": "53349756e831f00ff6be03fc66672fa1"
             },
             {
                 "description": "ignores other non-objects",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "f9910d6b02f1f44b78d910cedb32aeeb"
             },
             {
                 "description": "patternProperties are not additional properties",
                 "data": {"foo":1, "vroom": 2},
-                "valid": true
+                "valid": true,
+                "id": "5bd60384a7cad71873b5e8c1288b377e"
             }
         ]
     },
@@ -52,12 +58,14 @@
             {
                 "description": "matching the pattern is valid",
                 "data": {"ármányos": 2},
-                "valid": true
+                "valid": true,
+                "id": "323b5115afd078d34b6676b946e711a3"
             },
             {
                 "description": "not matching the pattern is invalid",
                 "data": {"élmény": 2},
-                "valid": false
+                "valid": false,
+                "id": "c949dd66495876ab76830795379bd391"
             }
         ]
     },
@@ -72,17 +80,20 @@
             {
                 "description": "no additional properties is valid",
                 "data": {"foo": 1},
-                "valid": true
+                "valid": true,
+                "id": "39ae84fe43130a5a6842ce068699b59a"
             },
             {
                 "description": "an additional valid property is valid",
                 "data": {"foo" : 1, "bar" : 2, "quux" : true},
-                "valid": true
+                "valid": true,
+                "id": "f4ae7c8b7562d75be25a049ccd482619"
             },
             {
                 "description": "an additional invalid property is invalid",
                 "data": {"foo" : 1, "bar" : 2, "quux" : 12},
-                "valid": false
+                "valid": false,
+                "id": "870705e29f6b2736963601724c852fef"
             }
         ]
     },
@@ -97,12 +108,14 @@
             {
                 "description": "an additional valid property is valid",
                 "data": {"foo" : true},
-                "valid": true
+                "valid": true,
+                "id": "e378783e827dd7b8da60b4f360297d62"
             },
             {
                 "description": "an additional invalid property is invalid",
                 "data": {"foo" : 1},
-                "valid": false
+                "valid": false,
+                "id": "d56781eb47d259d427b81eb2f1b93b29"
             }
         ]
     },
@@ -116,7 +129,8 @@
             {
                 "description": "additional properties are allowed",
                 "data": {"foo": 1, "bar": 2, "quux": true},
-                "valid": true
+                "valid": true,
+                "id": "32c07645cf2f4b9e6a06f21947ce664e"
             }
         ]
     },
@@ -133,7 +147,8 @@
             {
                 "description": "properties defined in allOf are not examined",
                 "data": {"foo": 1, "bar": true},
-                "valid": false
+                "valid": false,
+                "id": "c81e14b352656c8931346528f2d06609"
             }
         ]
     },
@@ -149,7 +164,8 @@
             {
                 "description": "allows null values",
                 "data": {"foo": null},
-                "valid": true
+                "valid": true,
+                "id": "4bdb184c6285761298bbec20d7a516ff"
             }
         ]
     },
@@ -168,12 +184,14 @@
             {
                 "description": "Valid against both keywords",
                 "data": { "apple": 4 },
-                "valid": true
+                "valid": true,
+                "id": "a74e273d1992332798bffab3157f18e9"
             },
             {
                 "description": "Valid against propertyNames, but not additionalProperties",
                 "data": { "fig": 2, "pear": "available" },
-                "valid": false
+                "valid": false,
+                "id": "14cb9782284eef09f8f0bf59aa4ac587"
             }
         ]
     },
@@ -196,17 +214,20 @@
             {
                 "description": "additionalProperties doesn't consider dependentSchemas",
                 "data": {"foo": ""},
-                "valid": false
+                "valid": false,
+                "id": "e984d205b24b152ab1277dad2c22ede6"
             },
             {
                 "description": "additionalProperties can't see bar",
                 "data": {"bar": ""},
-                "valid": false
+                "valid": false,
+                "id": "877824b7ca955b421d2bba38677954cc"
             },
             {
                 "description": "additionalProperties can't see bar even when foo2 is present",
                 "data": { "foo2": "", "bar": ""},
-                "valid": false
+                "valid": false,
+                "id": "89bbabc43c14a23294446ca855540797"
             }
         ]
     }

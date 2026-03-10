@@ -9,47 +9,56 @@
             {
                 "description": "an integer is an integer",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "a32e68b0ec37b463f1be0cb93110ddf3"
             },
             {
                 "description": "a float with zero fractional part is an integer",
                 "data": 1.0,
-                "valid": true
+                "valid": true,
+                "id": "a32e68b0ec37b463f1be0cb93110ddf3"
             },
             {
                 "description": "a float is not an integer",
                 "data": 1.1,
-                "valid": false
+                "valid": false,
+                "id": "0549aa3f79f2ae4605869c6d4d9cf3c8"
             },
             {
                 "description": "a string is not an integer",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "5ad058f11c9ae34b4881b2dfa34b0000"
             },
             {
                 "description": "a string is still not an integer, even if it looks like one",
                 "data": "1",
-                "valid": false
+                "valid": false,
+                "id": "3a0917ae1348531b98e73d2bdab286d2"
             },
             {
                 "description": "an object is not an integer",
                 "data": {},
-                "valid": false
+                "valid": false,
+                "id": "3bb67f4728dd2a47b8750f74280c6cf2"
             },
             {
                 "description": "an array is not an integer",
                 "data": [],
-                "valid": false
+                "valid": false,
+                "id": "4c69c30b013d7ec65c7bfbda5aed771f"
             },
             {
                 "description": "a boolean is not an integer",
                 "data": true,
-                "valid": false
+                "valid": false,
+                "id": "cbd9e80aeeb2bf5bb24858fe4ada3500"
             },
             {
                 "description": "null is not an integer",
                 "data": null,
-                "valid": false
+                "valid": false,
+                "id": "cc3252fff087764d199ef9381e8c5c41"
             }
         ]
     },
@@ -63,47 +72,56 @@
             {
                 "description": "an integer is a number",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "70c85854edef1558097728b62f26d833"
             },
             {
                 "description": "a float with zero fractional part is a number (and an integer)",
                 "data": 1.0,
-                "valid": true
+                "valid": true,
+                "id": "70c85854edef1558097728b62f26d833"
             },
             {
                 "description": "a float is a number",
                 "data": 1.1,
-                "valid": true
+                "valid": true,
+                "id": "236a0a7840a39ca9d62b21c42dbed054"
             },
             {
                 "description": "a string is not a number",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "fc2c83d47549d82a0487cf68ebb3cc5c"
             },
             {
                 "description": "a string is still not a number, even if it looks like one",
                 "data": "1",
-                "valid": false
+                "valid": false,
+                "id": "b3486000ff2e20eba3867184ad323d7e"
             },
             {
                 "description": "an object is not a number",
                 "data": {},
-                "valid": false
+                "valid": false,
+                "id": "ec4a23ac86c62175598c861e87a889ab"
             },
             {
                 "description": "an array is not a number",
                 "data": [],
-                "valid": false
+                "valid": false,
+                "id": "0c86c644c8070bbee5259a79acb72b22"
             },
             {
                 "description": "a boolean is not a number",
                 "data": true,
-                "valid": false
+                "valid": false,
+                "id": "1a639d70db4a1ee70f7b37cbb9ba79fa"
             },
             {
                 "description": "null is not a number",
                 "data": null,
-                "valid": false
+                "valid": false,
+                "id": "21f03eeb35032bf799b141fd692e6bb0"
             }
         ]
     },
@@ -117,47 +135,56 @@
             {
                 "description": "1 is not a string",
                 "data": 1,
-                "valid": false
+                "valid": false,
+                "id": "35d39b9c0d5423ea190377d14e924e50"
             },
             {
                 "description": "a float is not a string",
                 "data": 1.1,
-                "valid": false
+                "valid": false,
+                "id": "1adf8d438a5de1cc1ab1f63edbdbaedc"
             },
             {
                 "description": "a string is a string",
                 "data": "foo",
-                "valid": true
+                "valid": true,
+                "id": "d9ec72b98a90958880901784739d3da6"
             },
             {
                 "description": "a string is still a string, even if it looks like a number",
                 "data": "1",
-                "valid": true
+                "valid": true,
+                "id": "671a5304bfa7538dd42ffb933bc82184"
             },
             {
                 "description": "an empty string is still a string",
                 "data": "",
-                "valid": true
+                "valid": true,
+                "id": "d60e30868199c4395ee00b76b5311b29"
             },
             {
                 "description": "an object is not a string",
                 "data": {},
-                "valid": false
+                "valid": false,
+                "id": "b63038a395c4bec351a6b989838f2a79"
             },
             {
                 "description": "an array is not a string",
                 "data": [],
-                "valid": false
+                "valid": false,
+                "id": "526ebcb870910af807b345993f7df0b5"
             },
             {
                 "description": "a boolean is not a string",
                 "data": true,
-                "valid": false
+                "valid": false,
+                "id": "3dc7380e6119519bb687f01f3c18bf78"
             },
             {
                 "description": "null is not a string",
                 "data": null,
-                "valid": false
+                "valid": false,
+                "id": "4dad227289a60dc92c41563e4ab5f12e"
             }
         ]
     },
@@ -171,37 +198,44 @@
             {
                 "description": "an integer is not an object",
                 "data": 1,
-                "valid": false
+                "valid": false,
+                "id": "3e42ff606926df9707a0b35d7579247e"
             },
             {
                 "description": "a float is not an object",
                 "data": 1.1,
-                "valid": false
+                "valid": false,
+                "id": "7ec125d447c38cd43372ed7ff61b3a01"
             },
             {
                 "description": "a string is not an object",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "06c93f830b9ca2ed2da72e347e839a3a"
             },
             {
                 "description": "an object is an object",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "7e6ecffa43c49d258fd8edd099fe464b"
             },
             {
                 "description": "an array is not an object",
                 "data": [],
-                "valid": false
+                "valid": false,
+                "id": "c976ebd28c55faf1f2a9a10951af0ad3"
             },
             {
                 "description": "a boolean is not an object",
                 "data": true,
-                "valid": false
+                "valid": false,
+                "id": "cf077015e92d23d1b079c3b09df48380"
             },
             {
                 "description": "null is not an object",
                 "data": null,
-                "valid": false
+                "valid": false,
+                "id": "ef1c65cf97a8493b83a2f8a9a361ac58"
             }
         ]
     },
@@ -215,37 +249,44 @@
             {
                 "description": "an integer is not an array",
                 "data": 1,
-                "valid": false
+                "valid": false,
+                "id": "fe766282a712aee07897bac8174c5169"
             },
             {
                 "description": "a float is not an array",
                 "data": 1.1,
-                "valid": false
+                "valid": false,
+                "id": "060aa7ba8602a1e395f06cb37cb1a562"
             },
             {
                 "description": "a string is not an array",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "ffd695bf9d14509012d727b808d07a74"
             },
             {
                 "description": "an object is not an array",
                 "data": {},
-                "valid": false
+                "valid": false,
+                "id": "51505a3e60d514e502205a3735b21fbf"
             },
             {
                 "description": "an array is an array",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "6109d7e4edff0d26f48727f08c503cc2"
             },
             {
                 "description": "a boolean is not an array",
                 "data": true,
-                "valid": false
+                "valid": false,
+                "id": "472be4b76023db08b62d80f714bd411a"
             },
             {
                 "description": "null is not an array",
                 "data": null,
-                "valid": false
+                "valid": false,
+                "id": "ad3d20a01aeb3448380896026ee2b956"
             }
         ]
     },
@@ -259,52 +300,62 @@
             {
                 "description": "an integer is not a boolean",
                 "data": 1,
-                "valid": false
+                "valid": false,
+                "id": "06c527e4885869f2ea616d019d938e30"
             },
             {
                 "description": "zero is not a boolean",
                 "data": 0,
-                "valid": false
+                "valid": false,
+                "id": "c55564f5dc5357fd259e9165785c3be6"
             },
             {
                 "description": "a float is not a boolean",
                 "data": 1.1,
-                "valid": false
+                "valid": false,
+                "id": "c93e3844166f071f0f869eeb6c629923"
             },
             {
                 "description": "a string is not a boolean",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "4cdc21f3817983df1d5d8c781b0b736a"
             },
             {
                 "description": "an empty string is not a boolean",
                 "data": "",
-                "valid": false
+                "valid": false,
+                "id": "198b707cbd2cc955c1e15cf0d09f47b4"
             },
             {
                 "description": "an object is not a boolean",
                 "data": {},
-                "valid": false
+                "valid": false,
+                "id": "4d8b5b2163623fbbc01c7fcf161ad352"
             },
             {
                 "description": "an array is not a boolean",
                 "data": [],
-                "valid": false
+                "valid": false,
+                "id": "7bcff3706bdc11d820e75ec853cc666a"
             },
             {
                 "description": "true is a boolean",
                 "data": true,
-                "valid": true
+                "valid": true,
+                "id": "583c64afaa3a0ef6377b5309e79a18d6"
             },
             {
                 "description": "false is a boolean",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "053b2e1bd6b22ada9f5eac7e7fbdfbef"
             },
             {
                 "description": "null is not a boolean",
                 "data": null,
-                "valid": false
+                "valid": false,
+                "id": "d1da180ca3d36f223f617bd0f17c8812"
             }
         ]
     },
@@ -318,52 +369,62 @@
             {
                 "description": "an integer is not null",
                 "data": 1,
-                "valid": false
+                "valid": false,
+                "id": "b66172bc0d72f2a043dcf81b23d37747"
             },
             {
                 "description": "a float is not null",
                 "data": 1.1,
-                "valid": false
+                "valid": false,
+                "id": "f0d0739b5df64d761b68cc0ff37ff436"
             },
             {
                 "description": "zero is not null",
                 "data": 0,
-                "valid": false
+                "valid": false,
+                "id": "692656e28868f23925ecbbc413b08daf"
             },
             {
                 "description": "a string is not null",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "7cc02fa6819ed50adc69969139c78ffd"
             },
             {
                 "description": "an empty string is not null",
                 "data": "",
-                "valid": false
+                "valid": false,
+                "id": "2bacef96de29996e14bd616dc2464f3e"
             },
             {
                 "description": "an object is not null",
                 "data": {},
-                "valid": false
+                "valid": false,
+                "id": "a2fc0bf917aaa4bb8d71fbcda5776268"
             },
             {
                 "description": "an array is not null",
                 "data": [],
-                "valid": false
+                "valid": false,
+                "id": "1232743595f238740985f56a937860f3"
             },
             {
                 "description": "true is not null",
                 "data": true,
-                "valid": false
+                "valid": false,
+                "id": "396557e64d7ea75b6af3432ceb7b98cf"
             },
             {
                 "description": "false is not null",
                 "data": false,
-                "valid": false
+                "valid": false,
+                "id": "0593d0bd2824c7fc7d27a4abb5df285d"
             },
             {
                 "description": "null is null",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "60d71728088d09f85c98a3a594a8f7a6"
             }
         ]
     },
@@ -377,37 +438,44 @@
             {
                 "description": "an integer is valid",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "ac458938ac363291fc46264ce3cb908c"
             },
             {
                 "description": "a string is valid",
                 "data": "foo",
-                "valid": true
+                "valid": true,
+                "id": "007e7a1d9d95c2fdfc8f9eccfbf2d8b3"
             },
             {
                 "description": "a float is invalid",
                 "data": 1.1,
-                "valid": false
+                "valid": false,
+                "id": "079b383b315727696d7ae064a0702373"
             },
             {
                 "description": "an object is invalid",
                 "data": {},
-                "valid": false
+                "valid": false,
+                "id": "a01d5065d2631b2d2e3d1ccd6a17fa29"
             },
             {
                 "description": "an array is invalid",
                 "data": [],
-                "valid": false
+                "valid": false,
+                "id": "51370426e3431d6dec826344eb95d81e"
             },
             {
                 "description": "a boolean is invalid",
                 "data": true,
-                "valid": false
+                "valid": false,
+                "id": "5b0ac9ffb7b1e5b92258f3854663c79b"
             },
             {
                 "description": "null is invalid",
                 "data": null,
-                "valid": false
+                "valid": false,
+                "id": "19cd0a31dd41644faed702912c9dd3d2"
             }
         ]
     },
@@ -421,12 +489,14 @@
             {
                 "description": "string is valid",
                 "data": "foo",
-                "valid": true
+                "valid": true,
+                "id": "4c410111f0277a09b40ae65d7d2fd44b"
             },
             {
                 "description": "number is invalid",
                 "data": 123,
-                "valid": false
+                "valid": false,
+                "id": "16637eb6553e97476178dc114152ce97"
             }
         ]
     },
@@ -440,27 +510,32 @@
             {
                 "description": "array is valid",
                 "data": [1,2,3],
-                "valid": true
+                "valid": true,
+                "id": "27d4c02f930f5aa99060e64e8740b9fa"
             },
             {
                 "description": "object is valid",
                 "data": {"foo": 123},
-                "valid": true
+                "valid": true,
+                "id": "577e119328dba0bd5a82134fa57e5dd8"
             },
             {
                 "description": "number is invalid",
                 "data": 123,
-                "valid": false
+                "valid": false,
+                "id": "4d6f05eb962a3d878f41a39804a37ce0"
             },
             {
                 "description": "string is invalid",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "0ef46822fea5f65ad9d527d33ad4f442"
             },
             {
                 "description": "null is invalid",
                 "data": null,
-                "valid": false
+                "valid": false,
+                "id": "720a2f57a4dda23e0b5961c44d0e90ce"
             }
         ]
     },
@@ -474,27 +549,32 @@
             {
                 "description": "array is valid",
                 "data": [1,2,3],
-                "valid": true
+                "valid": true,
+                "id": "74450a5605e53cc3b00d7297a3ac686f"
             },
             {
                 "description": "object is valid",
                 "data": {"foo": 123},
-                "valid": true
+                "valid": true,
+                "id": "92f6eddd2ca91b52ca013aa24eeebcca"
             },
             {
                 "description": "null is valid",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "ff4816ae58a6ff3e46108e54876ed0bb"
             },
             {
                 "description": "number is invalid",
                 "data": 123,
-                "valid": false
+                "valid": false,
+                "id": "e286a07f7c871c16638fed977f0990c2"
             },
             {
                 "description": "string is invalid",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "3e70ba71c4d2ed7ab7c959b3dde24e18"
             }
         ]
     }

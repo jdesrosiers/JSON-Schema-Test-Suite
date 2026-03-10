@@ -15,12 +15,14 @@
             {
                 "data": 1,
                 "description": "match",
-                "valid": true
+                "valid": true,
+                "id": "5088740a4df22d440cb276ffd6505a64"
             },
             {
                 "data": "a",
                 "description": "mismatch",
-                "valid": false
+                "valid": false,
+                "id": "57c436d236c5109b17e7e0485f2e0c33"
             }
         ]
     },
@@ -41,12 +43,14 @@
             {
                 "data": 1,
                 "description": "match",
-                "valid": true
+                "valid": true,
+                "id": "e74663432942dbd61049e8e327300c87"
             },
             {
                 "data": "a",
                 "description": "mismatch",
-                "valid": false
+                "valid": false,
+                "id": "f77ab752d73cceadeb015a7052c129c7"
             }
         ]
     },
@@ -72,12 +76,14 @@
             {
                 "data": 1,
                 "description": "match",
-                "valid": true
+                "valid": true,
+                "id": "88d1c2fc43453ca50ed0b91e4269cb01"
             },
             {
                 "data": "a",
                 "description": "mismatch",
-                "valid": false
+                "valid": false,
+                "id": "72d3cceb3aadbac38898368c8156dc1f"
             }
         ]
     },
@@ -108,12 +114,14 @@
             {
                 "description": "$ref resolves to /$defs/A/allOf/1",
                 "data": "a",
-                "valid": true
+                "valid": true,
+                "id": "ed71d6cf6a8508de534fd3a3428a2374"
             },
             {
                 "description": "$ref does not resolve to /$defs/A/allOf/0",
                 "data": 1,
-                "valid": false
+                "valid": false,
+                "id": "c915f59fc28b238f92ba4c1baeebd8fd"
             }
         ]
     }

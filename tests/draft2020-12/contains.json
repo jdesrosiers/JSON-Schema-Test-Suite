@@ -9,32 +9,38 @@
             {
                 "description": "array with item matching schema (5) is valid",
                 "data": [3, 4, 5],
-                "valid": true
+                "valid": true,
+                "id": "32580ef4c12b0fa1411d449b86bd152b"
             },
             {
                 "description": "array with item matching schema (6) is valid",
                 "data": [3, 4, 6],
-                "valid": true
+                "valid": true,
+                "id": "35e75ea3af79af10ff38762922e90088"
             },
             {
                 "description": "array with two items matching schema (5, 6) is valid",
                 "data": [3, 4, 5, 6],
-                "valid": true
+                "valid": true,
+                "id": "4f51728f37db2cdd21ffa7ca3b1d46a3"
             },
             {
                 "description": "array without items matching schema is invalid",
                 "data": [2, 3, 4],
-                "valid": false
+                "valid": false,
+                "id": "4baa1e7185dda1dc9978a7796ed7db40"
             },
             {
                 "description": "empty array is invalid",
                 "data": [],
-                "valid": false
+                "valid": false,
+                "id": "b5f4f7c7f08b1f0f7ea865810f1325c2"
             },
             {
                 "description": "not array is valid",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "5dcca34ed2dd2aa5660c0ce237a72fc4"
             }
         ]
     },
@@ -48,17 +54,20 @@
             {
                 "description": "array with item 5 is valid",
                 "data": [3, 4, 5],
-                "valid": true
+                "valid": true,
+                "id": "e62d900995d6e07b662ec44fda60d5ef"
             },
             {
                 "description": "array with two items 5 is valid",
                 "data": [3, 4, 5, 5],
-                "valid": true
+                "valid": true,
+                "id": "8a6e33742341d6b8d3039e3e7b8b5afd"
             },
             {
                 "description": "array without item 5 is invalid",
                 "data": [1, 2, 3, 4],
-                "valid": false
+                "valid": false,
+                "id": "3aa3e8ca86364bea05ae90f51fc7a148"
             }
         ]
     },
@@ -72,12 +81,14 @@
             {
                 "description": "any non-empty array is valid",
                 "data": ["foo"],
-                "valid": true
+                "valid": true,
+                "id": "dad8c6e7263735ac85d66e5d3e8fae7b"
             },
             {
                 "description": "empty array is invalid",
                 "data": [],
-                "valid": false
+                "valid": false,
+                "id": "19237f80d4add8ab98d7c0b84686c44f"
             }
         ]
     },
@@ -91,17 +102,20 @@
             {
                 "description": "any non-empty array is invalid",
                 "data": ["foo"],
-                "valid": false
+                "valid": false,
+                "id": "8895842a973da4eb062b3cdabb62b342"
             },
             {
                 "description": "empty array is invalid",
                 "data": [],
-                "valid": false
+                "valid": false,
+                "id": "df0e334e0c8676371c1d537bf9913624"
             },
             {
                 "description": "non-arrays are valid",
                 "data": "contains does not apply to strings",
-                "valid": true
+                "valid": true,
+                "id": "bce3cceb0c98b14609375bef5026e6dc"
             }
         ]
     },
@@ -116,22 +130,26 @@
             {
                 "description": "matches items, does not match contains",
                 "data": [ 2, 4, 8 ],
-                "valid": false
+                "valid": false,
+                "id": "729ad810264354d17cfcba22bbd7bb5d"
             },
             {
                 "description": "does not match items, matches contains",
                 "data": [ 3, 6, 9 ],
-                "valid": false
+                "valid": false,
+                "id": "567397a425aade8cc5b0a93be275db79"
             },
             {
                 "description": "matches both items and contains",
                 "data": [ 6, 12 ],
-                "valid": true
+                "valid": true,
+                "id": "e8c840f0c8ecb36c88531a7217fef94b"
             },
             {
                 "description": "matches neither items nor contains",
                 "data": [ 1, 5 ],
-                "valid": false
+                "valid": false,
+                "id": "cb5fa3d224b323e9a859b10aac962407"
             }
         ]
     },
@@ -148,12 +166,14 @@
             {
                 "description": "any non-empty array is valid",
                 "data": ["foo"],
-                "valid": true
+                "valid": true,
+                "id": "f308a0408bdd653b8fb177d2683197ee"
             },
             {
                 "description": "empty array is invalid",
                 "data": [],
-                "valid": false
+                "valid": false,
+                "id": "a92ba446b7933f64660f64e8f5029a83"
             }
         ]
     },
@@ -169,7 +189,8 @@
             {
                 "description": "allows null items",
                 "data": [ null ],
-                "valid": true
+                "valid": true,
+                "id": "dadd708e334e385b0688e7e414da9a73"
             }
         ]
     }

@@ -39,17 +39,20 @@
             {
                 "description": "type matches second anyOf, which has a real schema in it",
                 "data": "a string",
-                "valid": true
+                "valid": true,
+                "id": "cb1e513b8e069a2c94743fe86ffbf9e9"
             },
             {
                 "description": "type matches non-schema in first anyOf",
                 "data": null,
-                "valid": false
+                "valid": false,
+                "id": "e09f93c20f6f25270599e2116abfc1cd"
             },
             {
                 "description": "type matches non-schema in third anyOf",
                 "data": 1,
-                "valid": false
+                "valid": false,
+                "id": "0520697e6ad842a0b7b03f07ced4deab"
             }
         ]
     }

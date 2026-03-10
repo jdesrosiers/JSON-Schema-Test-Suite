@@ -12,27 +12,32 @@
             {
                 "description": "correct types",
                 "data": [ 1, "foo" ],
-                "valid": true
+                "valid": true,
+                "id": "93cce1d71104c51d84bb8d39465ac615"
             },
             {
                 "description": "wrong types",
                 "data": [ "foo", 1 ],
-                "valid": false
+                "valid": false,
+                "id": "d1b1c591cf4ef2a9c89143ea86708926"
             },
             {
                 "description": "incomplete array of items",
                 "data": [ 1 ],
-                "valid": true
+                "valid": true,
+                "id": "8bcb2ebef64881cb713418eeec89f385"
             },
             {
                 "description": "array with additional items",
                 "data": [ 1, "foo", true ],
-                "valid": true
+                "valid": true,
+                "id": "3b9a92f94cd177745551e9c39cd6f5b3"
             },
             {
                 "description": "empty array",
                 "data": [ ],
-                "valid": true
+                "valid": true,
+                "id": "13ecf5937e3977e9407c82a7c4b895ad"
             },
             {
                 "description": "JavaScript pseudo-array is valid",
@@ -41,7 +46,8 @@
                     "1": "valid",
                     "length": 2
                 },
-                "valid": true
+                "valid": true,
+                "id": "de5019f2edc920a5312ac39a8035df99"
             }
         ]
     },
@@ -55,17 +61,20 @@
             {
                 "description": "array with one item is valid",
                 "data": [ 1 ],
-                "valid": true
+                "valid": true,
+                "id": "ec131c1850bf07bc45f018be4cbde216"
             },
             {
                 "description": "array with two items is invalid",
                 "data": [ 1, "foo" ],
-                "valid": false
+                "valid": false,
+                "id": "fa97c676567a1b7634dd1e8e06a0b034"
             },
             {
                 "description": "empty array is valid",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "2b40b6ed378fdcc40460af99d92800c0"
             }
         ]
     },
@@ -79,7 +88,8 @@
             {
                 "description": "only the first item is validated",
                 "data": [1, "foo", false],
-                "valid": true
+                "valid": true,
+                "id": "abc88ef9d87c8e7d33c33fb9e966f168"
             }
         ]
     },
@@ -97,7 +107,8 @@
             {
                 "description": "allows null elements",
                 "data": [ null ],
-                "valid": true
+                "valid": true,
+                "id": "37dbf797d459d63988224c55fe3fa790"
             }
         ]
     }

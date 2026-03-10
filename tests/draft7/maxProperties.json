@@ -6,32 +6,38 @@
             {
                 "description": "shorter is valid",
                 "data": {"foo": 1},
-                "valid": true
+                "valid": true,
+                "id": "ee7d472187d2999d8ad6ac6b08f937ec"
             },
             {
                 "description": "exact length is valid",
                 "data": {"foo": 1, "bar": 2},
-                "valid": true
+                "valid": true,
+                "id": "95c320fbd8a3253d481225f2cd65e3bb"
             },
             {
                 "description": "too long is invalid",
                 "data": {"foo": 1, "bar": 2, "baz": 3},
-                "valid": false
+                "valid": false,
+                "id": "eaa7c4c5b0b41b54b893f45659e576ba"
             },
             {
                 "description": "ignores arrays",
                 "data": [1, 2, 3],
-                "valid": true
+                "valid": true,
+                "id": "bc98ee2747d7689860cdb5f1509d85d4"
             },
             {
                 "description": "ignores strings",
                 "data": "foobar",
-                "valid": true
+                "valid": true,
+                "id": "d00be285a046cb39955e68f221361ef0"
             },
             {
                 "description": "ignores other non-objects",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "c06f3c5e2f4e82cd3d56c03e9f8c5c4f"
             }
         ]
     },
@@ -42,12 +48,14 @@
             {
                 "description": "shorter is valid",
                 "data": {"foo": 1},
-                "valid": true
+                "valid": true,
+                "id": "ee7d472187d2999d8ad6ac6b08f937ec"
             },
             {
                 "description": "too long is invalid",
                 "data": {"foo": 1, "bar": 2, "baz": 3},
-                "valid": false
+                "valid": false,
+                "id": "eaa7c4c5b0b41b54b893f45659e576ba"
             }
         ]
     },
@@ -58,12 +66,14 @@
             {
                 "description": "no properties is valid",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "2d5301ee5bcd12f0a598d497ef363853"
             },
             {
                 "description": "one property is invalid",
                 "data": { "foo": 1 },
-                "valid": false
+                "valid": false,
+                "id": "7ff03df6a890d03016bed2af2fc3834d"
             }
         ]
     }

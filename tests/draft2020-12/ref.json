@@ -12,22 +12,26 @@
             {
                 "description": "match",
                 "data": {"foo": false},
-                "valid": true
+                "valid": true,
+                "id": "66ab761828ec6cae6b86641258cdfab4"
             },
             {
                 "description": "recursive match",
                 "data": {"foo": {"foo": false}},
-                "valid": true
+                "valid": true,
+                "id": "121f800308fefab7a92b2af552dd5cc0"
             },
             {
                 "description": "mismatch",
                 "data": {"bar": false},
-                "valid": false
+                "valid": false,
+                "id": "b3a8c0f36ef4cb6d2fd0a53cdc7e7a6d"
             },
             {
                 "description": "recursive mismatch",
                 "data": {"foo": {"bar": false}},
-                "valid": false
+                "valid": false,
+                "id": "8bbb600b327d0180bb54ce064511fccb"
             }
         ]
     },
@@ -44,12 +48,14 @@
             {
                 "description": "match",
                 "data": {"bar": 3},
-                "valid": true
+                "valid": true,
+                "id": "1cb1627ac85bef7dfad9d6e8388205f8"
             },
             {
                 "description": "mismatch",
                 "data": {"bar": true},
-                "valid": false
+                "valid": false,
+                "id": "d60e9be3bd4e00ef14ae5cef5e97d5ed"
             }
         ]
     },
@@ -66,12 +72,14 @@
             {
                 "description": "match array",
                 "data": [1, 2],
-                "valid": true
+                "valid": true,
+                "id": "d1d7838f43a24fc6ee4ce58c00ad4f2f"
             },
             {
                 "description": "mismatch array",
                 "data": [1, "foo"],
-                "valid": false
+                "valid": false,
+                "id": "dc6ea95e2a8784261c89d9cd131ad6a6"
             }
         ]
     },
@@ -94,32 +102,38 @@
             {
                 "description": "slash invalid",
                 "data": {"slash": "aoeu"},
-                "valid": false
+                "valid": false,
+                "id": "08e550ff94bf0b05c141b705c734e98e"
             },
             {
                 "description": "tilde invalid",
                 "data": {"tilde": "aoeu"},
-                "valid": false
+                "valid": false,
+                "id": "4c10ac5b5e62b70c1e6a0d251a50f4c7"
             },
             {
                 "description": "percent invalid",
                 "data": {"percent": "aoeu"},
-                "valid": false
+                "valid": false,
+                "id": "15f26597a8829c7b2e3b0a157f0f360e"
             },
             {
                 "description": "slash valid",
                 "data": {"slash": 123},
-                "valid": true
+                "valid": true,
+                "id": "8891cae3520a0635b206db21138782e2"
             },
             {
                 "description": "tilde valid",
                 "data": {"tilde": 123},
-                "valid": true
+                "valid": true,
+                "id": "51ba03ae8b0f43b7327fdc7ab4a39200"
             },
             {
                 "description": "percent valid",
                 "data": {"percent": 123},
-                "valid": true
+                "valid": true,
+                "id": "17873c7d9e603156a70a0d2f1b01a733"
             }
         ]
     },
@@ -138,12 +152,14 @@
             {
                 "description": "nested ref valid",
                 "data": 5,
-                "valid": true
+                "valid": true,
+                "id": "b0709c30e757e98468ef8ba5f0b5daf6"
             },
             {
                 "description": "nested ref invalid",
                 "data": "a",
-                "valid": false
+                "valid": false,
+                "id": "852ac54fcf1bcb007cbaf79e154cdb3a"
             }
         ]
     },
@@ -167,17 +183,20 @@
             {
                 "description": "ref valid, maxItems valid",
                 "data": { "foo": [] },
-                "valid": true
+                "valid": true,
+                "id": "07b17eceaa698a879324f61648f8e457"
             },
             {
                 "description": "ref valid, maxItems invalid",
                 "data": { "foo": [1, 2, 3] },
-                "valid": false
+                "valid": false,
+                "id": "e80403bbae7a9fdba174df7a9093d1cf"
             },
             {
                 "description": "ref invalid",
                 "data": { "foo": "string" },
-                "valid": false
+                "valid": false,
+                "id": "6f4c9ec0ddc645b0a8029e8211a5bd87"
             }
         ]
     },
@@ -191,12 +210,14 @@
             {
                 "description": "remote ref valid",
                 "data": {"minLength": 1},
-                "valid": true
+                "valid": true,
+                "id": "d3fc998e9deb4c1dadb91bc430258844"
             },
             {
                 "description": "remote ref invalid",
                 "data": {"minLength": -1},
-                "valid": false
+                "valid": false,
+                "id": "11faa8fc9fc74fb4f878125f217cb3f2"
             }
         ]
     },
@@ -212,12 +233,14 @@
             {
                 "description": "property named $ref valid",
                 "data": {"$ref": "a"},
-                "valid": true
+                "valid": true,
+                "id": "1555b567f1ba9f9b798596e3bfd1b952"
             },
             {
                 "description": "property named $ref invalid",
                 "data": {"$ref": 2},
-                "valid": false
+                "valid": false,
+                "id": "852b823222539dafcd6c10bf178bd01c"
             }
         ]
     },
@@ -238,12 +261,14 @@
             {
                 "description": "property named $ref valid",
                 "data": {"$ref": "a"},
-                "valid": true
+                "valid": true,
+                "id": "6bb3cc433e63c99786355312682d4fee"
             },
             {
                 "description": "property named $ref invalid",
                 "data": {"$ref": 2},
-                "valid": false
+                "valid": false,
+                "id": "af240bdcf2fc0ce50feab327e06a58e2"
             }
         ]
     },
@@ -260,7 +285,8 @@
             {
                 "description": "any value is valid",
                 "data": "foo",
-                "valid": true
+                "valid": true,
+                "id": "289a1520170088c1976e4e5340e38296"
             }
         ]
     },
@@ -277,7 +303,8 @@
             {
                 "description": "any value is invalid",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "5cb562c9c431b2d8959871f76b7a3eaf"
             }
         ]
     },
@@ -337,7 +364,8 @@
                         }
                     ]
                 },
-                "valid": true
+                "valid": true,
+                "id": "edf0d07c3babfe94f269db5691535c67"
             },
             {
                 "description": "invalid tree",
@@ -366,7 +394,8 @@
                         }
                     ]
                 },
-                "valid": false
+                "valid": false,
+                "id": "525e4de6b43189f4de5c384a5f51d5d2"
             }
         ]
     },
@@ -387,14 +416,16 @@
                 "data": {
                     "foo\"bar": 1
                 },
-                "valid": true
+                "valid": true,
+                "id": "c9059c4dcc8b2a0b0cd29483a0315b6a"
             },
             {
                 "description": "object with strings is invalid",
                 "data": {
                     "foo\"bar": "1"
                 },
-                "valid": false
+                "valid": false,
+                "id": "863febb00eeacde75e15b7fb677c7b7f"
             }
         ]
     },
@@ -420,7 +451,8 @@
                 "data": {
                     "prop1": "match"
                 },
-                "valid": false
+                "valid": false,
+                "id": "7ed01f878344c2b795a468de349c6cc6"
             }
         ]
     },
@@ -439,17 +471,20 @@
             {
                 "description": "do not evaluate the $ref inside the enum, matching any string",
                 "data": "this is a string",
-                "valid": false
+                "valid": false,
+                "id": "edf7e1a3f9b63f64fd5f4023bee48bd1"
             },
             {
                 "description": "do not evaluate the $ref inside the enum, definition exact match",
                 "data": { "type": "string" },
-                "valid": false
+                "valid": false,
+                "id": "42def4c4ab8dfb9c68b25801de2a3268"
             },
             {
                 "description": "match the enum exactly",
                 "data": { "$ref": "#/$defs/a_string" },
-                "valid": true
+                "valid": true,
+                "id": "1ca36c97d9a41111a4d3c8e806615968"
             }
         ]
     },
@@ -482,7 +517,8 @@
                     },
                     "bar": "a"
                 },
-                "valid": false
+                "valid": false,
+                "id": "37e3b83a1a3b18a303bf899e862d83b0"
             },
             {
                 "description": "invalid on outer field",
@@ -492,7 +528,8 @@
                     },
                     "bar": 1
                 },
-                "valid": false
+                "valid": false,
+                "id": "32529d898bedb5c1f72b730d1f429cf3"
             },
             {
                 "description": "valid on both fields",
@@ -502,7 +539,8 @@
                     },
                     "bar": "a"
                 },
-                "valid": true
+                "valid": true,
+                "id": "eacc10cb10aaad275aaf3039201fce7a"
             }
         ]
     },
@@ -535,7 +573,8 @@
                     },
                     "bar": "a"
                 },
-                "valid": false
+                "valid": false,
+                "id": "4e6238bf1b22f81f5d3628d990dd1c2c"
             },
             {
                 "description": "invalid on outer field",
@@ -545,7 +584,8 @@
                     },
                     "bar": 1
                 },
-                "valid": false
+                "valid": false,
+                "id": "4ee1f31218b5a2af21a54b4159dbacc4"
             },
             {
                 "description": "valid on both fields",
@@ -555,7 +595,8 @@
                     },
                     "bar": "a"
                 },
-                "valid": true
+                "valid": true,
+                "id": "4f95021ec12d35ebb7488d75e7f53e8b"
             }
         ]
     },
@@ -587,12 +628,14 @@
             {
                 "description": "number is valid",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "c6b067fd9c4efcc7d4c0409be5fbf222"
             },
             {
                 "description": "non-number is invalid",
                 "data": "a",
-                "valid": false
+                "valid": false,
+                "id": "8d09a70c85eb6175d2b87c98e887f639"
             }
         ]
     },
@@ -620,12 +663,14 @@
             {
                 "description": "data is valid against first definition",
                 "data": 5,
-                "valid": true
+                "valid": true,
+                "id": "dd81f3fa8e9b6ee1cb820e0824b9daad"
             },
             {
                 "description": "data is invalid against first definition",
                 "data": 50,
-                "valid": false
+                "valid": false,
+                "id": "458f13e10b81eedea29c65c29a1f3b9e"
             }
         ]
     },
@@ -654,12 +699,14 @@
             {
                 "description": "data is valid against first definition",
                 "data": 5,
-                "valid": true
+                "valid": true,
+                "id": "87d10abe43333c3342e20a8043fe9c69"
             },
             {
                 "description": "data is invalid against first definition",
                 "data": 50,
-                "valid": false
+                "valid": false,
+                "id": "77352f0bfde0f9bacc88f2783b31f757"
             }
         ]
     },
@@ -687,12 +734,14 @@
             {
                 "description": "data is valid against nested sibling",
                 "data": 5,
-                "valid": true
+                "valid": true,
+                "id": "95ff566dbcb9f448d6ceabe7dc21cb96"
             },
             {
                 "description": "data is invalid against nested sibling",
                 "data": "a",
-                "valid": false
+                "valid": false,
+                "id": "a7f051a44899e1e0adf4334884d62d9e"
             }
         ]
     },
@@ -711,12 +760,14 @@
             {
                 "description": "valid under the URN IDed schema",
                 "data": {"foo": 37},
-                "valid": true
+                "valid": true,
+                "id": "ed9a10710f8248f6714e71e9de4e286c"
             },
             {
                 "description": "invalid under the URN IDed schema",
                 "data": {"foo": 12},
-                "valid": false
+                "valid": false,
+                "id": "db1156aa7496a75535a05f7e659bf007"
             }
         ]
     },
@@ -737,12 +788,14 @@
             {
                 "description": "a string is valid",
                 "data": {"foo": "bar"},
-                "valid": true
+                "valid": true,
+                "id": "88279ec67759a36cbbb69b1dfe77350c"
             },
             {
                 "description": "a non-string is invalid",
                 "data": {"foo": 12},
-                "valid": false
+                "valid": false,
+                "id": "3ca2f1753050ec7392f7aebf91836cc8"
             }
         ]
     },
@@ -763,12 +816,14 @@
             {
                 "description": "a string is valid",
                 "data": {"foo": "bar"},
-                "valid": true
+                "valid": true,
+                "id": "fec137f68e6535532f8ff64d7b968496"
             },
             {
                 "description": "a non-string is invalid",
                 "data": {"foo": 12},
-                "valid": false
+                "valid": false,
+                "id": "07a5e80dbd0acb4de555cb4a082fae7c"
             }
         ]
     },
@@ -789,12 +844,14 @@
             {
                 "description": "a string is valid",
                 "data": {"foo": "bar"},
-                "valid": true
+                "valid": true,
+                "id": "dfaa7bb6a25ab892ab4ad95ffee79d6c"
             },
             {
                 "description": "a non-string is invalid",
                 "data": {"foo": 12},
-                "valid": false
+                "valid": false,
+                "id": "f91d1a6c463d8c832eaf2a27ef61e9d6"
             }
         ]
     },
@@ -815,12 +872,14 @@
             {
                 "description": "a string is valid",
                 "data": {"foo": "bar"},
-                "valid": true
+                "valid": true,
+                "id": "a04329522818d3d36a746e5666f6acc9"
             },
             {
                 "description": "a non-string is invalid",
                 "data": {"foo": 12},
-                "valid": false
+                "valid": false,
+                "id": "aa2699c76e91370535190611290f74d3"
             }
         ]
     },
@@ -840,12 +899,14 @@
             {
                 "description": "a string is valid",
                 "data": {"foo": "bar"},
-                "valid": true
+                "valid": true,
+                "id": "6c285b366b00dca97f39e1d80bf420a7"
             },
             {
                 "description": "a non-string is invalid",
                 "data": {"foo": 12},
-                "valid": false
+                "valid": false,
+                "id": "480e17f063ea1c9571d003fd433bb685"
             }
         ]
     },
@@ -868,12 +929,14 @@
             {
                 "description": "a string is valid",
                 "data": {"foo": "bar"},
-                "valid": true
+                "valid": true,
+                "id": "459293458317fc68e0730e20f9c17b0d"
             },
             {
                 "description": "a non-string is invalid",
                 "data": {"foo": 12},
-                "valid": false
+                "valid": false,
+                "id": "592708f30035423f11d9bf7c2dfd35b4"
             }
         ]
     },
@@ -894,12 +957,14 @@
             {
                 "description": "a string is valid",
                 "data": "bar",
-                "valid": true
+                "valid": true,
+                "id": "ff7180aff95eb6c9a7dbf3522aa3fbe1"
             },
             {
                 "description": "a non-string is invalid",
                 "data": 12,
-                "valid": false
+                "valid": false,
+                "id": "ec995698d11d451f72f7c9bee5653772"
             }
         ]
     },
@@ -917,12 +982,14 @@
             {
                 "description": "a non-integer is invalid due to the $ref",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "7a5bf2bde239adc135d91642d70b3145"
             },
             {
                 "description": "an integer is valid",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "aed6b20e22e5e3648348198d13028395"
             }
         ]
     },
@@ -940,12 +1007,14 @@
             {
                 "description": "a non-integer is invalid due to the $ref",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "784cafedad8904b3c6237de3cf3ef7e1"
             },
             {
                 "description": "an integer is valid",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "6c1db5910656364cd6ed49cd7cb14170"
             }
         ]
     },
@@ -963,12 +1032,14 @@
             {
                 "description": "a non-integer is invalid due to the $ref",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "493e51f13f014d5ab9f0d2f14a6926e7"
             },
             {
                 "description": "an integer is valid",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "194b1cc68516157e2a1510bd808f09c1"
             }
         ]
     },
@@ -993,12 +1064,14 @@
             {
                 "description": "a string is valid",
                 "data": "foo",
-                "valid": true
+                "valid": true,
+                "id": "4b17cac8fd3d95bf1237d552dc867ea7"
             },
             {
                 "description": "an integer is invalid",
                 "data": 12,
-                "valid": false
+                "valid": false,
+                "id": "9d266d416486279c9eb03f3df677be24"
             }
         ]
     },
@@ -1018,12 +1091,14 @@
             {
                 "description": "number is valid",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "423214daab814c5e515ffae6a999bf13"
             },
             {
                 "description": "non-number is invalid",
                 "data": "a",
-                "valid": false
+                "valid": false,
+                "id": "24c729238193d2eadb93695053ba901f"
             }
         ]
     },
@@ -1043,12 +1118,14 @@
             {
                 "description": "number is valid",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "a49db079af35092d04fb123c2a44bf6a"
             },
             {
                 "description": "non-number is invalid",
                 "data": "a",
-                "valid": false
+                "valid": false,
+                "id": "c97dbc747e6d8a97602939e724f2c85d"
             }
         ]
     },
@@ -1073,12 +1150,14 @@
             {
                 "description": "number is valid",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "fccfc82dbd22f4c89deb197b4376c229"
             },
             {
                 "description": "non-number is invalid",
                 "data": "a",
-                "valid": false
+                "valid": false,
+                "id": "2279529ffadf1edbdbdf77b710550658"
             }
         ]
     }

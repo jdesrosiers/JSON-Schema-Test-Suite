@@ -6,22 +6,26 @@
             {
                 "description": "above the minimum is valid",
                 "data": 2.6,
-                "valid": true
+                "valid": true,
+                "id": "e707d8fddb000761485a0e51f916b4a1"
             },
             {
                 "description": "boundary point is valid",
                 "data": 1.1,
-                "valid": true
+                "valid": true,
+                "id": "fa3edde53a5dd58e58d72809bc5fc060"
             },
             {
                 "description": "below the minimum is invalid",
                 "data": 0.6,
-                "valid": false
+                "valid": false,
+                "id": "a15d6ac78294f0f042b2c8edc74fe526"
             },
             {
                 "description": "ignores non-numbers",
                 "data": "x",
-                "valid": true
+                "valid": true,
+                "id": "2b9cda2224a47bac9707495f2700b820"
             }
         ]
     },
@@ -32,22 +36,26 @@
             {
                 "description": "above the minimum is valid",
                 "data": 2.6,
-                "valid": true
+                "valid": true,
+                "id": "acfe747d75311d648327fd13a165580d"
             },
             {
                 "description": "boundary point is valid",
                 "data": 1.1,
-                "valid": true
+                "valid": true,
+                "id": "8ff574eb5b2998c5d48d1783280d796b"
             },
             {
                 "description": "below the minimum is invalid",
                 "data": 0.6,
-                "valid": false
+                "valid": false,
+                "id": "5ce67b0ba47bcf13b3dd999855830c9e"
             },
             {
                 "description": "ignores non-numbers",
                 "data": "x",
-                "valid": true
+                "valid": true,
+                "id": "8902f9e5efc9b10e8c8babc824f6328d"
             }
         ]
     },
@@ -61,12 +69,14 @@
             {
                 "description": "above the minimum is still valid",
                 "data": 1.2,
-                "valid": true
+                "valid": true,
+                "id": "93846056e29d53b049ec41afc9701390"
             },
             {
                 "description": "boundary point is invalid",
                 "data": 1.1,
-                "valid": false
+                "valid": false,
+                "id": "7869ac0caf1c07044a1be23bd7628a91"
             }
         ]
     },
@@ -77,37 +87,44 @@
             {
                 "description": "negative above the minimum is valid",
                 "data": -1,
-                "valid": true
+                "valid": true,
+                "id": "c0ecd859a14329b8a53849c15ab798eb"
             },
             {
                 "description": "positive above the minimum is valid",
                 "data": 0,
-                "valid": true
+                "valid": true,
+                "id": "de8d2100bcf03c245cc1af40c5cdafae"
             },
             {
                 "description": "boundary point is valid",
                 "data": -2,
-                "valid": true
+                "valid": true,
+                "id": "80a5ca939f335598d9a7245dcfea994e"
             },
             {
                 "description": "boundary point with float is valid",
                 "data": -2.0,
-                "valid": true
+                "valid": true,
+                "id": "80a5ca939f335598d9a7245dcfea994e"
             },
             {
                 "description": "float below the minimum is invalid",
                 "data": -2.0001,
-                "valid": false
+                "valid": false,
+                "id": "0036453eb5004ff937d9b9e604da1ef6"
             },
             {
                 "description": "int below the minimum is invalid",
                 "data": -3,
-                "valid": false
+                "valid": false,
+                "id": "6e14c79e1b061588dd575af238f9e567"
             },
             {
                 "description": "ignores non-numbers",
                 "data": "x",
-                "valid": true
+                "valid": true,
+                "id": "4b2528aa88862573b661f6aa5a32b4ca"
             }
         ]
     }

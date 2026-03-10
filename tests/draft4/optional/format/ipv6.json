@@ -6,202 +6,242 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "b09d35f468137882c0f8e447607f2df3"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "103a4815fcea7cd0c10a46c8b4114b51"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "d35f6193b38c9f24fb0d1ad4141583d7"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "6357ea7c54492d0a6c0c631c35d597e5"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "ea10ab414d457c4d4ac5c5112fc487a6"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "6c27b30db36eee20ba7751201864575f"
             },
             {
                 "description": "a valid IPv6 address",
                 "data": "::1",
-                "valid": true
+                "valid": true,
+                "id": "0eb3ed7f0ec5eb2651541e7aa95f4d82"
             },
             {
                 "description": "an IPv6 address with out-of-range values",
                 "data": "12345::",
-                "valid": false
+                "valid": false,
+                "id": "12c0d500d5ab65f53ee6e8abbdbeaf00"
             },
             {
                 "description": "trailing 4 hex symbols is valid",
                 "data": "::abef",
-                "valid": true
+                "valid": true,
+                "id": "fafd098d13bf6ed0323d6f3c5e97b9b8"
             },
             {
                 "description": "trailing 5 hex symbols is invalid",
                 "data": "::abcef",
-                "valid": false
+                "valid": false,
+                "id": "360798ad401474cebe6a4226703ba0df"
             },
             {
                 "description": "an IPv6 address with too many components",
                 "data": "1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1",
-                "valid": false
+                "valid": false,
+                "id": "50bc07b610b85d8612674db09885f757"
             },
             {
                 "description": "an IPv6 address containing illegal characters",
                 "data": "::laptop",
-                "valid": false
+                "valid": false,
+                "id": "145a7004a848e3325f79b4f8104c0b74"
             },
             {
                 "description": "no digits is valid",
                 "data": "::",
-                "valid": true
+                "valid": true,
+                "id": "21e70bd64c8a2bc6231793b2f1f7fd87"
             },
             {
                 "description": "leading colons is valid",
                 "data": "::42:ff:1",
-                "valid": true
+                "valid": true,
+                "id": "2ff99ff8d5ba8f0f650d39a829b79101"
             },
             {
                 "description": "trailing colons is valid",
                 "data": "d6::",
-                "valid": true
+                "valid": true,
+                "id": "fc9c33918f5070db412bddc11316f8bd"
             },
             {
                 "description": "missing leading octet is invalid",
                 "data": ":2:3:4:5:6:7:8",
-                "valid": false
+                "valid": false,
+                "id": "5cd518e7ba7ea71901a037fa70545276"
             },
             {
                 "description": "missing trailing octet is invalid",
                 "data": "1:2:3:4:5:6:7:",
-                "valid": false
+                "valid": false,
+                "id": "32b0d840ddd745059a4bf2326562c53a"
             },
             {
                 "description": "missing leading octet with omitted octets later",
                 "data": ":2:3:4::8",
-                "valid": false
+                "valid": false,
+                "id": "11fbfce948f4808db8fe8cf44f9beb75"
             },
             {
                 "description": "single set of double colons in the middle is valid",
                 "data": "1:d6::42",
-                "valid": true
+                "valid": true,
+                "id": "d5eb9d26f51e09e72159d8392cea1650"
             },
             {
                 "description": "two sets of double colons is invalid",
                 "data": "1::d6::42",
-                "valid": false
+                "valid": false,
+                "id": "122305de6886ade125b0669f334de2ce"
             },
             {
                 "description": "mixed format with the ipv4 section as decimal octets",
                 "data": "1::d6:192.168.0.1",
-                "valid": true
+                "valid": true,
+                "id": "8106259203c570476f60ca942fc4b37b"
             },
             {
                 "description": "mixed format with double colons between the sections",
                 "data": "1:2::192.168.0.1",
-                "valid": true
+                "valid": true,
+                "id": "d95f1ad7a87182d1044261ff1c532e07"
             },
             {
                 "description": "mixed format with ipv4 section with octet out of range",
                 "data": "1::2:192.168.256.1",
-                "valid": false
+                "valid": false,
+                "id": "ba5a1664f3273399d94d2d560b562ea7"
             },
             {
                 "description": "mixed format with ipv4 section with a hex octet",
                 "data": "1::2:192.168.ff.1",
-                "valid": false
+                "valid": false,
+                "id": "ff4f88bb699e86a1418b69ce71b79421"
             },
             {
                 "description": "mixed format with leading double colons (ipv4-mapped ipv6 address)",
                 "data": "::ffff:192.168.0.1",
-                "valid": true
+                "valid": true,
+                "id": "12a078f87018fc5a06f303c526086142"
             },
             {
                 "description": "triple colons is invalid",
                 "data": "1:2:3:4:5:::8",
-                "valid": false
+                "valid": false,
+                "id": "b320eb368b4a31fc772fd8564208a2f0"
             },
             {
                 "description": "8 octets",
                 "data": "1:2:3:4:5:6:7:8",
-                "valid": true
+                "valid": true,
+                "id": "50018049606a65908431ac445d9a4ae5"
             },
             {
                 "description": "insufficient octets without double colons",
                 "data": "1:2:3:4:5:6:7",
-                "valid": false
+                "valid": false,
+                "id": "12e0e3fc52500fab4d9fc46e51371bd1"
             },
             {
                 "description": "no colons is invalid",
                 "data": "1",
-                "valid": false
+                "valid": false,
+                "id": "5d970adc300992b973cba192c631c003"
             },
             {
                 "description": "ipv4 is not ipv6",
                 "data": "127.0.0.1",
-                "valid": false
+                "valid": false,
+                "id": "6e5435acd876c6bc8d584e8fbef3ebd5"
             },
             {
                 "description": "ipv4 segment must have 4 octets",
                 "data": "1:2:3:4:1.2.3",
-                "valid": false
+                "valid": false,
+                "id": "3639f6a0bc3113735d949ccd2e2a9441"
             },
             {
                 "description": "leading whitespace is invalid",
                 "data": "  ::1",
-                "valid": false
+                "valid": false,
+                "id": "5626da49c949a73f05a384a2b731f6e6"
             },
             {
                 "description": "trailing whitespace is invalid",
                 "data": "::1  ",
-                "valid": false
+                "valid": false,
+                "id": "ab1b39a8d67e47735c2bd56fc14c9c0d"
             },
             {
                 "description": "netmask is not a part of ipv6 address",
                 "data": "fe80::/64",
-                "valid": false
+                "valid": false,
+                "id": "c72946639993760756c4b79354becbda"
             },
             {
                 "description": "zone id is not a part of ipv6 address",
                 "data": "fe80::a%eth1",
-                "valid": false
+                "valid": false,
+                "id": "37ff10fc5a4bcb0b45bc3f600bb45c38"
             },
             {
                 "description": "a long valid ipv6",
                 "data": "1000:1000:1000:1000:1000:1000:255.255.255.255",
-                "valid": true
+                "valid": true,
+                "id": "cdfae1cf4897f6ef0b192277967b01fb"
             },
             {
                 "description": "a long invalid ipv6, below length limit, first",
                 "data": "100:100:100:100:100:100:255.255.255.255.255",
-                "valid": false
+                "valid": false,
+                "id": "737b52cc77b93c7e9327de07abb9713e"
             },
             {
                 "description": "a long invalid ipv6, below length limit, second",
                 "data": "100:100:100:100:100:100:100:255.255.255.255",
-                "valid": false
+                "valid": false,
+                "id": "b3cce5c099da6226eca90469970c57eb"
             },
             {
                 "description": "invalid non-ASCII '৪' (a Bengali 4)",
                 "data": "1:2:3:4:5:6:7:৪",
-                "valid": false
+                "valid": false,
+                "id": "8169546448f34d1861d776e34dd8ec79"
             },
             {
                 "description": "invalid non-ASCII '৪' (a Bengali 4) in the IPv4 portion",
                 "data": "1:2::192.16৪.0.1",
-                "valid": false
+                "valid": false,
+                "id": "f324853b38ba3ccd544c11eb957a32c8"
             }
         ]
     }

@@ -6,137 +6,164 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "0e9d3a6243154c246520580ba1243f09"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "e461fbbc62bfdb93b92f11fd5e6aa5d3"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "ea5467fc118d61b403d10bb3099d428d"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "bcc1fcc52115edc9f9f4df2c1a49660f"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "80172362b74dd4f7580ef11f49c4701c"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "b5366b62efa8080201654a69d0bc85eb"
             },
             {
                 "description": "a valid host name",
                 "data": "www.example.com",
-                "valid": true
+                "valid": true,
+                "id": "29da71c512d4318f52ab846c78aaec40"
             },
             {
                 "description": "a valid punycoded IDN hostname",
                 "data": "xn--4gbwdl.xn--wgbh1c",
-                "valid": true
+                "valid": true,
+                "id": "66b26b7eaf224d649187b97d7461737d"
             },
             {
                 "description": "a host name starting with an illegal character",
                 "data": "-a-host-name-that-starts-with--",
-                "valid": false
+                "valid": false,
+                "id": "958c3a746c0a15f0b22d2e04fd57cf89"
             },
             {
                 "description": "a host name containing illegal characters",
                 "data": "not_a_valid_host_name",
-                "valid": false
+                "valid": false,
+                "id": "3c1e96229aec6d365aaf454a585b2b57"
             },
             {
                 "description": "a host name with a component too long",
                 "data": "a-vvvvvvvvvvvvvvvveeeeeeeeeeeeeeeerrrrrrrrrrrrrrrryyyyyyyyyyyyyyyy-long-host-name-component",
-                "valid": false
+                "valid": false,
+                "id": "3cddbcade6894a9b9def865312e6340d"
             },
             {
                 "description": "starts with hyphen",
                 "data": "-hostname",
-                "valid": false
+                "valid": false,
+                "id": "ddaa55d9c18a2feceb42fd9ca39bfdba"
             },
             {
                 "description": "ends with hyphen",
                 "data": "hostname-",
-                "valid": false
+                "valid": false,
+                "id": "d6ee4ce89291688af6a9ae8e1b633e56"
             },
             {
                 "description": "starts with underscore",
                 "data": "_hostname",
-                "valid": false
+                "valid": false,
+                "id": "0e972f7889708ec6258757784e891b5b"
             },
             {
                 "description": "ends with underscore",
                 "data": "hostname_",
-                "valid": false
+                "valid": false,
+                "id": "2e7feb1446598eb67fd8a39afdf8fe24"
             },
             {
                 "description": "contains underscore",
                 "data": "host_name",
-                "valid": false
+                "valid": false,
+                "id": "c8fb99370aad79b0f73c1130347f6045"
             },
             {
                 "description": "maximum label length",
                 "data": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijk.com",
-                "valid": true
+                "valid": true,
+                "id": "fc235f01199c0efc8cd11fbb3cd7a002"
             },
             {
                 "description": "exceeds maximum label length",
                 "data": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijkl.com",
-                "valid": false
+                "valid": false,
+                "id": "ded018ba7f1bcdfd227cba8923ceb56f"
             },
             {
                 "description": "single label",
                 "data": "hostname",
-                "valid": true
+                "valid": true,
+                "id": "ce2099e1bd144ef6beebf97e5bc72df5"
             },
             {
                 "description": "single label with hyphen",
                 "data": "host-name",
-                "valid": true
+                "valid": true,
+                "id": "65ebb79c805625f3c017c82feac64106"
             },
             {
                 "description": "single label with digits",
                 "data": "h0stn4me",
-                "valid": true
+                "valid": true,
+                "id": "040ce2ba847425f592a11b8bc7882a73"
             },
             {
                 "description": "single label ending with digit",
                 "data": "hostnam3",
-                "valid": true
+                "valid": true,
+                "id": "faafa4a5d17bf5644d762c9c221c6a00"
             },
             {
                 "description": "empty string",
                 "data": "",
-                "valid": false
+                "valid": false,
+                "id": "3aeafe584438c2252bfdafdcb41995d0"
             },
             {
                 "description": "single dot",
                 "data": ".",
-                "valid": false
+                "valid": false,
+                "id": "366959882ce1fa629114dbf1cf860445"
             },
             {
                 "description": "leading dot",
                 "data": ".example",
-                "valid": false
+                "valid": false,
+                "id": "84ba13564ca108fcf83d7a41154deb2a"
             },
             {
                 "description": "trailing dot",
                 "data": "example.",
-                "valid": false
+                "valid": false,
+                "id": "0d0dc6416189c19720c7df7484fe434d"
             },
             {
                 "description": "IDN label separator",
                 "data": "example\uff0ecom",
-                "valid": false
+                "valid": false,
+                "id": "e6e387c8d6832096cc3e7539669ca54c"
             }
         ]
     }

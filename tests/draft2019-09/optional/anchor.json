@@ -36,24 +36,28 @@
                     "$anchor": "my_anchor",
                     "type": "null"
                 },
-                "valid": true
+                "valid": true,
+                "id": "991c6ce4240df243daa1807ac1d458a2"
             },
             {
                 "description": "in implementations that strip $anchor, this may match either $def",
                 "data": {
                     "type": "null"
                 },
-                "valid": false
+                "valid": false,
+                "id": "f85444cf118d9d94693106cbb63b113d"
             },
             {
                 "description": "match $ref to $anchor",
                 "data": "a string to match #/$defs/anchor_in_enum",
-                "valid": true
+                "valid": true,
+                "id": "2964bd31e1f7670da66815c39dc22923"
             },
             {
                 "description": "no match on enum or $ref to $anchor",
                 "data": 1,
-                "valid": false
+                "valid": false,
+                "id": "97ab4d21cf86cfde5ec3a9c7de768a9c"
             }
         ]
     }

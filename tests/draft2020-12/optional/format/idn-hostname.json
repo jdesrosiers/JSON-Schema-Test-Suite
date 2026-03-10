@@ -9,328 +9,385 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "c42206bab0b0aebe36b87ddfa667a18e"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "dc6fcdad9dd15e7902154bc6fad728ae"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "01061d6caf0a55ae389449248cf10580"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "b7525ac4ec30c97e54ae79c55a1040e8"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "03a307e866f5b745fefc260e580816f1"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "3f3b17d33f02ce93a1ef31b855e7c9e7"
             },
             {
                 "description": "a valid host name (example.test in Hangul)",
                 "data": "실례.테스트",
-                "valid": true
+                "valid": true,
+                "id": "a8b553661b76df54881184e2582be1fc"
             },
             {
                 "description": "illegal first char U+302E Hangul single dot tone mark",
                 "data": "〮실례.테스트",
-                "valid": false
+                "valid": false,
+                "id": "2833a74372c6bbc4c4814868b0aa08eb"
             },
             {
                 "description": "contains illegal char U+302E Hangul single dot tone mark",
                 "data": "실〮례.테스트",
-                "valid": false
+                "valid": false,
+                "id": "798390aa831b4bab51f5e7d33b0786d7"
             },
             {
                 "description": "a host name with a component too long",
                 "data": "실실실실실실실실실실실실실실실실실실실실실실실실실실실실실실실실실실실실실실실실실실실실실실실실실실실실례례테스트례례례례례례례례례례례례례례례례례테스트례례례례례례례례례례례례례례례례례례례테스트례례례례례례례례례례례례테스트례례실례.테스트",
-                "valid": false
+                "valid": false,
+                "id": "8e744fab37bdabaec2d50a8fa8cf1c97"
             },
             {
                 "description": "invalid label, correct Punycode",
                 "comment": "https://tools.ietf.org/html/rfc5890#section-2.3.2.1 https://tools.ietf.org/html/rfc5891#section-4.4 https://tools.ietf.org/html/rfc3492#section-7.1",
                 "data": "-> $1.00 <--",
-                "valid": false
+                "valid": false,
+                "id": "60ea1e511d287ad6fef6baa815877140"
             },
             {
                 "description": "valid Chinese Punycode",
                 "comment": "https://tools.ietf.org/html/rfc5890#section-2.3.2.1 https://tools.ietf.org/html/rfc5891#section-4.4",
                 "data": "xn--ihqwcrb4cv8a8dqg056pqjye",
-                "valid": true
+                "valid": true,
+                "id": "1d6a66dab0c553087205e554e00894b6"
             },
             {
                 "description": "invalid Punycode",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.4 https://tools.ietf.org/html/rfc5890#section-2.3.2.1",
                 "data": "xn--X",
-                "valid": false
+                "valid": false,
+                "id": "cd1cd04665de2d3668aa0ad363f56a88"
             },
             {
                 "description": "U-label contains \"--\" in the 3rd and 4th position",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.1 https://tools.ietf.org/html/rfc5890#section-2.3.2.1",
                 "data": "XN--aa---o47jg78q",
-                "valid": false
+                "valid": false,
+                "id": "ec0b93e645e81a91f208885310e5eb64"
             },
             {
                 "description": "U-label starts with a dash",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.1",
                 "data": "-hello",
-                "valid": false
+                "valid": false,
+                "id": "f156e3be208b84c5e5066918a7e54974"
             },
             {
                 "description": "U-label ends with a dash",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.1",
                 "data": "hello-",
-                "valid": false
+                "valid": false,
+                "id": "64e945afa96056bf79d71ca3faede753"
             },
             {
                 "description": "U-label starts and ends with a dash",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.1",
                 "data": "-hello-",
-                "valid": false
+                "valid": false,
+                "id": "f2ba9efd4df26565228c3982a8777c87"
             },
             {
                 "description": "Begins with a Spacing Combining Mark",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.2",
                 "data": "\u0903hello",
-                "valid": false
+                "valid": false,
+                "id": "154c3f6b506076ddbf8e9b381b747d18"
             },
             {
                 "description": "Begins with a Nonspacing Mark",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.2",
                 "data": "\u0300hello",
-                "valid": false
+                "valid": false,
+                "id": "4331e7e071f6a99d682cdfb1a316851f"
             },
             {
                 "description": "Begins with an Enclosing Mark",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.2",
                 "data": "\u0488hello",
-                "valid": false
+                "valid": false,
+                "id": "7c6e4a114b65f415e0cb649f0c8d8262"
             },
             {
                 "description": "Exceptions that are PVALID, left-to-right chars",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.2 https://tools.ietf.org/html/rfc5892#section-2.6",
                 "data": "\u00df\u03c2\u0f0b\u3007",
-                "valid": true
+                "valid": true,
+                "id": "70ca7da43044b75de92191f4bd6b958b"
             },
             {
                 "description": "Exceptions that are PVALID, right-to-left chars",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.2 https://tools.ietf.org/html/rfc5892#section-2.6",
                 "data": "\u06fd\u06fe",
-                "valid": true
+                "valid": true,
+                "id": "0148c3908c2f0a10fae352c3cf21364a"
             },
             {
                 "description": "Exceptions that are DISALLOWED, right-to-left chars",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.2 https://tools.ietf.org/html/rfc5892#section-2.6",
                 "data": "\u0640\u07fa",
-                "valid": false
+                "valid": false,
+                "id": "67a77e0e1365df91628631052dedd68a"
             },
             {
                 "description": "Exceptions that are DISALLOWED, left-to-right chars",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.2 https://tools.ietf.org/html/rfc5892#section-2.6 Note: The two combining marks (U+302E and U+302F) are in the middle and not at the start",
                 "data": "\u3031\u3032\u3033\u3034\u3035\u302e\u302f\u303b",
-                "valid": false
+                "valid": false,
+                "id": "55429a55aef0861634eb2541b9171698"
             },
             {
                 "description": "MIDDLE DOT with no preceding 'l'",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.3",
                 "data": "a\u00b7l",
-                "valid": false
+                "valid": false,
+                "id": "f9eddf533234996dc4a6bcf659128bfa"
             },
             {
                 "description": "MIDDLE DOT with nothing preceding",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.3",
                 "data": "\u00b7l",
-                "valid": false
+                "valid": false,
+                "id": "53cd0fe9ea0d1e201841acccb5c77593"
             },
             {
                 "description": "MIDDLE DOT with no following 'l'",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.3",
                 "data": "l\u00b7a",
-                "valid": false
+                "valid": false,
+                "id": "b4890c05d793e2c3914bfe0614c22bf4"
             },
             {
                 "description": "MIDDLE DOT with nothing following",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.3",
                 "data": "l\u00b7",
-                "valid": false
+                "valid": false,
+                "id": "14f08d77d2b81d72a553398f822b07bc"
             },
             {
                 "description": "MIDDLE DOT with surrounding 'l's",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.3",
                 "data": "l\u00b7l",
-                "valid": true
+                "valid": true,
+                "id": "81995ba59fe0b57b4627f647c0b22711"
             },
             {
                 "description": "Greek KERAIA not followed by Greek",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.4",
                 "data": "\u03b1\u0375S",
-                "valid": false
+                "valid": false,
+                "id": "2c1a5993154c21d89a6796eb87b16e5f"
             },
             {
                 "description": "Greek KERAIA not followed by anything",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.4",
                 "data": "\u03b1\u0375",
-                "valid": false
+                "valid": false,
+                "id": "7493101ad910e48828ac9e8b8635c9a0"
             },
             {
                 "description": "Greek KERAIA followed by Greek",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.4",
                 "data": "\u03b1\u0375\u03b2",
-                "valid": true
+                "valid": true,
+                "id": "2aa6a9f7d484f7b46e35c8c96cd1ca07"
             },
             {
                 "description": "Hebrew GERESH not preceded by Hebrew",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.5",
                 "data": "A\u05f3\u05d1",
-                "valid": false
+                "valid": false,
+                "id": "229774692ced1ac41584b8b568c5eacd"
             },
             {
                 "description": "Hebrew GERESH not preceded by anything",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.5",
                 "data": "\u05f3\u05d1",
-                "valid": false
+                "valid": false,
+                "id": "fe440691855aeaeb02ffe601e6bc9859"
             },
             {
                 "description": "Hebrew GERESH preceded by Hebrew",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.5",
                 "data": "\u05d0\u05f3\u05d1",
-                "valid": true
+                "valid": true,
+                "id": "6d94b0a8928375cfc8cb346fe6203588"
             },
             {
                 "description": "Hebrew GERSHAYIM not preceded by Hebrew",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.6",
                 "data": "A\u05f4\u05d1",
-                "valid": false
+                "valid": false,
+                "id": "81787acbdcd6707c2b42a34d734bd0e3"
             },
             {
                 "description": "Hebrew GERSHAYIM not preceded by anything",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.6",
                 "data": "\u05f4\u05d1",
-                "valid": false
+                "valid": false,
+                "id": "da50db78ae62bcd291ce9be3d7b03a4f"
             },
             {
                 "description": "Hebrew GERSHAYIM preceded by Hebrew",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.6",
                 "data": "\u05d0\u05f4\u05d1",
-                "valid": true
+                "valid": true,
+                "id": "990618c3d2e4d025bf29a588d0513bfc"
             },
             {
                 "description": "KATAKANA MIDDLE DOT with no Hiragana, Katakana, or Han",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.7",
                 "data": "def\u30fbabc",
-                "valid": false
+                "valid": false,
+                "id": "cc412886a6c74be6742cd60d1048affe"
             },
             {
                 "description": "KATAKANA MIDDLE DOT with no other characters",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.7",
                 "data": "\u30fb",
-                "valid": false
+                "valid": false,
+                "id": "83c2643517436e8a9400f95758371942"
             },
             {
                 "description": "KATAKANA MIDDLE DOT with Hiragana",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.7",
                 "data": "\u30fb\u3041",
-                "valid": true
+                "valid": true,
+                "id": "1a5db3de3ec26fd1b5484ee2a9ab4446"
             },
             {
                 "description": "KATAKANA MIDDLE DOT with Katakana",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.7",
                 "data": "\u30fb\u30a1",
-                "valid": true
+                "valid": true,
+                "id": "fbb1cae0ddaf5f1376f4d6047103fc36"
             },
             {
                 "description": "KATAKANA MIDDLE DOT with Han",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.7",
                 "data": "\u30fb\u4e08",
-                "valid": true
+                "valid": true,
+                "id": "5e47c790f6e3a0626b1859320325fe47"
             },
             {
                 "description": "Arabic-Indic digits mixed with Extended Arabic-Indic digits",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.8",
                 "data": "\u0628\u0660\u06f0",
-                "valid": false
+                "valid": false,
+                "id": "42f355fa6b00d1fba1a4faceec30a6bc"
             },
             {
                 "description": "Arabic-Indic digits not mixed with Extended Arabic-Indic digits",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.8",
                 "data": "\u0628\u0660\u0628",
-                "valid": true
+                "valid": true,
+                "id": "9b4f9fda1bc8f6d66f66bd4cef97e86f"
             },
             {
                 "description": "Extended Arabic-Indic digits not mixed with Arabic-Indic digits",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.9",
                 "data": "\u06f00",
-                "valid": true
+                "valid": true,
+                "id": "b573f34129c847c52489140a102fc3a1"
             },
             {
                 "description": "ZERO WIDTH JOINER not preceded by Virama",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.2 https://www.unicode.org/review/pr-37.pdf",
                 "data": "\u0915\u200d\u0937",
-                "valid": false
+                "valid": false,
+                "id": "cbc8b2dcff7971bd59eca7743984f35d"
             },
             {
                 "description": "ZERO WIDTH JOINER not preceded by anything",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.2 https://www.unicode.org/review/pr-37.pdf",
                 "data": "\u200d\u0937",
-                "valid": false
+                "valid": false,
+                "id": "52171cfdd02bd343ce8230f4fbe901c0"
             },
             {
                 "description": "ZERO WIDTH JOINER preceded by Virama",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.2 https://www.unicode.org/review/pr-37.pdf",
                 "data": "\u0915\u094d\u200d\u0937",
-                "valid": true
+                "valid": true,
+                "id": "c36976c0166958e6490a433356444699"
             },
             {
                 "description": "ZERO WIDTH NON-JOINER preceded by Virama",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.1",
                 "data": "\u0915\u094d\u200c\u0937",
-                "valid": true
+                "valid": true,
+                "id": "765261ba7f68cdad5d0e00e56cb4ceda"
             },
             {
                 "description": "ZERO WIDTH NON-JOINER not preceded by Virama but matches regexp",
                 "comment": "https://tools.ietf.org/html/rfc5891#section-4.2.3.3 https://tools.ietf.org/html/rfc5892#appendix-A.1 https://www.w3.org/TR/alreq/#h_disjoining_enforcement",
                 "data": "\u0628\u064a\u200c\u0628\u064a",
-                "valid": true
+                "valid": true,
+                "id": "73462cbeebb66b2c26f82695796c59ac"
             },
             {
                 "description": "single label",
                 "data": "hostname",
-                "valid": true
+                "valid": true,
+                "id": "8ec087a0ab70ad9ec0fb1f3bb01c0873"
             },
             {
                 "description": "single label with hyphen",
                 "data": "host-name",
-                "valid": true
+                "valid": true,
+                "id": "423596984e353bf6d36eb356ba1550da"
             },
             {
                 "description": "single label with digits",
                 "data": "h0stn4me",
-                "valid": true
+                "valid": true,
+                "id": "22321f75ddbfc3a7d21983278b9ae61b"
             },
             {
                 "description": "single label starting with digit",
                 "data": "1host",
-                "valid": true
+                "valid": true,
+                "id": "cde61dfa832bf91db51e116e4d6e2d32"
             },
             {
                 "description": "single label ending with digit",
                 "data": "hostnam3",
-                "valid": true
+                "valid": true,
+                "id": "22851bcec545026d021f9bd92f49da07"
             },
             {
                 "description": "empty string",
                 "data": "",
-                "valid": false
+                "valid": false,
+                "id": "3e42847109117e3b8b98d27eaffef34f"
             }
         ]
     },
@@ -347,102 +404,122 @@
             {
                 "description": "single dot",
                 "data": ".",
-                "valid": false
+                "valid": false,
+                "id": "a7428d66993e8ff72b77df51bbbad960"
             },
             {
                 "description": "single ideographic full stop",
                 "data": "\u3002",
-                "valid": false
+                "valid": false,
+                "id": "7c32ec46a2072ae06741f49d900e43e2"
             },
             {
                 "description": "single fullwidth full stop",
                 "data": "\uff0e",
-                "valid": false
+                "valid": false,
+                "id": "3a2c11d6beb083c3e4a6095498fa19b5"
             },
             {
                 "description": "single halfwidth ideographic full stop",
                 "data": "\uff61",
-                "valid": false
+                "valid": false,
+                "id": "ca5ef1ce1c02f417a0d22658051b3738"
             },
             {
                 "description": "dot as label separator",
                 "data": "a.b",
-                "valid": true
+                "valid": true,
+                "id": "a48de9a440ac171ac7f6ba3fc2b089d0"
             },
             {
                 "description": "ideographic full stop as label separator",
                 "data": "a\u3002b",
-                "valid": true
+                "valid": true,
+                "id": "76782a24ffe5596db84e827f55a4a7f1"
             },
             {
                 "description": "fullwidth full stop as label separator",
                 "data": "a\uff0eb",
-                "valid": true
+                "valid": true,
+                "id": "1b7f939c1f5704c71f9b7392785d143c"
             },
             {
                 "description": "halfwidth ideographic full stop as label separator",
                 "data": "a\uff61b",
-                "valid": true
+                "valid": true,
+                "id": "5e3756f769811cea96318a112ae52b91"
             },
             {
                 "description": "leading dot",
                 "data": ".example",
-                "valid": false
+                "valid": false,
+                "id": "ea58c9b4c58b920ababaa0f15428531e"
             },
             {
                 "description": "leading ideographic full stop",
                 "data": "\u3002example",
-                "valid": false
+                "valid": false,
+                "id": "7663e1ed01b03d17a7be3fe430369693"
             },
             {
                 "description": "leading fullwidth full stop",
                 "data": "\uff0eexample",
-                "valid": false
+                "valid": false,
+                "id": "0758d24c001a2c9384a5a8142e2f56ff"
             },
             {
                 "description": "leading halfwidth ideographic full stop",
                 "data": "\uff61example",
-                "valid": false
+                "valid": false,
+                "id": "e0871626ad3b29166fcf83a164eb78d7"
             },
             {
                 "description": "trailing dot",
                 "data": "example.",
-                "valid": false
+                "valid": false,
+                "id": "dd154f1fea3ab6187b01513bb60315ef"
             },
             {
                 "description": "trailing ideographic full stop",
                 "data": "example\u3002",
-                "valid": false
+                "valid": false,
+                "id": "3d597731b5a807f29c251c59b843592c"
             },
             {
                 "description": "trailing fullwidth full stop",
                 "data": "example\uff0e",
-                "valid": false
+                "valid": false,
+                "id": "db23c63dc4fef0fae6b31821aa62163b"
             },
             {
                 "description": "trailing halfwidth ideographic full stop",
                 "data": "example\uff61",
-                "valid": false
+                "valid": false,
+                "id": "d88246882efb17672b3b05ee937a9117"
             },
             {
                 "description": "label too long if separator ignored (full stop)",
                 "data": "παράδειγμαπαράδειγμαπαράδειγμαπαράδειγμαπαράδειγμαπα.com",
-                "valid": true
+                "valid": true,
+                "id": "101916158ecee15a648cf062ac5d6f24"
             },
             {
                 "description": "label too long if separator ignored (ideographic full stop)",
                 "data": "παράδειγμαπαράδειγμαπαράδειγμαπαράδειγμαπαράδειγμαπα\u3002com",
-                "valid": true
+                "valid": true,
+                "id": "ab9a4cf2042598e74d9e6dce12a64d78"
             },
             {
                 "description": "label too long if separator ignored (fullwidth full stop)",
                 "data": "παράδειγμαπαράδειγμαπαράδειγμαπαράδειγμαπαράδειγμαπα\uff0ecom",
-                "valid": true
+                "valid": true,
+                "id": "0137d56c92ad17b4300c4e711ec3060b"
             },
             {
                 "description": "label too long if separator ignored (halfwidth ideographic full stop)",
                 "data": "παράδειγμαπαράδειγμαπαράδειγμαπαράδειγμαπαράδειγμαπα\uff61com",
-                "valid": true
+                "valid": true,
+                "id": "1e83568876f8bd8d08b65466f93fa01c"
             }
         ]
     }

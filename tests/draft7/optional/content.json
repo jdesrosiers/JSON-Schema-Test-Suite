@@ -8,17 +8,20 @@
             {
                 "description": "a valid JSON document",
                 "data": "{\"foo\": \"bar\"}",
-                "valid": true
+                "valid": true,
+                "id": "cb08a578f83ca2d87024c973ae127ac7"
             },
             {
                 "description": "an invalid JSON document",
                 "data": "{:}",
-                "valid": false
+                "valid": false,
+                "id": "5c7e7b03189d88a985f5c38d98228440"
             },
             {
                 "description": "ignores non-strings",
                 "data": 100,
-                "valid": true
+                "valid": true,
+                "id": "3497807130268f91be05d06facc68970"
             }
         ]
     },
@@ -31,17 +34,20 @@
             {
                 "description": "a valid base64 string",
                 "data": "eyJmb28iOiAiYmFyIn0K",
-                "valid": true
+                "valid": true,
+                "id": "9881b78d9d78c389651953350650fd0b"
             },
             {
                 "description": "an invalid base64 string (% is not a valid character)",
                 "data": "eyJmb28iOi%iYmFyIn0K",
-                "valid": false
+                "valid": false,
+                "id": "62dd5f6f8a1f75a25882939cbe881109"
             },
             {
                 "description": "ignores non-strings",
                 "data": 100,
-                "valid": true
+                "valid": true,
+                "id": "8f468629c8a59ef3a163677a67446f1b"
             }
         ]
     },
@@ -55,22 +61,26 @@
             {
                 "description": "a valid base64-encoded JSON document",
                 "data": "eyJmb28iOiAiYmFyIn0K",
-                "valid": true
+                "valid": true,
+                "id": "d2c8f4f8ba0f39f788f79880ecc541ef"
             },
             {
                 "description": "a validly-encoded invalid JSON document",
                 "data": "ezp9Cg==",
-                "valid": false
+                "valid": false,
+                "id": "d71ffca0f6e3f490b6cc36d6d213a171"
             },
             {
                 "description": "an invalid base64 string that is valid JSON",
                 "data": "{}",
-                "valid": false
+                "valid": false,
+                "id": "b0c5dc3bb28c6c20c6c18cfb93c41f6e"
             },
             {
                 "description": "ignores non-strings",
                 "data": 100,
-                "valid": true
+                "valid": true,
+                "id": "5082310e881b184aa7c01a788d85ac39"
             }
         ]
     }

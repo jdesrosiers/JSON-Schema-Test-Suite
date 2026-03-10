@@ -9,112 +9,134 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "ef62d54d8cfdd8fac8338053c361391b"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "261391f10c1aba1cbddbf617d92ff818"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "2e2c01a424b44da02b2e5dab04a82c2e"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "9d50a43390c2d9bb3089a0d97181373a"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "1e7ada0bb9839ef0b5539dd5041e33eb"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "91f1fb1a2da35c5c3ba131b00cf931a1"
             },
             {
                 "description": "all upper-case",
                 "data": "2EB8AA08-AA98-11EA-B4AA-73B441D16380",
-                "valid": true
+                "valid": true,
+                "id": "3b088f762a63c0039f459a1ca95312cb"
             },
             {
                 "description": "all lower-case",
                 "data": "2eb8aa08-aa98-11ea-b4aa-73b441d16380",
-                "valid": true
+                "valid": true,
+                "id": "8599be55f2047bf5ff745e19c0ae9296"
             },
             {
                 "description": "mixed case",
                 "data": "2eb8aa08-AA98-11ea-B4Aa-73B441D16380",
-                "valid": true
+                "valid": true,
+                "id": "11873b79bd5b9a62ad04ae306d6b2a60"
             },
             {
                 "description": "all zeroes is valid",
                 "data": "00000000-0000-0000-0000-000000000000",
-                "valid": true
+                "valid": true,
+                "id": "34e182b5ae7e0d8891aa50dd211f7a2d"
             },
             {
                 "description": "wrong length",
                 "data": "2eb8aa08-aa98-11ea-b4aa-73b441d1638",
-                "valid": false
+                "valid": false,
+                "id": "9e79f692be20e2fc608d348187bc6aeb"
             },
             {
                 "description": "missing section",
                 "data": "2eb8aa08-aa98-11ea-73b441d16380",
-                "valid": false
+                "valid": false,
+                "id": "da2a9f2f43d7aeb7cbeff4d8de5f3557"
             },
             {
                 "description": "bad characters (not hex)",
                 "data": "2eb8aa08-aa98-11ea-b4ga-73b441d16380",
-                "valid": false
+                "valid": false,
+                "id": "6d674b5d854f1626562a7239b9479aa8"
             },
             {
                 "description": "no dashes",
                 "data": "2eb8aa08aa9811eab4aa73b441d16380",
-                "valid": false
+                "valid": false,
+                "id": "80930bbfc7ad4ffce1d3a4aef27bbd21"
             },
             {
                 "description": "too few dashes",
                 "data": "2eb8aa08aa98-11ea-b4aa73b441d16380",
-                "valid": false
+                "valid": false,
+                "id": "a2bf6ca95ad9bb2d57417af0c327f89d"
             },
             {
                 "description": "too many dashes",
                 "data": "2eb8-aa08-aa98-11ea-b4aa73b44-1d16380",
-                "valid": false
+                "valid": false,
+                "id": "3d9addcebf31c63adf324ef215a8a628"
             },
             {
                 "description": "dashes in the wrong spot",
                 "data": "2eb8aa08aa9811eab4aa73b441d16380----",
-                "valid": false
+                "valid": false,
+                "id": "e404fef3cda51f7d4f0cafec5dc53977"
             },
             {
                 "description": "shifted dashes",
                 "data": "2eb8aa0-8aa98-11e-ab4aa7-3b441d16380",
-                "valid": false
+                "valid": false,
+                "id": "c65dcab179bc6510ed588a9342368b41"
             },
             {
                 "description": "valid version 4",
                 "data": "98d80576-482e-427f-8434-7f86890ab222",
-                "valid": true
+                "valid": true,
+                "id": "8b4655b0d387fad2e946617063fcaf1e"
             },
             {
                 "description": "valid version 5",
                 "data": "99c17cbb-656f-564a-940f-1a4568f03487",
-                "valid": true
+                "valid": true,
+                "id": "ef807c61b8e94227ba470ee4e68dbcab"
             },
             {
                 "description": "hypothetical version 6",
                 "data": "99c17cbb-656f-664a-940f-1a4568f03487",
-                "valid": true
+                "valid": true,
+                "id": "8d37ec0e068660d52a3e421120bc3a3e"
             },
             {
                 "description": "hypothetical version 15",
                 "data": "99c17cbb-656f-f64a-940f-1a4568f03487",
-                "valid": true
+                "valid": true,
+                "id": "6def15c1d95c62509864e476253ac97f"
             }
         ]
     }

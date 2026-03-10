@@ -11,12 +11,14 @@
             {
                 "description": "valid when valid against lone if",
                 "data": 0,
-                "valid": true
+                "valid": true,
+                "id": "a34b0680ba2b2e603b1f2c93833575df"
             },
             {
                 "description": "valid when invalid against lone if",
                 "data": "hello",
-                "valid": true
+                "valid": true,
+                "id": "ecb348e8f7c1005e4573ed16fac3a6c9"
             }
         ]
     },
@@ -32,12 +34,14 @@
             {
                 "description": "valid when valid against lone then",
                 "data": 0,
-                "valid": true
+                "valid": true,
+                "id": "338ca6dd6c9fdb4f25c64dd2f7d60333"
             },
             {
                 "description": "valid when invalid against lone then",
                 "data": "hello",
-                "valid": true
+                "valid": true,
+                "id": "75649a3c850d02c478e07208fbf3b8fc"
             }
         ]
     },
@@ -53,12 +57,14 @@
             {
                 "description": "valid when valid against lone else",
                 "data": 0,
-                "valid": true
+                "valid": true,
+                "id": "6d7579e5a04f99c7044e6128afd0823a"
             },
             {
                 "description": "valid when invalid against lone else",
                 "data": "hello",
-                "valid": true
+                "valid": true,
+                "id": "7b3e81d25acc8a0db6e4844d2c9a7ef1"
             }
         ]
     },
@@ -77,17 +83,20 @@
             {
                 "description": "valid through then",
                 "data": -1,
-                "valid": true
+                "valid": true,
+                "id": "0a55bc09435e36b41b38c110495aa43d"
             },
             {
                 "description": "invalid through then",
                 "data": -100,
-                "valid": false
+                "valid": false,
+                "id": "34e8533cb172d8d95951954c4a75b635"
             },
             {
                 "description": "valid when if test fails",
                 "data": 3,
-                "valid": true
+                "valid": true,
+                "id": "0aeedbb5ea73cd79f0cec2539953e5f7"
             }
         ]
     },
@@ -106,17 +115,20 @@
             {
                 "description": "valid when if test passes",
                 "data": -1,
-                "valid": true
+                "valid": true,
+                "id": "629d563081ed9ca18929f1fefaaff1c4"
             },
             {
                 "description": "valid through else",
                 "data": 4,
-                "valid": true
+                "valid": true,
+                "id": "3ddc2b0b2678657879d194221a90119b"
             },
             {
                 "description": "invalid through else",
                 "data": 3,
-                "valid": false
+                "valid": false,
+                "id": "b61f26b272a8ceb2429bedd5d670ebc9"
             }
         ]
     },
@@ -138,22 +150,26 @@
             {
                 "description": "valid through then",
                 "data": -1,
-                "valid": true
+                "valid": true,
+                "id": "e04fa52ba61ab5402489bc82cec2ea76"
             },
             {
                 "description": "invalid through then",
                 "data": -100,
-                "valid": false
+                "valid": false,
+                "id": "85407577c011ca89a30546a9de44ada6"
             },
             {
                 "description": "valid through else",
                 "data": 4,
-                "valid": true
+                "valid": true,
+                "id": "3bd671bd6f2398764f848fab4cab4a9e"
             },
             {
                 "description": "invalid through else",
                 "data": 3,
-                "valid": false
+                "valid": false,
+                "id": "ef0f635a8d0dfd0463e5cc7be1e13099"
             }
         ]
     },
@@ -183,12 +199,14 @@
             {
                 "description": "valid, but would have been invalid through then",
                 "data": -100,
-                "valid": true
+                "valid": true,
+                "id": "a425be28564dffadf3bb6c810cdf47fe"
             },
             {
                 "description": "valid, but would have been invalid through else",
                 "data": 3,
-                "valid": true
+                "valid": true,
+                "id": "b84901b855d0afb76dfa304a4c5c591f"
             }
         ]
     },
@@ -204,12 +222,14 @@
             {
                 "description": "boolean schema true in if always chooses the then path (valid)",
                 "data": "then",
-                "valid": true
+                "valid": true,
+                "id": "9b0311182dac92b3fb910ee688bfc360"
             },
             {
                 "description": "boolean schema true in if always chooses the then path (invalid)",
                 "data": "else",
-                "valid": false
+                "valid": false,
+                "id": "9144a617d2a21d3cd2902232d7749a3d"
             }
         ]
     },
@@ -225,12 +245,14 @@
             {
                 "description": "boolean schema false in if always chooses the else path (invalid)",
                 "data": "then",
-                "valid": false
+                "valid": false,
+                "id": "d6e2f32c98f1eda02d31109caf3d6698"
             },
             {
                 "description": "boolean schema false in if always chooses the else path (valid)",
                 "data": "else",
-                "valid": true
+                "valid": true,
+                "id": "d733059c1416b4c14e7b9642ea7e344b"
             }
         ]
     },
@@ -246,22 +268,26 @@
             {
                 "description": "yes redirects to then and passes",
                 "data": "yes",
-                "valid": true
+                "valid": true,
+                "id": "13a2edecaad78c6c08a85d3ee4b73393"
             },
             {
                 "description": "other redirects to else and passes",
                 "data": "other",
-                "valid": true
+                "valid": true,
+                "id": "00dcf052c5cc844e149bac052dba5057"
             },
             {
                 "description": "no redirects to then and fails",
                 "data": "no",
-                "valid": false
+                "valid": false,
+                "id": "0bd47d8781bbee8dcae7989df85a0426"
             },
             {
                 "description": "invalid redirects to else and fails",
                 "data": "invalid",
-                "valid": false
+                "valid": false,
+                "id": "83dac340ff922d721d511131ef1e10cc"
             }
         ]
     }

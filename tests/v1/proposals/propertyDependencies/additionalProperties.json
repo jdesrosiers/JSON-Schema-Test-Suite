@@ -20,17 +20,20 @@
             {
                 "description": "additionalProperties doesn't consider propertyDependencies properties" , 
                 "data": {"foo": ""},
-                "valid": false
+                "valid": false,
+                "id": "a906e6a88202f81c97b926bedebe3134"
             },
             {
                 "description": "additionalProperties can't see buz even when foo2 is present",
                 "data": {"foo2": "bar", "buz": ""},
-                "valid": false
+                "valid": false,
+                "id": "ab52673f0311d116f6e4db5944a90a9c"
             },
             {
                 "description": "additionalProperties can't see buz",
                 "data": {"buz": ""},
-                "valid": false
+                "valid": false,
+                "id": "485c40c63eced811475f0610308a625d"
             }
         ]
     }

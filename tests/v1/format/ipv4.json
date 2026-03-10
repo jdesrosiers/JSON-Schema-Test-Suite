@@ -10,167 +10,200 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "dfdd6d7e24ec3ba5615189d67c4ed5c4"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "2fc60a29df13ffc875a5e00441872045"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "88169be43099868d2b8231eff3e5c325"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "94b4300b867ef9359e94f48643e3dea2"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "62649c56e98ef884066318052bfc2456"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "75421dab6d634e0c9be301be718a0ca6"
             },
             {
                 "description": "a valid IP address",
                 "data": "192.168.0.1",
-                "valid": true
+                "valid": true,
+                "id": "78065960d3165b34bd1708b04fa0fe68"
             },
             {
                 "description": "an IP address with too many components",
                 "data": "127.0.0.0.1",
-                "valid": false
+                "valid": false,
+                "id": "a7cda99b25c9325524091c0d35c6cfda"
             },
             {
                 "description": "an IP address with out-of-range values",
                 "data": "256.256.256.256",
-                "valid": false
+                "valid": false,
+                "id": "dd3fbad772a354641555e060c580ccf5"
             },
             {
                 "description": "an IP address without 4 components",
                 "data": "127.0",
-                "valid": false
+                "valid": false,
+                "id": "febc0c3b795475452672a86a3272f854"
             },
             {
                 "description": "an IP address as an integer",
                 "data": "0x7f000001",
-                "valid": false
+                "valid": false,
+                "id": "973c92652dd2c90ccffd24ac027a3a64"
             },
             {
                 "description": "an IP address as an integer (decimal)",
                 "data": "2130706433",
-                "valid": false
+                "valid": false,
+                "id": "2bb7e8acd9a4e7e1b39b73964e968364"
             },
             {
                 "description": "invalid non-ASCII '২' (a Bengali 2)",
                 "data": "1২7.0.0.1",
-                "valid": false
+                "valid": false,
+                "id": "97829ddc66589c2d8b4d0cb9c2b52057"
             },
             {
                 "description": "netmask is not a part of ipv4 address",
                 "data": "192.168.1.0/24",
-                "valid": false
+                "valid": false,
+                "id": "31310d8af2a272c50c96d499db3b5e14"
             },
             {
                 "description": "leading whitespace is invalid",
                 "data": " 192.168.0.1",
-                "valid": false
+                "valid": false,
+                "id": "a0549c6560c765f4ddc346747d3bd537"
             },
             {
                 "description": "trailing whitespace is invalid",
                 "data": "192.168.0.1 ",
-                "valid": false
+                "valid": false,
+                "id": "54c893381fe4f21c5bd14dc344ba8b77"
             },
             {
                 "description": "trailing newline is invalid",
                 "data": "192.168.0.1\n",
-                "valid": false
+                "valid": false,
+                "id": "13f1532bf04cd99baa5046517eef4e0f"
             },
             {
                 "description": "hexadecimal notation is invalid",
                 "data": "0x7f.0.0.1",
-                "valid": false
+                "valid": false,
+                "id": "282fa96792aea30f8d1f4decb248e893"
             },
             {
                 "description": "octal notation explicit is invalid",
                 "data": "0o10.0.0.1",
-                "valid": false
+                "valid": false,
+                "id": "e3d126a2725093ccad2426c56ca6769d"
             },
             {
                 "description": "empty part (double dot) is invalid",
                 "data": "192.168..1",
-                "valid": false
+                "valid": false,
+                "id": "cf572d24ffb7d545fcdc0e8f82297a11"
             },
             {
                 "description": "leading dot is invalid",
                 "data": ".192.168.0.1",
-                "valid": false
+                "valid": false,
+                "id": "b81c4411b01066a9d359a2714e309b8e"
             },
             {
                 "description": "trailing dot is invalid",
                 "data": "192.168.0.1.",
-                "valid": false
+                "valid": false,
+                "id": "18bd77d4148a240e6d6154051edf17a2"
             },
             {
                 "description": "minimum valid IPv4 address",
                 "data": "0.0.0.0",
-                "valid": true
+                "valid": true,
+                "id": "c3e282b6bb2e90a832b5ad933d110670"
             },
             {
                 "description": "maximum valid IPv4 address",
                 "data": "255.255.255.255",
-                "valid": true
+                "valid": true,
+                "id": "3cbef64bcd7073c855ff71e231ec6678"
             },
             {
                 "description": "empty string is invalid",
                 "data": "",
-                "valid": false
+                "valid": false,
+                "id": "2b782894c7e7ccc627549e8fddac703c"
             },
             {
                 "description": "plus sign is invalid",
                 "data": "+1.2.3.4",
-                "valid": false
+                "valid": false,
+                "id": "b314d9c229b06d94f5b13cdd25d65d50"
             },
             {
                 "description": "negative sign is invalid",
                 "data": "-1.2.3.4",
-                "valid": false
+                "valid": false,
+                "id": "67a6c9d35a391c3bb38f5950ade4d9cd"
             },
             {
                 "description": "exponential notation is invalid",
                 "data": "1e2.0.0.1",
-                "valid": false
+                "valid": false,
+                "id": "ff034321608a06887f9f48cc0fab37d9"
             },
             {
                 "description": "alpha characters are invalid",
                 "data": "192.168.a.1",
-                "valid": false
+                "valid": false,
+                "id": "5ecc8637a36f67554bd2cf6caf710c64"
             },
             {
                 "description": "internal whitespace is invalid",
                 "data": "192. 168.0.1",
-                "valid": false
+                "valid": false,
+                "id": "871ca0e073bebb5acd62d40dca4c265f"
             },
             {
                 "description": "tab character is invalid",
                 "data": "192.168.0.1\t",
-                "valid": false
+                "valid": false,
+                "id": "b115375233d57857465a0ecd0e02863a"
             },
             {
                 "description": "with port number is invalid",
                 "data": "192.168.0.1:80",
-                "valid": false
+                "valid": false,
+                "id": "31858b572a9d9ce05bf9bc409ae88820"
             },
             {
                 "description": "single octet out of range in last position",
                 "data": "192.168.0.256",
-                "valid": false
+                "valid": false,
+                "id": "9d8fd86da16fdfecccb178e4ea20cbee"
             }
         ]
     }

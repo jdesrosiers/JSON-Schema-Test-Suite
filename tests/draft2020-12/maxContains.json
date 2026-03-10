@@ -9,12 +9,14 @@
             {
                 "description": "one item valid against lone maxContains",
                 "data": [ 1 ],
-                "valid": true
+                "valid": true,
+                "id": "d3f0e734f81ae8ed8c7bfa96680cc26e"
             },
             {
                 "description": "two items still valid against lone maxContains",
                 "data": [ 1, 2 ],
-                "valid": true
+                "valid": true,
+                "id": "b41fe7cd3a8a1a378c0523399b616951"
             }
         ]
     },
@@ -29,27 +31,32 @@
             {
                 "description": "empty data",
                 "data": [ ],
-                "valid": false
+                "valid": false,
+                "id": "c9da98440189838726bb29e17985d597"
             },
             {
                 "description": "all elements match, valid maxContains",
                 "data": [ 1 ],
-                "valid": true
+                "valid": true,
+                "id": "3f181a54721fbf87a19f9631c4f26760"
             },
             {
                 "description": "all elements match, invalid maxContains",
                 "data": [ 1, 1 ],
-                "valid": false
+                "valid": false,
+                "id": "9a82d7526ee77290bb7ec16de341e153"
             },
             {
                 "description": "some elements match, valid maxContains",
                 "data": [ 1, 2 ],
-                "valid": true
+                "valid": true,
+                "id": "4d27eeb9d44f00c1cf2ecefa8f814603"
             },
             {
                 "description": "some elements match, invalid maxContains",
                 "data": [ 1, 2, 1 ],
-                "valid": false
+                "valid": false,
+                "id": "301118bbe4127f591b558fa3c3b20c8a"
             }
         ]
     },
@@ -64,12 +71,14 @@
             {
                 "description": "one element matches, valid maxContains",
                 "data": [ 1 ],
-                "valid": true
+                "valid": true,
+                "id": "3f181a54721fbf87a19f9631c4f26760"
             },
             {
                 "description": "too many elements match, invalid maxContains",
                 "data": [ 1, 1 ],
-                "valid": false
+                "valid": false,
+                "id": "9a82d7526ee77290bb7ec16de341e153"
             }
         ]
     },
@@ -85,17 +94,20 @@
             {
                 "description": "actual < minContains < maxContains",
                 "data": [ ],
-                "valid": false
+                "valid": false,
+                "id": "fe35ce998839acd06ff033e1a3e0ee8a"
             },
             {
                 "description": "minContains < actual < maxContains",
                 "data": [ 1, 1 ],
-                "valid": true
+                "valid": true,
+                "id": "5ec85e150b56dc17d5530d9e8c0b1b05"
             },
             {
                 "description": "minContains < maxContains < actual",
                 "data": [ 1, 1, 1, 1 ],
-                "valid": false
+                "valid": false,
+                "id": "cd7b5a74eec7f32178ba5c3e01d4b207"
             }
         ]
     }

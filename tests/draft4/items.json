@@ -8,17 +8,20 @@
             {
                 "description": "valid items",
                 "data": [ 1, 2, 3 ],
-                "valid": true
+                "valid": true,
+                "id": "9b996c0fa176f7347a8b5d29ec106943"
             },
             {
                 "description": "wrong type of items",
                 "data": [1, "x"],
-                "valid": false
+                "valid": false,
+                "id": "a3b3bcb3f2c48e93ca7955dfed714972"
             },
             {
                 "description": "ignores non-arrays",
                 "data": {"foo" : "bar"},
-                "valid": true
+                "valid": true,
+                "id": "71ef689dad00ffc16bb6a92a98516346"
             },
             {
                 "description": "JavaScript pseudo-array is valid",
@@ -26,7 +29,8 @@
                     "0": "invalid",
                     "length": 1
                 },
-                "valid": true
+                "valid": true,
+                "id": "aca780b4e44d80f5f447a1a6eb5772d4"
             }
         ]
     },
@@ -42,27 +46,32 @@
             {
                 "description": "correct types",
                 "data": [ 1, "foo" ],
-                "valid": true
+                "valid": true,
+                "id": "f6a89b1a58fa21fc84aa10b2bcf80095"
             },
             {
                 "description": "wrong types",
                 "data": [ "foo", 1 ],
-                "valid": false
+                "valid": false,
+                "id": "f2217f7ebec645bce337428909839247"
             },
             {
                 "description": "incomplete array of items",
                 "data": [ 1 ],
-                "valid": true
+                "valid": true,
+                "id": "87f31bcb4a1e819ccc94cd36feb90132"
             },
             {
                 "description": "array with additional items",
                 "data": [ 1, "foo", true ],
-                "valid": true
+                "valid": true,
+                "id": "bf55fe83188b22d5c1130b2e8f3a0a88"
             },
             {
                 "description": "empty array",
                 "data": [ ],
-                "valid": true
+                "valid": true,
+                "id": "be8e2f6feb19a25621f2cf7f66793765"
             },
             {
                 "description": "JavaScript pseudo-array is valid",
@@ -71,7 +80,8 @@
                     "1": "valid",
                     "length": 2
                 },
-                "valid": true
+                "valid": true,
+                "id": "8e075057a220d8d235bc7f7053624544"
             }
         ]
     },
@@ -108,7 +118,8 @@
                     [ {"foo": null}, {"foo": null} ],
                     [ {"foo": null}, {"foo": null} ]
                 ],
-                "valid": true
+                "valid": true,
+                "id": "e5ab21eaf00ce60d037a4468f0134512"
             },
             {
                 "description": "too many items",
@@ -118,7 +129,8 @@
                     [ {"foo": null}, {"foo": null} ],
                     [ {"foo": null}, {"foo": null} ]
                 ],
-                "valid": false
+                "valid": false,
+                "id": "8e1c47a0d456c21e5393285811adc987"
             },
             {
                 "description": "too many sub-items",
@@ -127,7 +139,8 @@
                     [ {"foo": null}, {"foo": null} ],
                     [ {"foo": null}, {"foo": null} ]
                 ],
-                "valid": false
+                "valid": false,
+                "id": "16f3fa96444cbbe1cf8591f1c6b29c0c"
             },
             {
                 "description": "wrong item",
@@ -136,7 +149,8 @@
                     [ {"foo": null}, {"foo": null} ],
                     [ {"foo": null}, {"foo": null} ]
                 ],
-                "valid": false
+                "valid": false,
+                "id": "edee315100169bd5644318685b56a486"
             },
             {
                 "description": "wrong sub-item",
@@ -145,7 +159,8 @@
                     [ {"foo": null}, {"foo": null} ],
                     [ {"foo": null}, {"foo": null} ]
                 ],
-                "valid": false
+                "valid": false,
+                "id": "5a937e4730f4e0fd3d23fc6e440f9742"
             },
             {
                 "description": "fewer items is valid",
@@ -153,7 +168,8 @@
                     [ {"foo": null} ],
                     [ {"foo": null} ]
                 ],
-                "valid": true
+                "valid": true,
+                "id": "e89e11892bf58c386b450f48568ca7ab"
             }
         ]
     },
@@ -178,17 +194,20 @@
             {
                 "description": "valid nested array",
                 "data": [[[[1]], [[2],[3]]], [[[4], [5], [6]]]],
-                "valid": true
+                "valid": true,
+                "id": "eb61fa50a763c7cf2b7b5193177dca4c"
             },
             {
                 "description": "nested array with invalid type",
                 "data": [[[["1"]], [[2],[3]]], [[[4], [5], [6]]]],
-                "valid": false
+                "valid": false,
+                "id": "5a02e6440b2e907d71c4847a793a7eb8"
             },
             {
                 "description": "not deep enough",
                 "data": [[[1], [2],[3]], [[4], [5], [6]]],
-                "valid": false
+                "valid": false,
+                "id": "52d71edac2f2dc8c1badee77605aaf92"
             }
         ]
     },
@@ -203,7 +222,8 @@
             {
                 "description": "allows null elements",
                 "data": [ null ],
-                "valid": true
+                "valid": true,
+                "id": "2ea257f9daca0b647d1ddcb1eb9e66d8"
             }
         ]
     },
@@ -220,7 +240,8 @@
             {
                 "description": "allows null elements",
                 "data": [ null ],
-                "valid": true
+                "valid": true,
+                "id": "0690333ed1dd8a5045d7f346da528c35"
             }
         ]
     }

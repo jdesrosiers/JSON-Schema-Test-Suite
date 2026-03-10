@@ -12,12 +12,14 @@
             {
                 "description": "match",
                 "data": {"bar": 3},
-                "valid": true
+                "valid": true,
+                "id": "f321ab7ac161d297748120094e00d098"
             },
             {
                 "description": "mismatch",
                 "data": {"bar": true},
-                "valid": false
+                "valid": false,
+                "id": "e7ba5ec28b1b2d8d675d76c2765a703d"
             }
         ]
     },
@@ -34,12 +36,14 @@
             {
                 "description": "match",
                 "data": {"bar": 3},
-                "valid": true
+                "valid": true,
+                "id": "55704944577a775fcf6b82ac4a088a51"
             },
             {
                 "description": "mismatch",
                 "data": {"bar": true},
-                "valid": false
+                "valid": false,
+                "id": "3f7c17df9b9448771e73abfe7a730c8a"
             }
         ]
     },
@@ -56,12 +60,14 @@
             {
                 "description": "match",
                 "data": {"bar": 3},
-                "valid": true
+                "valid": true,
+                "id": "72faa7a7cf6e3b30a6c4acc53f78611f"
             },
             {
                 "description": "mismatch",
                 "data": {"bar": true},
-                "valid": false
+                "valid": false,
+                "id": "62bfd8fca405093ec7c70a955602570a"
             }
         ]
     },
@@ -79,12 +85,14 @@
             {
                 "description": "match",
                 "data": "a string",
-                "valid": true
+                "valid": true,
+                "id": "6d29bb35d36c0f4bcb8c6dd42bc378cb"
             },
             {
                 "description": "mismatch",
                 "data": 42,
-                "valid": false
+                "valid": false,
+                "id": "56aa7b7440c6e3493f80944e5e279c7a"
             }
         ]
     },
@@ -101,12 +109,14 @@
             {
                 "description": "match",
                 "data": {"bar": 3},
-                "valid": true
+                "valid": true,
+                "id": "7687080afe88f12a84ef4bcd72d77c37"
             },
             {
                 "description": "mismatch",
                 "data": {"bar": true},
-                "valid": false
+                "valid": false,
+                "id": "6ea93a09b45e32b7879ec380a693921f"
             }
         ]
     }

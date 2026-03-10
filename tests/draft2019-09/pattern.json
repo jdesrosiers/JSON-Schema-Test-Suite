@@ -9,42 +9,50 @@
             {
                 "description": "a matching pattern is valid",
                 "data": "aaa",
-                "valid": true
+                "valid": true,
+                "id": "acba69186a709259fad417d4b1e19f10"
             },
             {
                 "description": "a non-matching pattern is invalid",
                 "data": "abc",
-                "valid": false
+                "valid": false,
+                "id": "9a9fba9898e98f12e40679955429bbd8"
             },
             {
                 "description": "ignores booleans",
                 "data": true,
-                "valid": true
+                "valid": true,
+                "id": "7bca54974d8cb2c3f221db4b23a047cc"
             },
             {
                 "description": "ignores integers",
                 "data": 123,
-                "valid": true
+                "valid": true,
+                "id": "f7808d5b8c8b472740ed78fe5add7b05"
             },
             {
                 "description": "ignores floats",
                 "data": 1.0,
-                "valid": true
+                "valid": true,
+                "id": "8463c263510d85ad090d45ea0a1bdc73"
             },
             {
                 "description": "ignores objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "66ea189d28ec2d5bd2290e66f6d77a9d"
             },
             {
                 "description": "ignores arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "4fd2271456a771a2e34a851eeb966532"
             },
             {
                 "description": "ignores null",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "fadda4f1fde90633af2fb819b4785d16"
             }
         ]
     },
@@ -58,7 +66,8 @@
             {
                 "description": "matches a substring",
                 "data": "xxaayy",
-                "valid": true
+                "valid": true,
+                "id": "b06a345baaf2c53bca5153af09b9bc14"
             }
         ]
     }

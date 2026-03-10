@@ -11,37 +11,44 @@
             {
                 "description": "a single valid match is valid",
                 "data": {"foo": 1},
-                "valid": true
+                "valid": true,
+                "id": "f59448619f04e344aaeb23f8a121027c"
             },
             {
                 "description": "multiple valid matches is valid",
                 "data": {"foo": 1, "foooooo" : 2},
-                "valid": true
+                "valid": true,
+                "id": "52e0b4f08a09a2a9bc799ac168ae86e2"
             },
             {
                 "description": "a single invalid match is invalid",
                 "data": {"foo": "bar", "fooooo": 2},
-                "valid": false
+                "valid": false,
+                "id": "599fac2cb8971d407d31ef9d76844a00"
             },
             {
                 "description": "multiple invalid matches is invalid",
                 "data": {"foo": "bar", "foooooo" : "baz"},
-                "valid": false
+                "valid": false,
+                "id": "241fcc7607b721dbe4b5f07b3ce586f9"
             },
             {
                 "description": "ignores arrays",
                 "data": ["foo"],
-                "valid": true
+                "valid": true,
+                "id": "e244ff21697dd79a55b888cfb0b477e1"
             },
             {
                 "description": "ignores strings",
                 "data": "foo",
-                "valid": true
+                "valid": true,
+                "id": "84a20c4824283dd9985d7eed0855f1e6"
             },
             {
                 "description": "ignores other non-objects",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "ba6d7f95a9eb81f5f458e71837251291"
             }
         ]
     },
@@ -57,32 +64,38 @@
             {
                 "description": "a single valid match is valid",
                 "data": {"a": 21},
-                "valid": true
+                "valid": true,
+                "id": "a8137db423a91664a5ce14842dd6a6e8"
             },
             {
                 "description": "a simultaneous match is valid",
                 "data": {"aaaa": 18},
-                "valid": true
+                "valid": true,
+                "id": "9f2781173535a73ea3c584b915c3f13c"
             },
             {
                 "description": "multiple matches is valid",
                 "data": {"a": 21, "aaaa": 18},
-                "valid": true
+                "valid": true,
+                "id": "0825a7adee46a02397917b4f093b6ab1"
             },
             {
                 "description": "an invalid due to one is invalid",
                 "data": {"a": "bar"},
-                "valid": false
+                "valid": false,
+                "id": "fa0465844f0f705b9f11cdcfc62768fc"
             },
             {
                 "description": "an invalid due to the other is invalid",
                 "data": {"aaaa": 31},
-                "valid": false
+                "valid": false,
+                "id": "7b397861cf76c17e01b244e54b9fbc7a"
             },
             {
                 "description": "an invalid due to both is invalid",
                 "data": {"aaa": "foo", "aaaa": 31},
-                "valid": false
+                "valid": false,
+                "id": "2161af41f7d60485c7c919e9ba9a1859"
             }
         ]
     },
@@ -98,22 +111,26 @@
             {
                 "description": "non recognized members are ignored",
                 "data": { "answer 1": "42" },
-                "valid": true
+                "valid": true,
+                "id": "f0bee91dd023c6b2550b596369f136ce"
             },
             {
                 "description": "recognized members are accounted for",
                 "data": { "a31b": null },
-                "valid": false
+                "valid": false,
+                "id": "dd9e0583640b5e0c79f579703a661466"
             },
             {
                 "description": "regexes are case sensitive",
                 "data": { "a_x_3": 3 },
-                "valid": true
+                "valid": true,
+                "id": "211711a0cacf1881e37669dece82f710"
             },
             {
                 "description": "regexes are case sensitive, 2",
                 "data": { "a_X_3": 3 },
-                "valid": false
+                "valid": false,
+                "id": "11be0377dd93ecd0290db59094f79ede"
             }
         ]
     },
@@ -129,27 +146,32 @@
             {
                 "description": "object with property matching schema true is valid",
                 "data": {"foo": 1},
-                "valid": true
+                "valid": true,
+                "id": "33552eb7382fcd4e413692686ec88432"
             },
             {
                 "description": "object with property matching schema false is invalid",
                 "data": {"bar": 2},
-                "valid": false
+                "valid": false,
+                "id": "7984a45e7b92811816d4d25b8b17cec2"
             },
             {
                 "description": "object with both properties is invalid",
                 "data": {"foo": 1, "bar": 2},
-                "valid": false
+                "valid": false,
+                "id": "8abee0a9cb807ed4479abd8ea13a9fd3"
             },
             {
                 "description": "object with a property matching both true and false is invalid",
                 "data": {"foobar":1},
-                "valid": false
+                "valid": false,
+                "id": "14dace36440115c55623908ef7df6f62"
             },
             {
                 "description": "empty object is valid",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "4136a2448c351082432cb5da4dbfa583"
             }
         ]
     },
@@ -164,7 +186,8 @@
             {
                 "description": "allows null values",
                 "data": {"foobar": null},
-                "valid": true
+                "valid": true,
+                "id": "07f2d1c4c3bde1e92893aea568dc3a57"
             }
         ]
     }

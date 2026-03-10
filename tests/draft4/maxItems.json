@@ -6,22 +6,26 @@
             {
                 "description": "shorter is valid",
                 "data": [1],
-                "valid": true
+                "valid": true,
+                "id": "d59b35a0076bac4d40cb1a3025d6c7ad"
             },
             {
                 "description": "exact length is valid",
                 "data": [1, 2],
-                "valid": true
+                "valid": true,
+                "id": "f1b0b8be02b2e5af546b895cb6368e30"
             },
             {
                 "description": "too long is invalid",
                 "data": [1, 2, 3],
-                "valid": false
+                "valid": false,
+                "id": "db7f99042fe409bd338b1b665f0316a5"
             },
             {
                 "description": "ignores non-arrays",
                 "data": "foobar",
-                "valid": true
+                "valid": true,
+                "id": "44254f39bb782f2083a5a26f9094f8d6"
             }
         ]
     }

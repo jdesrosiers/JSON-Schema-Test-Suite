@@ -25,12 +25,14 @@
             {
                 "description": "passing case",
                 "data": { "foo": 1 },
-                "valid": true
+                "valid": true,
+                "id": "b7d64de69f98d988544d072a2d94c619"
             },
             {
                 "description": "failing case",
                 "data": { "foo": "a string" },
-                "valid": false
+                "valid": false,
+                "id": "fe7a75280d1ca0202748eed498b00865"
             }
         ]
     }

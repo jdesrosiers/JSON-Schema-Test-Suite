@@ -9,122 +9,146 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "ff9675b1de22aec12b414f8785a98df7"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "5eea712de779d8278559f08b5dd4cb95"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "d123c2297cae79d9179544cab7b1268f"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "ec895e976b75d7226705734482dec96e"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "5ab319c395b5aba0b4a40f64790be0af"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "ec0001e8920c807fd7c2da1908d2fb68"
             },
             {
                 "description": "a valid e-mail address",
                 "data": "joe.bloggs@example.com",
-                "valid": true
+                "valid": true,
+                "id": "8aa54efc67e1c86e25ce3234ea9aae5f"
             },
             {
                 "description": "an invalid e-mail address",
                 "data": "2962",
-                "valid": false
+                "valid": false,
+                "id": "296c1e28e2263004820e4dacac503bd8"
             },
             {
                 "description": "tilde in local part is valid",
                 "data": "te~st@example.com",
-                "valid": true
+                "valid": true,
+                "id": "d0bceae8b56bf4167c2a854c6e0804aa"
             },
             {
                 "description": "tilde before local part is valid",
                 "data": "~test@example.com",
-                "valid": true
+                "valid": true,
+                "id": "0a5c22e1ac2bbea5206ef0b4d2bc1571"
             },
             {
                 "description": "tilde after local part is valid",
                 "data": "test~@example.com",
-                "valid": true
+                "valid": true,
+                "id": "d352e53d9fa5f07cf0d7c9df539287e5"
             },
             {
                 "description": "a quoted string with a space in the local part is valid",
                 "data": "\"joe bloggs\"@example.com",
-                "valid": true
+                "valid": true,
+                "id": "f2783f9c9a85f76ff85f1d38104e01aa"
             },
             {
                 "description": "a quoted string with a double dot in the local part is valid",
                 "data": "\"joe..bloggs\"@example.com",
-                "valid": true
+                "valid": true,
+                "id": "24bcd3e0245463e1beb507f554fd8ff6"
             },
             {
                 "description": "a quoted string with a @ in the local part is valid",
                 "data": "\"joe@bloggs\"@example.com",
-                "valid": true
+                "valid": true,
+                "id": "4dbba2dcfadc8e2fc0c9535cea6845e3"
             },
             {
                 "description": "an IPv4-address-literal after the @ is valid",
                 "data": "joe.bloggs@[127.0.0.1]",
-                "valid": true
+                "valid": true,
+                "id": "75e9154b9a4a8cd3d7aab57c59b8cdc5"
             },
             {
                 "description": "an IPv6-address-literal after the @ is valid",
                 "data": "joe.bloggs@[IPv6:::1]",
-                "valid": true
+                "valid": true,
+                "id": "8da8a6dbbfe563044d688354330e70b6"
             },
             {
                 "description": "dot before local part is not valid",
                 "data": ".test@example.com",
-                "valid": false
+                "valid": false,
+                "id": "83451215254ee04c3b6a644a6d1ae059"
             },
             {
                 "description": "dot after local part is not valid",
                 "data": "test.@example.com",
-                "valid": false
+                "valid": false,
+                "id": "2fb6965551f24d9e0cc437b42219aa22"
             },
             {
                 "description": "two separated dots inside local part are valid",
                 "data": "te.s.t@example.com",
-                "valid": true
+                "valid": true,
+                "id": "39610256c826afe9545e5090d3ed18cd"
             },
             {
                 "description": "two subsequent dots inside local part are not valid",
                 "data": "te..st@example.com",
-                "valid": false
+                "valid": false,
+                "id": "5f7a5caeea1c82ec3e41c2f20b53eb1e"
             },
             {
                 "description": "an invalid domain",
                 "data": "joe.bloggs@invalid=domain.com",
-                "valid": false
+                "valid": false,
+                "id": "b322be5b6a7a6e6bba7676a79832672f"
             },
             {
                 "description": "an invalid IPv4-address-literal",
                 "data": "joe.bloggs@[127.0.0.300]",
-                "valid": false
+                "valid": false,
+                "id": "fd5de9d6f8d7a89b5ae20b344e52b6f2"
             },
             {
                 "description": "two email addresses is not valid",
                 "data": "user1@oceania.org, user2@oceania.org",
-                "valid": false
+                "valid": false,
+                "id": "3965d08c844504dcd2de67975ae1bedb"
             },
             {
                 "description": "full \"From\" header is invalid",
                 "data": "\"Winston Smith\" <winston.smith@recdep.minitrue> (Records Department)",
-                "valid": false
+                "valid": false,
+                "id": "b6570eb0cbcc74295e7307633da2ae68"
             }
         ]
     }

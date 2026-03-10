@@ -9,12 +9,14 @@
             {
                 "description": "with no unevaluated items",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "dfa457115541cabe06e6878d0bdf76f2"
             },
             {
                 "description": "with unevaluated items",
                 "data": ["foo"],
-                "valid": true
+                "valid": true,
+                "id": "2dd51bcce055c4a1245de0cd30affb8e"
             }
         ]
     },
@@ -28,12 +30,14 @@
             {
                 "description": "with no unevaluated items",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "fcd1afe361097246bbc3e1e8650707c8"
             },
             {
                 "description": "with unevaluated items",
                 "data": ["foo"],
-                "valid": false
+                "valid": false,
+                "id": "619eef9202dae5b4cbe6fb37ba7018db"
             }
         ]
     },
@@ -47,17 +51,20 @@
             {
                 "description": "with no unevaluated items",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "44040dbc9435e11e5bb1ed45c054e284"
             },
             {
                 "description": "with valid unevaluated items",
                 "data": ["foo"],
-                "valid": true
+                "valid": true,
+                "id": "59a698afa741419c4c9d2cc71caf18dc"
             },
             {
                 "description": "with invalid unevaluated items",
                 "data": [42],
-                "valid": false
+                "valid": false,
+                "id": "a359d76fc9acbc1b8c67e3777a3ebfbf"
             }
         ]
     },
@@ -72,7 +79,8 @@
             {
                 "description": "unevaluatedItems doesn't apply",
                 "data": ["foo", "bar"],
-                "valid": true
+                "valid": true,
+                "id": "7aace592454d1fbe5b93b94b988deb99"
             }
         ]
     },
@@ -89,12 +97,14 @@
             {
                 "description": "with no unevaluated items",
                 "data": ["foo"],
-                "valid": true
+                "valid": true,
+                "id": "e7c4aae4416ee646b6afd3b348e29061"
             },
             {
                 "description": "with unevaluated items",
                 "data": ["foo", "bar"],
-                "valid": false
+                "valid": false,
+                "id": "cebe40d46ebf527ee1e1f5db86966aff"
             }
         ]
     },
@@ -112,7 +122,8 @@
             {
                 "description": "unevaluatedItems doesn't apply",
                 "data": ["foo", 42],
-                "valid": true
+                "valid": true,
+                "id": "bfdfebad477d831f3a496191d7a1caea"
             }
         ]
     },
@@ -128,12 +139,14 @@
                 "description": "valid under items",
                 "comment": "no elements are considered by unevaluatedItems",
                 "data": [5, 6, 7, 8],
-                "valid": true
+                "valid": true,
+                "id": "d12f6897ec50b6bf26e6d3dec0245337"
             },
             {
                 "description": "invalid under items",
                 "data": ["foo", "bar", "baz"],
-                "valid": false
+                "valid": false,
+                "id": "9f3a26f0ebdb0d58aa4fda7adf93455f"
             }
         ]
     },
@@ -158,12 +171,14 @@
             {
                 "description": "with no unevaluated items",
                 "data": ["foo", 42],
-                "valid": true
+                "valid": true,
+                "id": "88dfda77a8aebcf4bd3ff6bf31fa2e37"
             },
             {
                 "description": "with unevaluated items",
                 "data": ["foo", 42, true],
-                "valid": false
+                "valid": false,
+                "id": "4fb83bf78b9ee0334b7b7fd4066b1a18"
             }
         ]
     },
@@ -181,17 +196,20 @@
             {
                 "description": "with only (valid) additional items",
                 "data": [true, false],
-                "valid": true
+                "valid": true,
+                "id": "2c2ea9badf6807c629866b17901fdc1e"
             },
             {
                 "description": "with no additional items",
                 "data": ["yes", "no"],
-                "valid": true
+                "valid": true,
+                "id": "537f777edc3989c41076e233c8245521"
             },
             {
                 "description": "with invalid additional item",
                 "data": ["yes", false],
-                "valid": false
+                "valid": false,
+                "id": "7bff4affd7e28c830fa99a28fb76f542"
             }
         ]
     },
@@ -213,12 +231,14 @@
             {
                 "description": "with no additional items",
                 "data": ["foo"],
-                "valid": true
+                "valid": true,
+                "id": "2a6344894a6f1d77eb1db3c4a38a82f6"
             },
             {
                 "description": "with additional items",
                 "data": ["foo", 42, true],
-                "valid": true
+                "valid": true,
+                "id": "e3ef62db913fd004cc750df3995f3280"
             }
         ]
     },
@@ -240,12 +260,14 @@
             {
                 "description": "with no additional items",
                 "data": ["foo"],
-                "valid": true
+                "valid": true,
+                "id": "b5d473ab7702f3eb9e0df68a02551d42"
             },
             {
                 "description": "with additional items",
                 "data": ["foo", 42, true],
-                "valid": true
+                "valid": true,
+                "id": "f4637ddc7dd4b21a533faf7b29d08cbf"
             }
         ]
     },
@@ -277,22 +299,26 @@
             {
                 "description": "when one schema matches and has no unevaluated items",
                 "data": ["foo", "bar"],
-                "valid": true
+                "valid": true,
+                "id": "c3164979b788e80b5348269722882f2f"
             },
             {
                 "description": "when one schema matches and has unevaluated items",
                 "data": ["foo", "bar", 42],
-                "valid": false
+                "valid": false,
+                "id": "8b8f745cfb401439e775e6db8d68f603"
             },
             {
                 "description": "when two schemas match and has no unevaluated items",
                 "data": ["foo", "bar", "baz"],
-                "valid": true
+                "valid": true,
+                "id": "e6e85d05d40ea25d9095e67c438a6004"
             },
             {
                 "description": "when two schemas match and has unevaluated items",
                 "data": ["foo", "bar", "baz", 42],
-                "valid": false
+                "valid": false,
+                "id": "3568a82799a150300e2887c99f48f606"
             }
         ]
     },
@@ -323,12 +349,14 @@
             {
                 "description": "with no unevaluated items",
                 "data": ["foo", "bar"],
-                "valid": true
+                "valid": true,
+                "id": "c682d181891aed20f345413f28f7b77c"
             },
             {
                 "description": "with unevaluated items",
                 "data": ["foo", "bar", 42],
-                "valid": false
+                "valid": false,
+                "id": "bf4870e68f72a66c515aeefe3ee4df20"
             }
         ]
     },
@@ -353,7 +381,8 @@
             {
                 "description": "with unevaluated items",
                 "data": ["foo", "bar"],
-                "valid": false
+                "valid": false,
+                "id": "5d7f380c36c3c273b8d78d5721d84e9e"
             }
         ]
     },
@@ -391,22 +420,26 @@
             {
                 "description": "when if matches and it has no unevaluated items",
                 "data": ["foo", "bar", "then"],
-                "valid": true
+                "valid": true,
+                "id": "f89197132c8cdf1253b083633244300f"
             },
             {
                 "description": "when if matches and it has unevaluated items",
                 "data": ["foo", "bar", "then", "else"],
-                "valid": false
+                "valid": false,
+                "id": "0a77eb87f36309fe8082d9d39ba58af1"
             },
             {
                 "description": "when if doesn't match and it has no unevaluated items",
                 "data": ["foo", 42, 42, "else"],
-                "valid": true
+                "valid": true,
+                "id": "97c3ccbd04fedd9b177c1c78f6b27b21"
             },
             {
                 "description": "when if doesn't match and it has unevaluated items",
                 "data": ["foo", 42, 42, "else", 42],
-                "valid": false
+                "valid": false,
+                "id": "dcc0a819da0715e9fe2f99966ddd3c03"
             }
         ]
     },
@@ -421,12 +454,14 @@
             {
                 "description": "with no unevaluated items",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "55a99b248652f06cded483c35d00e151"
             },
             {
                 "description": "with unevaluated items",
                 "data": ["foo"],
-                "valid": false
+                "valid": false,
+                "id": "988528c36ce3f6c1436d52c06938b09c"
             }
         ]
     },
@@ -452,12 +487,14 @@
             {
                 "description": "with no unevaluated items",
                 "data": ["foo", "bar"],
-                "valid": true
+                "valid": true,
+                "id": "cb5bbd94dbb6e8336d384161eb6f57e5"
             },
             {
                 "description": "with unevaluated items",
                 "data": ["foo", "bar", "baz"],
-                "valid": false
+                "valid": false,
+                "id": "ddbdbcdb885341669911020e6251afef"
             }
         ]
     },
@@ -483,12 +520,14 @@
             {
                 "description": "with no unevaluated items",
                 "data": ["foo", "bar"],
-                "valid": true
+                "valid": true,
+                "id": "2a1e5ac253a0864e3cc55aa563006f60"
             },
             {
                 "description": "with unevaluated items",
                 "data": ["foo", "bar", "baz"],
-                "valid": false
+                "valid": false,
+                "id": "972e2f87453abdcfbb267e093e69e9df"
             }
         ]
     },
@@ -532,12 +571,14 @@
             {
                 "description": "with no unevaluated items",
                 "data": ["foo", "bar"],
-                "valid": true
+                "valid": true,
+                "id": "75e1375b6ef9369adf943604f4204f9c"
             },
             {
                 "description": "with unevaluated items",
                 "data": ["foo", "bar", "baz"],
-                "valid": false
+                "valid": false,
+                "id": "a249b3d0c6eaba418e1c765996b0d14a"
             }
         ]
     },
@@ -556,7 +597,8 @@
             {
                 "description": "always fails",
                 "data": [ 1 ],
-                "valid": false
+                "valid": false,
+                "id": "81ceda37b5a5fbcb9f1a925bfdd497a2"
             }
         ]
     },
@@ -593,7 +635,8 @@
                         "test"
                     ]
                 },
-                "valid": true
+                "valid": true,
+                "id": "6f58697ad856b63ce5acf720346ed2dc"
             },
             {
                 "description": "uncle keyword evaluation is not significant",
@@ -603,7 +646,8 @@
                         "test"
                     ]
                 },
-                "valid": false
+                "valid": false,
+                "id": "3f16ef9f99110e4d22a429c000589e96"
             }
         ]
     },
@@ -619,17 +663,20 @@
             {
                 "description": "second item is evaluated by contains",
                 "data": [ 1, "foo" ],
-                "valid": true
+                "valid": true,
+                "id": "3b3819e675aa14c38dff2093d1daa817"
             },
             {
                 "description": "contains fails, second item is not evaluated",
                 "data": [ 1, 2 ],
-                "valid": false
+                "valid": false,
+                "id": "296a64e4e8042e6a56f1d85b5b35656c"
             },
             {
                 "description": "contains passes, second item is not evaluated",
                 "data": [ 1, 2, "foo" ],
-                "valid": false
+                "valid": false,
+                "id": "0dbedafca879ed0e6f94e337d8ce3a88"
             }
         ]
     },
@@ -647,12 +694,14 @@
             {
                 "description": "5 not evaluated, passes unevaluatedItems",
                 "data": [ 2, 3, 4, 5, 6 ],
-                "valid": true
+                "valid": true,
+                "id": "f75282ad299790d4f5475ba1eafa6af7"
             },
             {
                 "description": "7 not evaluated, fails unevaluatedItems",
                 "data": [ 2, 3, 4, 7, 8 ],
-                "valid": false
+                "valid": false,
+                "id": "c7ad424e4538584cf661a85b3b334f3d"
             }
         ]
     },
@@ -679,42 +728,50 @@
             {
                 "description": "empty array is valid",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "ef2989624a0a584a81d5e45efd1ea64e"
             },
             {
                 "description": "only a's are valid",
                 "data": [ "a", "a" ],
-                "valid": true
+                "valid": true,
+                "id": "bf667cecf68f09216acadb513334854d"
             },
             {
                 "description": "a's and b's are valid",
                 "data": [ "a", "b", "a", "b", "a" ],
-                "valid": true
+                "valid": true,
+                "id": "862d1e64909af66cd87aca658106c4a3"
             },
             {
                 "description": "a's, b's and c's are valid",
                 "data": [ "c", "a", "c", "c", "b", "a" ],
-                "valid": true
+                "valid": true,
+                "id": "e711b026edc95666802a1cafcc570768"
             },
             {
                 "description": "only b's are invalid",
                 "data": [ "b", "b" ],
-                "valid": false
+                "valid": false,
+                "id": "024624cb432864a7ccb115ab020c1f63"
             },
             {
                 "description": "only c's are invalid",
                 "data": [ "c", "c" ],
-                "valid": false
+                "valid": false,
+                "id": "a5ff05c760f4b75203365593f6b23719"
             },
             {
                 "description": "only b's and c's are invalid",
                 "data": [ "c", "b", "c", "b", "c" ],
-                "valid": false
+                "valid": false,
+                "id": "f3fee59ad3fdd9c6263e6e1d5c4050e6"
             },
             {
                 "description": "only a's and c's are invalid",
                 "data": [ "c", "a", "c", "a", "c" ],
-                "valid": false
+                "valid": false,
+                "id": "ac0a548ab48c7f59d4abdf1410393d5a"
             }
         ]
     },
@@ -730,22 +787,26 @@
             {
                 "description": "empty array is valid",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "52940aa5eb72d3558b7f70b30e3a301e"
             },
             {
                 "description": "no items evaluated by contains",
                 "data": [0],
-                "valid": false
+                "valid": false,
+                "id": "e73c949fa120493d8173d04f4169fb38"
             },
             {
                 "description": "some but not all items evaluated by contains",
                 "data": ["foo", 0],
-                "valid": false
+                "valid": false,
+                "id": "d3e1abccf031241fe063f75dc7ab23c6"
             },
             {
                 "description": "all items evaluated by contains",
                 "data": ["foo", "bar"],
-                "valid": true
+                "valid": true,
+                "id": "b6026fe51122fba1a79c823f19d3048a"
             }
         ]
     },
@@ -759,32 +820,38 @@
             {
                 "description": "ignores booleans",
                 "data": true,
-                "valid": true
+                "valid": true,
+                "id": "08c218fd142324e7257008a28f5ddfe4"
             },
             {
                 "description": "ignores integers",
                 "data": 123,
-                "valid": true
+                "valid": true,
+                "id": "0d0d349315b2db0c5b14b025956edbad"
             },
             {
                 "description": "ignores floats",
                 "data": 1.0,
-                "valid": true
+                "valid": true,
+                "id": "e7c83ac49cf446f30de890e667719a75"
             },
             {
                 "description": "ignores objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "2eabed4a8489c43a5823b0443360f65f"
             },
             {
                 "description": "ignores strings",
                 "data": "foo",
-                "valid": true
+                "valid": true,
+                "id": "9b68b2e22eb9df01b62beffae4ab9f5b"
             },
             {
                 "description": "ignores null",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "fe5c75a6ffe8410014bbe49438ace4b1"
             }
         ]
     },
@@ -800,7 +867,8 @@
             {
                 "description": "allows null elements",
                 "data": [ null ],
-                "valid": true
+                "valid": true,
+                "id": "c2c985c9d9f59522cd17034c810c9a57"
             }
         ]
     },
@@ -817,12 +885,14 @@
             {
                 "description": "valid in case if is evaluated",
                 "data": [ "a" ],
-                "valid": true
+                "valid": true,
+                "id": "1fe02ee8feda42903182f7caf0c84e4b"
             },
             {
                 "description": "invalid in case if is evaluated",
                 "data": [ "b" ],
-                "valid": false
+                "valid": false,
+                "id": "ccbb0cca0aedd55b2f5b5dcd54ca9291"
             }
         ]
     },
@@ -847,7 +917,8 @@
                     ["foo", "bar"],
                     "bar"
                 ],
-                "valid": false
+                "valid": false,
+                "id": "f61ffb713443eeee66ebe28bf2ea1f3b"
             }
         ]
     }

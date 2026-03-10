@@ -10,32 +10,38 @@
             {
                 "description": "ignores booleans",
                 "data": true,
-                "valid": true
+                "valid": true,
+                "id": "dc175128671f0c7fee173d3807a8c237"
             },
             {
                 "description": "ignores integers",
                 "data": 123,
-                "valid": true
+                "valid": true,
+                "id": "c561bc9a3c9be2b88a4d720916707be3"
             },
             {
                 "description": "ignores floats",
                 "data": 1.0,
-                "valid": true
+                "valid": true,
+                "id": "a74357f492116687d6c02ded513fa334"
             },
             {
                 "description": "ignores strings",
                 "data": "abc",
-                "valid": true
+                "valid": true,
+                "id": "615d9b1e24f04701e445406fbc5c79ca"
             },
             {
                 "description": "ignores arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "e4a8d82d57a7943e21f1da011cff5457"
             },
             {
                 "description": "ignores null",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "d968e2e6d2fd5bbb0dde01d4f17f75b1"
             }
         ]
     },
@@ -50,42 +56,50 @@
             {
                 "description": "ignores booleans",
                 "data": {"foo": false},
-                "valid": true
+                "valid": true,
+                "id": "b9d553653b8c7a2fe0f934b1c9f2fd98"
             },
             {
                 "description": "ignores integers",
                 "data": {"foo": 2},
-                "valid": true
+                "valid": true,
+                "id": "813fff300fcaff10f58963a8a3f38a69"
             },
             {
                 "description": "ignores floats",
                 "data": {"foo": 1.1},
-                "valid": true
+                "valid": true,
+                "id": "b90d4b783dcda94d73b7ee5f2fb228fb"
             },
             {
                 "description": "ignores objects",
                 "data": {"foo": {}},
-                "valid": true
+                "valid": true,
+                "id": "47c3fb2dcb01295f486c84260e7f8375"
             },
             {
                 "description": "ignores objects wth a key of the expected value",
                 "data": {"foo": {"bar": "baz"}},
-                "valid": true
+                "valid": true,
+                "id": "208baf49a2b83bd7886591a5dfc01a16"
             },
             {
                 "description": "ignores objects with the expected value nested in structure",
                 "data": {"foo": {"baz": "bar"}},
-                "valid": true
+                "valid": true,
+                "id": "e4182440df45457bd4b8308adbccf92c"
             },
             {
                 "description": "ignores arrays",
                 "data": {"foo": []},
-                "valid": true
+                "valid": true,
+                "id": "be49517d3d17c11db15c7d09adbbc717"
             },
             {
                 "description": "ignores null",
                 "data": {"foo": null},
-                "valid": true
+                "valid": true,
+                "id": "65187da463a03548a8b818c2281a3126"
             }
         ]
     },
@@ -111,7 +125,8 @@
                     "foo": "bar",
                     "other-foo": "other-bar"
                 },
-                "valid": true
+                "valid": true,
+                "id": "4d124aae72cde51831cbaff85677e707"
             },
             {
                 "description": "bar with more than 2 properties is invalid",
@@ -120,17 +135,20 @@
                     "other-foo": "other-bar",
                     "too": "many"
                 },
-                "valid": false
+                "valid": false,
+                "id": "8a116efcb130cd44af6ffb1c88df7e22"
             },
             {
                 "description": "bar with fewer than 2 properties is invalid",
                 "data": {"foo": "bar"},
-                "valid": false
+                "valid": false,
+                "id": "63c7f1ebb43c40c2d3b1bdb5f728f4e6"
             },
             {
                 "description": "baz alone is valid",
                 "data": {"foo": "baz"},
-                "valid": true
+                "valid": true,
+                "id": "6a19782448d6efe3430bb971f63258be"
             },
             {
                 "description": "baz with other properties is invalid",
@@ -138,7 +156,8 @@
                     "foo": "baz",
                     "other-foo": "other-bar"
                 },
-                "valid": false
+                "valid": false,
+                "id": "0ba5f17d7328f31da967932dc4adbdcd"
             },
             {
                 "description": "anything allowed with qux",
@@ -147,14 +166,16 @@
                     "blah": ["some other property"],
                     "more": "properties"
                 },
-                "valid": true
+                "valid": true,
+                "id": "21a681996089f3875b5ed9109f26de6e"
             },
             {
                 "description": "quux is disallowed",
                 "data": {
                     "foo": "quux"
                 },
-                "valid": false
+                "valid": false,
+                "id": "b1425a471d2fe28b211223f9b52519be"
             }
         ]
     }

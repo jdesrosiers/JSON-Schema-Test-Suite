@@ -9,52 +9,62 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "bae65d67ebd3e187f6f4890f14afbd72"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "c795aeee04e778e26fff44baa5efef8f"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "cfed18a7f8b50536fef6ef75fcbe6f8f"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "f9d6aab51ce8c4e6b23e0be1c5a3796f"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "086f4b0bc1b4ad93d7b755b29c6547a9"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "0e96594e6df52db2664ee62c85dc8aa3"
             },
             {
                 "description": "a valid idn e-mail (example@example.test in Hangul)",
                 "data": "실례@실례.테스트",
-                "valid": true
+                "valid": true,
+                "id": "d928930a6114a6ca5ae53a0c4e1f77c8"
             },
             {
                 "description": "an invalid idn e-mail address",
                 "data": "2962",
-                "valid": false
+                "valid": false,
+                "id": "b09c977456058d7797071030e1f7bcf9"
             },
             {
                 "description": "a valid e-mail address",
                 "data": "joe.bloggs@example.com",
-                "valid": true
+                "valid": true,
+                "id": "52a829c8d6945d1729685e63cdc86520"
             },
             {
                 "description": "an invalid e-mail address",
                 "data": "2962",
-                "valid": false
+                "valid": false,
+                "id": "b09c977456058d7797071030e1f7bcf9"
             }
         ]
     }

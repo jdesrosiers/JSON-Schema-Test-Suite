@@ -9,12 +9,14 @@
             {
                 "description": "remote ref valid",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "8b4db33f9e72e546d6adea793678c6be"
             },
             {
                 "description": "remote ref invalid",
                 "data": "a",
-                "valid": false
+                "valid": false,
+                "id": "36c23a27b49356e42acc5c5c106eb0f3"
             }
         ]
     },
@@ -28,12 +30,14 @@
             {
                 "description": "remote fragment valid",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "0769c3736ee52870cb89ff47c619526f"
             },
             {
                 "description": "remote fragment invalid",
                 "data": "a",
-                "valid": false
+                "valid": false,
+                "id": "6fd04127f976c15cf3a7639881394bd8"
             }
         ]
     },
@@ -47,12 +51,14 @@
             {
                 "description": "remote anchor valid",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "b806b27c86b5fd2eeaaccf3a1e6a6b0e"
             },
             {
                 "description": "remote anchor invalid",
                 "data": "a",
-                "valid": false
+                "valid": false,
+                "id": "231681fdabb49bca77bc6b4143e3ba18"
             }
         ]
     },
@@ -66,12 +72,14 @@
             {
                 "description": "ref within ref valid",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "8bb933abb015d38e4a5c051287cc23d4"
             },
             {
                 "description": "ref within ref invalid",
                 "data": "a",
-                "valid": false
+                "valid": false,
+                "id": "ab0e7740c3cce647ed89a19a6905ba95"
             }
         ]
     },
@@ -89,12 +97,14 @@
             {
                 "description": "base URI change ref valid",
                 "data": [[1]],
-                "valid": true
+                "valid": true,
+                "id": "09867689676e853025e42c0c1eeb1aaf"
             },
             {
                 "description": "base URI change ref invalid",
                 "data": [["a"]],
-                "valid": false
+                "valid": false,
+                "id": "a77cab1f1d8142f7119bd9e4650930a0"
             }
         ]
     },
@@ -117,12 +127,14 @@
             {
                 "description": "number is valid",
                 "data": {"list": [1]},
-                "valid": true
+                "valid": true,
+                "id": "9442dd4649855acc5be9e791db6776df"
             },
             {
                 "description": "string is invalid",
                 "data": {"list": ["a"]},
-                "valid": false
+                "valid": false,
+                "id": "50d65ca06cc88947cefdcfa50e83ffed"
             }
         ]
     },
@@ -149,12 +161,14 @@
             {
                 "description": "number is valid",
                 "data": {"list": [1]},
-                "valid": true
+                "valid": true,
+                "id": "62f23807cc1f4900f58817801db0eef3"
             },
             {
                 "description": "string is invalid",
                 "data": {"list": ["a"]},
-                "valid": false
+                "valid": false,
+                "id": "b6e5f67af777f4981957e17f83b0d935"
             }
         ]
     },
@@ -174,14 +188,16 @@
                 "data": {
                     "name": "foo"
                 },
-                "valid": true
+                "valid": true,
+                "id": "29222415fc321244933c8c20dfd6b7c9"
             },
             {
                 "description": "null is valid",
                 "data": {
                     "name": null
                 },
-                "valid": true
+                "valid": true,
+                "id": "8e930be9492ebb3b9609aa0cd4b9b325"
             },
             {
                 "description": "object is invalid",
@@ -190,7 +206,8 @@
                         "name": null
                     }
                 },
-                "valid": false
+                "valid": false,
+                "id": "cd41a0bcba224e1b31c523a1fb646fd8"
             }
         ]
     },
@@ -207,14 +224,16 @@
                 "data": {
                     "bar": 1
                 },
-                "valid": false
+                "valid": false,
+                "id": "c92c82b9feb92441291ee262a588784d"
             },
             {
                 "description": "valid",
                 "data": {
                     "bar": "a"
                 },
-                "valid": true
+                "valid": true,
+                "id": "561104f818067c49484b46f7bdb0e970"
             }
         ]
     },
@@ -228,12 +247,14 @@
             {
                 "description": "integer is valid",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "082fbab1e893d8de3deedaea443b11df"
             },
             {
                 "description": "string is invalid",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "9fd1c8c4b78c17d364f9ba6f4a398136"
             }
         ]
     },
@@ -252,14 +273,16 @@
                 "data": {
                     "name": {"foo":  1}
                 },
-                "valid": false
+                "valid": false,
+                "id": "5f45d6953423efac9ae158bb1f535434"
             },
             {
                 "description": "string is valid",
                 "data": {
                     "name": {"foo":  "a"}
                 },
-                "valid": true
+                "valid": true,
+                "id": "f343e5d43f09f37037a2f06fbd4e39c1"
             }
         ]
     },
@@ -273,12 +296,14 @@
             {
                 "description": "number is invalid",
                 "data": 1,
-                "valid": false
+                "valid": false,
+                "id": "a206d70cbeec94940ac1ee786954d6f6"
             },
             {
                 "description": "string is valid",
                 "data": "foo",
-                "valid": true
+                "valid": true,
+                "id": "db6b9ddbff1ff5b5486a3e148da37e1e"
             }
         ]
     },
@@ -292,12 +317,14 @@
             {
                 "description": "number is invalid",
                 "data": 1,
-                "valid": false
+                "valid": false,
+                "id": "190e35cb59413e5a8f4fe3a4249b68b9"
             },
             {
                 "description": "string is valid",
                 "data": "foo",
-                "valid": true
+                "valid": true,
+                "id": "c9d76dc80f187c8e287d07858c2e05ea"
             }
         ]
     },
@@ -311,12 +338,14 @@
             {
                 "description": "number is invalid",
                 "data": 1,
-                "valid": false
+                "valid": false,
+                "id": "43b8df0e5d84421e6cd559813a0aed2e"
             },
             {
                 "description": "string is valid",
                 "data": "foo",
-                "valid": true
+                "valid": true,
+                "id": "91aa5d8ec0ec3f0e0d7e849b01eca2aa"
             }
         ]
     },
@@ -330,12 +359,14 @@
             {
                 "description": "number is valid",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "2424422686fcf6920859b9b2453ad291"
             },
             {
                 "description": "non-number is invalid",
                 "data": "a",
-                "valid": false
+                "valid": false,
+                "id": "d53ee1c85936487c8c263529634e642c"
             }
         ]
     }

@@ -6,194 +6,232 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "a1103a9979683dbc5d3fded217ca2ddf"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "ec84c276d26fed4836e13d51dfdc5ac0"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "ff39b60f67d19ac2dd945321e72e7a09"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "cd8f8ff61640f0d5347acb2fe3812538"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "2eec7894e239e4fe26ffa5ed3107655f"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "016f7e22bf6ea2fd640a683d214f437b"
             },
             {
                 "description": "a valid URL with anchor tag",
                 "data": "http://foo.bar/?baz=qux#quux",
-                "valid": true
+                "valid": true,
+                "id": "322eea8d46d56c26474de92023d99db6"
             },
             {
                 "description": "a valid URL with anchor tag and parentheses",
                 "data": "http://foo.com/blah_(wikipedia)_blah#cite-1",
-                "valid": true
+                "valid": true,
+                "id": "3a40380247d4e61cb0e24f09c2581087"
             },
             {
                 "description": "a valid URL with URL-encoded stuff",
                 "data": "http://foo.bar/?q=Test%20URL-encoded%20stuff",
-                "valid": true
+                "valid": true,
+                "id": "fb0d0040a8c8986fb194f24f0aa8b885"
             },
             {
                 "description": "a valid puny-coded URL ",
                 "data": "http://xn--nw2a.xn--j6w193g/",
-                "valid": true
+                "valid": true,
+                "id": "94796c2d3546bfa27fc5d5ac02de6228"
             },
             {
                 "description": "a valid URL with many special characters",
                 "data": "http://-.~_!$&'()*+,;=:%40:80%2f::::::@example.com",
-                "valid": true
+                "valid": true,
+                "id": "d139715279dc5cf884f99de54893e505"
             },
             {
                 "description": "a valid URL based on IPv4",
                 "data": "http://223.255.255.254",
-                "valid": true
+                "valid": true,
+                "id": "169fd06d6c14eea96aad4152cfa564c7"
             },
             {
                 "description": "a valid URL with ftp scheme",
                 "data": "ftp://ftp.is.co.za/rfc/rfc1808.txt",
-                "valid": true
+                "valid": true,
+                "id": "76854b117d445f71afd39c10da8e58cd"
             },
             {
                 "description": "a valid URL for a simple text file",
                 "data": "http://www.ietf.org/rfc/rfc2396.txt",
-                "valid": true
+                "valid": true,
+                "id": "11c55fe3147adf93484f74dd484597d8"
             },
             {
                 "description": "a valid URL ",
                 "data": "ldap://[2001:db8::7]/c=GB?objectClass?one",
-                "valid": true
+                "valid": true,
+                "id": "b222bdad09c955835277bca7bb136c34"
             },
             {
                 "description": "a valid mailto URI",
                 "data": "mailto:John.Doe@example.com",
-                "valid": true
+                "valid": true,
+                "id": "3159a7a0b1ddc1c8e78bf0123d3dd53a"
             },
             {
                 "description": "a valid newsgroup URI",
                 "data": "news:comp.infosystems.www.servers.unix",
-                "valid": true
+                "valid": true,
+                "id": "a62f019b4ba00841e408e66fe0be9183"
             },
             {
                 "description": "a valid tel URI",
                 "data": "tel:+1-816-555-1212",
-                "valid": true
+                "valid": true,
+                "id": "59da953a7127ad172a9b95b682e79fe2"
             },
             {
                 "description": "a valid URN",
                 "data": "urn:oasis:names:specification:docbook:dtd:xml:4.1.2",
-                "valid": true
+                "valid": true,
+                "id": "f7b9bf9a1c4184ef12d025d375b88e54"
             },
             {
                 "description": "an invalid protocol-relative URI Reference",
                 "data": "//foo.bar/?baz=qux#quux",
-                "valid": false
+                "valid": false,
+                "id": "1375833f906899e619aadbc5db482661"
             },
             {
                 "description": "an invalid relative URI Reference",
                 "data": "/abc",
-                "valid": false
+                "valid": false,
+                "id": "81d02b4f12ccae2b1564bd7338587b99"
             },
             {
                 "description": "an invalid URI",
                 "data": "\\\\WINDOWS\\fileshare",
-                "valid": false
+                "valid": false,
+                "id": "5ee2dca5c552ce76c1aec571d9f91cb5"
             },
             {
                 "description": "an invalid URI though valid URI reference",
                 "data": "abc",
-                "valid": false
+                "valid": false,
+                "id": "d25cbbf514c8ba68e52a90963c14d67b"
             },
             {
                 "description": "an invalid URI with spaces",
                 "data": "http:// shouldfail.com",
-                "valid": false
+                "valid": false,
+                "id": "2108e033aec6351b0bac026be6149aa8"
             },
             {
                 "description": "an invalid URI with spaces and missing scheme",
                 "data": ":// should fail",
-                "valid": false
+                "valid": false,
+                "id": "ef16e00252bcf6b02cf594209c109e7f"
             },
             {
                 "description": "an invalid URI with comma in scheme",
                 "data": "bar,baz:foo",
-                "valid": false
+                "valid": false,
+                "id": "971eb1d1c330ec5b5d11d03633b3e1f9"
             },
             {
                 "description": "invalid userinfo",
                 "data": "https://[@example.org/test.txt",
-                "valid": false
+                "valid": false,
+                "id": "91c53b583321d0beaff9e5448fc33453"
             },
             {
                 "description": "unescaped non US-ASCII characters",
                 "data": "https://example.org/foobar®.txt",
-                "valid": false
+                "valid": false,
+                "id": "cd7a4045f0165e706a814fc623aef285"
             },
             {
                 "description": "invalid backslash character",
                 "data": "https://example.org/foobar\\.txt",
-                "valid": false
+                "valid": false,
+                "id": "7f4414a524322b64ebd4444445456288"
             },
             {
                 "description": "invalid \" character",
                 "data": "https://example.org/foobar\".txt",
-                "valid": false
+                "valid": false,
+                "id": "9d78977cfa258b53d62a7f0dba07ebcb"
             },
             {
                 "description": "invalid <> characters",
                 "data": "https://example.org/foobar<>.txt",
-                "valid": false
+                "valid": false,
+                "id": "1c1014b22ac137dd386b748ceca489db"
             },
             {
                 "description": "invalid {} characters",
                 "data": "https://example.org/foobar{}.txt",
-                "valid": false
+                "valid": false,
+                "id": "ea7f0d25547e2ae7a4dacaff8058c869"
             },
             {
                 "description": "invalid ^ character",
                 "data": "https://example.org/foobar^.txt",
-                "valid": false
+                "valid": false,
+                "id": "018094a5fa375b6e4cb6edc56ccdc403"
             },
             {
                 "description": "invalid ` character",
                 "data": "https://example.org/foobar`.txt",
-                "valid": false
+                "valid": false,
+                "id": "19b32d77e481a146735e27643a0a0e0e"
             },
             {
                 "description": "invalid SPACE character",
                 "data": "https://example.org/foo bar.txt",
-                "valid": false
+                "valid": false,
+                "id": "d1e0ae38fcfad1b954e081908f86bdb5"
             },
             {
                 "description": "invalid | character",
                 "data": "https://example.org/foobar|.txt",
-                "valid": false
+                "valid": false,
+                "id": "fe78d3f31b72f902b44198556f4c1efe"
             },
             {
                 "description": "URI with leading-zero IPv4 is structurally valid as a reg-name",
                 "comment": "RFC 3986, Section 3.2.2: If an IP literal fails strict IPv4address parsing, it falls back to reg-name. A string of digits and dots is valid under unreserved characters. JSON Schema format asserts syntax, not scheme-specific DNS semantics.",
                 "data": "http://087.10.0.1/",
-                "valid": true
+                "valid": true,
+                "id": "370c19b55430d04ff70514f9bf0c5580"
             },
             {
                 "description": "URI with out-of-bounds IPv4 is structurally valid as a reg-name",
                 "comment": "RFC 3986, Section 3.2.2: Fallback to reg-name allows digits and dots.",
                 "data": "http://999.999.999.999/",
-                "valid": true
+                "valid": true,
+                "id": "555074986447e38ab66df1fd2c0ec415"
             }
         ]
     }

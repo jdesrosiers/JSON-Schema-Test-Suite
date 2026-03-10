@@ -9,37 +9,44 @@
             {
                 "description": "neither",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "7f6eb22b182a7d1932d81b9c9d85a45a"
             },
             {
                 "description": "nondependant",
                 "data": {"foo": 1},
-                "valid": true
+                "valid": true,
+                "id": "66e9673935932620fe15cc3156859fcc"
             },
             {
                 "description": "with dependency",
                 "data": {"foo": 1, "bar": 2},
-                "valid": true
+                "valid": true,
+                "id": "8f70442eb8d74ddde1e5a65594d6cff5"
             },
             {
                 "description": "missing dependency",
                 "data": {"bar": 2},
-                "valid": false
+                "valid": false,
+                "id": "0f170e664860837d846ebe2aa08c9cc6"
             },
             {
                 "description": "ignores arrays",
                 "data": ["bar"],
-                "valid": true
+                "valid": true,
+                "id": "b0ec979de80252d95f9548cdafe9bbea"
             },
             {
                 "description": "ignores strings",
                 "data": "foobar",
-                "valid": true
+                "valid": true,
+                "id": "b149b39191255e4eed0c6a3d7c9cd7b7"
             },
             {
                 "description": "ignores other non-objects",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "e5b989ff142134de51bc08452472dac0"
             }
         ]
     },
@@ -53,17 +60,20 @@
             {
                 "description": "empty object",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "6c19286a84a1934a51892d9fd227ab80"
             },
             {
                 "description": "object with one property",
                 "data": {"bar": 2},
-                "valid": true
+                "valid": true,
+                "id": "6cecc4aa51c3667b65712a49fc0b8f35"
             },
             {
                 "description": "non-object is valid",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "cdf4967762cddafd261f1e171f3b5996"
             }
         ]
     },
@@ -77,32 +87,38 @@
             {
                 "description": "neither",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "f3ba3926d1eb169eeaef478cb4d7704f"
             },
             {
                 "description": "nondependants",
                 "data": {"foo": 1, "bar": 2},
-                "valid": true
+                "valid": true,
+                "id": "2d4c86b1a6e309667869e6cd3d6493b3"
             },
             {
                 "description": "with dependencies",
                 "data": {"foo": 1, "bar": 2, "quux": 3},
-                "valid": true
+                "valid": true,
+                "id": "c2c19111f5c130726f61a4d274d8a3f6"
             },
             {
                 "description": "missing dependency",
                 "data": {"foo": 1, "quux": 2},
-                "valid": false
+                "valid": false,
+                "id": "b50c85dc1449b40f9c6cd9adc8441ba2"
             },
             {
                 "description": "missing other dependency",
                 "data": {"bar": 1, "quux": 2},
-                "valid": false
+                "valid": false,
+                "id": "96687dc019ea672158c2007bcaf30d09"
             },
             {
                 "description": "missing both dependencies",
                 "data": {"quux": 1},
-                "valid": false
+                "valid": false,
+                "id": "5b79a117674a7beb27f7f07931234e37"
             }
         ]
     },
@@ -122,7 +138,8 @@
                     "foo\nbar": 1,
                     "foo\rbar": 2
                 },
-                "valid": true
+                "valid": true,
+                "id": "5b2006c85a43c42cbc4eab7033333825"
             },
             {
                 "description": "quoted quotes",
@@ -130,7 +147,8 @@
                     "foo'bar": 1,
                     "foo\"bar": 2
                 },
-                "valid": true
+                "valid": true,
+                "id": "35ab0646dfe7d02509eba18c9ef7f2e8"
             },
             {
                 "description": "CRLF missing dependent",
@@ -138,14 +156,16 @@
                     "foo\nbar": 1,
                     "foo": 2
                 },
-                "valid": false
+                "valid": false,
+                "id": "e662792a0574e75e1dc37bcef7cd949b"
             },
             {
                 "description": "quoted quotes missing dependent",
                 "data": {
                     "foo\"bar": 2
                 },
-                "valid": false
+                "valid": false,
+                "id": "9a5e80b2c3e3a9be732dd2f8cbf6e254"
             }
         ]
     }

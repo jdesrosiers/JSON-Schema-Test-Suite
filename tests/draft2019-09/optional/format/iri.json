@@ -9,77 +9,92 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "bf37ac354f3132b61c3c982d399b8fca"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "c2c10e74b114cd76fb57ea308e7798c5"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "befbea38143dfaaeed9570b27f8b8d80"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "acc8beffc792747d0086d46bcb77204d"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "66f086ceb10d0b28f11b5fa6e0613226"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "8ec1447cceea891f2a957c17e4637d86"
             },
             {
                 "description": "a valid IRI with anchor tag",
                 "data": "http://ƒøø.ßår/?∂éœ=πîx#πîüx",
-                "valid": true
+                "valid": true,
+                "id": "9fee570caf9f9a7612d83567e2334fda"
             },
             {
                 "description": "a valid IRI with anchor tag and parentheses",
                 "data": "http://ƒøø.com/blah_(wîkïpédiå)_blah#ßité-1",
-                "valid": true
+                "valid": true,
+                "id": "2dede174c69e4aabde1ac254a5654d8c"
             },
             {
                 "description": "a valid IRI with URL-encoded stuff",
                 "data": "http://ƒøø.ßår/?q=Test%20URL-encoded%20stuff",
-                "valid": true
+                "valid": true,
+                "id": "2d2b79bca377c19e21226c70fc10ff73"
             },
             {
                 "description": "a valid IRI with many special characters",
                 "data": "http://-.~_!$&'()*+,;=:%40:80%2f::::::@example.com",
-                "valid": true
+                "valid": true,
+                "id": "e4df96dd31cd9761d1ea5c767ae2bff7"
             },
             {
                 "description": "a valid IRI based on IPv6",
                 "data": "http://[2001:0db8:85a3:0000:0000:8a2e:0370:7334]",
-                "valid": true
+                "valid": true,
+                "id": "2cb7e79526dc4213d191ea42fc28f567"
             },
             {
                 "description": "an invalid IRI based on IPv6",
                 "data": "http://2001:0db8:85a3:0000:0000:8a2e:0370:7334",
-                "valid": false
+                "valid": false,
+                "id": "d4fb6710c738fa500ac1a83282a47975"
             },
             {
                 "description": "an invalid relative IRI Reference",
                 "data": "/abc",
-                "valid": false
+                "valid": false,
+                "id": "104fb05d7be31d45697686aa686c93ad"
             },
             {
                 "description": "an invalid IRI",
                 "data": "\\\\WINDOWS\\filëßåré",
-                "valid": false
+                "valid": false,
+                "id": "0ff15f7d1143ef580d095fb947db8e4f"
             },
             {
                 "description": "an invalid IRI though valid IRI reference",
                 "data": "âππ",
-                "valid": false
+                "valid": false,
+                "id": "f9780c505c7cc00eedff1cb8bbc1152e"
             }
         ]
     }

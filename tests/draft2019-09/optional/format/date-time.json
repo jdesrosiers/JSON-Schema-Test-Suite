@@ -9,147 +9,176 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "31f856e1e2736983d051b0fb1b624ca6"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "aaf22a73927bf6b205b5986517b467b5"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "dce2f5ef1f07e64088fc715804fadcd8"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "6db26348338b481fe97e8a1071be97d4"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "fa8dcd692cddd144ea8e367d4b2203fb"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "e2db3191951c0483406106c71d657cce"
             },
             {
                 "description": "a valid date-time string",
                 "data": "1963-06-19T08:30:06.283185Z",
-                "valid": true
+                "valid": true,
+                "id": "02809562edfb8e120365c5defb623659"
             },
             {
                 "description": "a valid date-time string without second fraction",
                 "data": "1963-06-19T08:30:06Z",
-                "valid": true
+                "valid": true,
+                "id": "9b506c50ba35bb30444432fe32440512"
             },
             {
                 "description": "a valid date-time string with plus offset",
                 "data": "1937-01-01T12:00:27.87+00:20",
-                "valid": true
+                "valid": true,
+                "id": "0ca1e45781b00b4cef3a5041a2bcd565"
             },
             {
                 "description": "a valid date-time string with minus offset",
                 "data": "1990-12-31T15:59:50.123-08:00",
-                "valid": true
+                "valid": true,
+                "id": "86041f104ffc7d608cf0eed430c94263"
             },
             {
                 "description": "a valid date-time with a leap second, UTC",
                 "data": "1998-12-31T23:59:60Z",
-                "valid": true
+                "valid": true,
+                "id": "90af4d5870c7d8a76e2429abfdd9f7ea"
             },
             {
                 "description": "a valid date-time with a leap second, with minus offset",
                 "data": "1998-12-31T15:59:60.123-08:00",
-                "valid": true
+                "valid": true,
+                "id": "4ed29c4f33ebc8e271ce06ff0cc734a6"
             },
             {
                 "description": "an invalid date-time past leap second, UTC",
                 "data": "1998-12-31T23:59:61Z",
-                "valid": false
+                "valid": false,
+                "id": "38a51509d9374e7b211f367502a2554d"
             },
             {
                 "description": "an invalid date-time with leap second on a wrong minute, UTC",
                 "data": "1998-12-31T23:58:60Z",
-                "valid": false
+                "valid": false,
+                "id": "7c4a06a06738c8e4c4e763a588f38dbd"
             },
             {
                 "description": "an invalid date-time with leap second on a wrong hour, UTC",
                 "data": "1998-12-31T22:59:60Z",
-                "valid": false
+                "valid": false,
+                "id": "abbc4d773bbeb936a630256e9adb15dc"
             },
             {
                 "description": "an invalid day in date-time string",
                 "data": "1990-02-31T15:59:59.123-08:00",
-                "valid": false
+                "valid": false,
+                "id": "062e6be73eca8ad49c88cd63fc4b3c7e"
             },
             {
                 "description": "an invalid offset in date-time string",
                 "data": "1990-12-31T15:59:59-24:00",
-                "valid": false
+                "valid": false,
+                "id": "c5542a444683d938c5e7b4a0dd30c389"
             },
             {
                 "description": "an invalid closing Z after time-zone offset",
                 "data": "1963-06-19T08:30:06.28123+01:00Z",
-                "valid": false
+                "valid": false,
+                "id": "59338c666821a41f53655428aa267da1"
             },
             {
                 "description": "an invalid hour in date-time string",
                 "data": "1990-12-31T24:00:00Z",
-                "valid": false
+                "valid": false,
+                "id": "5cefc6fd22f26bcaf27a2f4e76af24b7"
             },
             {
                 "description": "an invalid minute in date-time string",
                 "data": "1990-12-31T15:60:00Z",
-                "valid": false
+                "valid": false,
+                "id": "9c3e49c5de31ad0898005bb2f3b5d833"
             },
             {
                 "description": "an invalid offset minute in date-time string",
                 "data": "1990-12-31T10:00:00+10:60",
-                "valid": false
+                "valid": false,
+                "id": "ca5bf64ae560867b6bf8d89b6a72fe07"
             },
             {
                 "description": "an invalid date-time string",
                 "data": "06/19/1963 08:30:06 PST",
-                "valid": false
+                "valid": false,
+                "id": "9a65a2f35e59d859556f2abf498f0222"
             },
             {
                 "description": "case-insensitive T and Z",
                 "data": "1963-06-19t08:30:06.283185z",
-                "valid": true
+                "valid": true,
+                "id": "9096f938bd305280ac7b93230afe6630"
             },
             {
                 "description": "only RFC3339 not all of ISO 8601 are valid",
                 "data": "2013-350T01:01:01",
-                "valid": false
+                "valid": false,
+                "id": "32deda31e75f8a305bb6fa46e9f09dec"
             },
             {
                 "description": "invalid non-padded month dates",
                 "data": "1963-6-19T08:30:06.283185Z",
-                "valid": false
+                "valid": false,
+                "id": "cf6e0a825209b3debc34b23c1592aecf"
             },
             {
                 "description": "invalid non-padded day dates",
                 "data": "1963-06-1T08:30:06.283185Z",
-                "valid": false
+                "valid": false,
+                "id": "0bfcfb6396325cee3f850caaf843dcae"
             },
             {
                 "description": "invalid non-ASCII '৪' (a Bengali 4) in date portion",
                 "data": "1963-06-1৪T00:00:00Z",
-                "valid": false
+                "valid": false,
+                "id": "4b50f6317516c5f775d0173bcc1ba9d4"
             },
             {
                 "description": "invalid non-ASCII '৪' (a Bengali 4) in time portion",
                 "data": "1963-06-11T0৪:00:00Z",
-                "valid": false
+                "valid": false,
+                "id": "36c22c2949ac2ea74eb26df33cd954b9"
             },
             {
                 "description": "invalid extended year",
                 "data": "+11963-06-19T08:30:06.283185Z",
-                "valid": false
+                "valid": false,
+                "id": "264b6841ae435e0e56301a4b0e939215"
             }
         ]
     }

@@ -9,12 +9,14 @@
             {
                 "description": "a bignum is an integer",
                 "data": 12345678910111213141516171819202122232425262728293031,
-                "valid": true
+                "valid": true,
+                "id": "4a83681063b5ac4fe9469669a5b0c0c7"
             },
             {
                 "description": "a negative bignum is an integer",
                 "data": -12345678910111213141516171819202122232425262728293031,
-                "valid": true
+                "valid": true,
+                "id": "d60ef3ec7abc38e6b3918847edfb754d"
             }
         ]
     },
@@ -28,12 +30,14 @@
             {
                 "description": "a bignum is a number",
                 "data": 98249283749234923498293171823948729348710298301928331,
-                "valid": true
+                "valid": true,
+                "id": "038c2e143512b53e5ad0b9ded2b6d8a8"
             },
             {
                 "description": "a negative bignum is a number",
                 "data": -98249283749234923498293171823948729348710298301928331,
-                "valid": true
+                "valid": true,
+                "id": "90568b86958fb4c28e29f7977a06271f"
             }
         ]
     },
@@ -47,7 +51,8 @@
             {
                 "description": "a bignum is not a string",
                 "data": 98249283749234923498293171823948729348710298301928331,
-                "valid": false
+                "valid": false,
+                "id": "edd7d7d6d66a3aa031e89d524024e425"
             }
         ]
     },
@@ -61,7 +66,8 @@
             {
                 "description": "comparison works for high numbers",
                 "data": 18446744073709551600,
-                "valid": true
+                "valid": true,
+                "id": "7e96c472cdde84b918ea4f6990be2e19"
             }
         ]
     },
@@ -75,7 +81,8 @@
             {
                 "description": "comparison works for high numbers",
                 "data": 972783798187987123879878123.188781371,
-                "valid": false
+                "valid": false,
+                "id": "14358f42442f40481e78f8a5c95196ca"
             }
         ]
     },
@@ -89,7 +96,8 @@
             {
                 "description": "comparison works for very negative numbers",
                 "data": -18446744073709551600,
-                "valid": true
+                "valid": true,
+                "id": "4aa494258d2e7bfcb4f9cc2566070727"
             }
         ]
     },
@@ -103,7 +111,8 @@
             {
                 "description": "comparison works for very negative numbers",
                 "data": -972783798187987123879878123.188781371,
-                "valid": false
+                "valid": false,
+                "id": "292212964b92e2a45f6e9adb0fc9d330"
             }
         ]
     }

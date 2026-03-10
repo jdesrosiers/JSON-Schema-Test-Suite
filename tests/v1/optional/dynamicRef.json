@@ -45,12 +45,14 @@
           {
               "description": "integer property passes",
               "data": { "bar-item": { "content": 42 } },
-              "valid": true
+            "valid": true,
+            "id": "ac6b61278d1cbf10bb84c9a6f32e5a8a"
           },
           {
               "description": "string property fails",
               "data": { "bar-item": { "content": "value" } },
-              "valid": false
+            "valid": false,
+            "id": "262cd18adbb04d6469e9ddd4a478ca2d"
           }
       ]
   }]

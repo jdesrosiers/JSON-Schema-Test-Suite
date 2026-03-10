@@ -17,21 +17,24 @@
                 "data": {
                     "badProperty": "this property should not exist"
                 },
-                "valid": false
+                "valid": false,
+                "id": "59d75501e3ad2cd08ab6c18281c35b07"
             },
             {
                 "description": "no validation: valid number",
                 "data": {
                     "numberProperty": 20
                 },
-                "valid": true
+                "valid": true,
+                "id": "f83f3694b787e2cab1608c65d6e082fd"
             },
             {
                 "description": "no validation: invalid number, but it still validates",
                 "data": {
                     "numberProperty": 1
                 },
-                "valid": true
+                "valid": true,
+                "id": "811c46de20571afb34987e63706709ea"
             }
         ]
     },
@@ -45,12 +48,14 @@
              {
                  "description": "string value",
                  "data": "foobar",
-                 "valid": false
+                "valid": false,
+                "id": "4569422d64f365915f93e235df0e324d"
              },
              {
                  "description": "number value",
                  "data": 20,
-                 "valid": true
+                "valid": true,
+                "id": "289b446072f1d48f99bcac0cc530caeb"
              }
          ]
      }

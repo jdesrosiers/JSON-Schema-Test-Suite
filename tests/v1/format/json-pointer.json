@@ -9,192 +9,230 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "4c3955d1a2b238a15693610a5a1a680c"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "a729d6bfdbd93517bbb7fbfc8b7bc799"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "95cd1f9083ff3435363f84d30bb5f17d"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "5c257b9b629367dba1ee0250a3724c1c"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "92a9443d80d047c9e64500bd4717cecb"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "1a90c48afc9caf2f680a812c73ec319c"
             },
             {
                 "description": "a valid JSON-pointer",
                 "data": "/foo/bar~0/baz~1/%a",
-                "valid": true
+                "valid": true,
+                "id": "a1ba61c87316918d316faf1494e9dc0a"
             },
             {
                 "description": "not a valid JSON-pointer (~ not escaped)",
                 "data": "/foo/bar~",
-                "valid": false
+                "valid": false,
+                "id": "fa45c31c6cb56c2e37a3a1ce5481d0cf"
             },
             {
                 "description": "valid JSON-pointer with empty segment",
                 "data": "/foo//bar",
-                "valid": true
+                "valid": true,
+                "id": "12afc5504194d857a554b118c700d2f9"
             },
             {
                 "description": "valid JSON-pointer with the last empty segment",
                 "data": "/foo/bar/",
-                "valid": true
+                "valid": true,
+                "id": "6901058dedbc5d18b9f6554b823e5dec"
             },
             {
                 "description": "valid JSON-pointer as stated in RFC 6901 #1",
                 "data": "",
-                "valid": true
+                "valid": true,
+                "id": "58a34a792096f1ad33b75bd8d953fd05"
             },
             {
                 "description": "valid JSON-pointer as stated in RFC 6901 #2",
                 "data": "/foo",
-                "valid": true
+                "valid": true,
+                "id": "557f81ecd64327d68b746c6626e9d214"
             },
             {
                 "description": "valid JSON-pointer as stated in RFC 6901 #3",
                 "data": "/foo/0",
-                "valid": true
+                "valid": true,
+                "id": "c667ba25cd164cdc2829c86249fa92fb"
             },
             {
                 "description": "valid JSON-pointer as stated in RFC 6901 #4",
                 "data": "/",
-                "valid": true
+                "valid": true,
+                "id": "38ef2328c8bf9bb5dcd316c46fba4884"
             },
             {
                 "description": "valid JSON-pointer as stated in RFC 6901 #5",
                 "data": "/a~1b",
-                "valid": true
+                "valid": true,
+                "id": "01d4973cfcaa8e2184e1c30fc831cb67"
             },
             {
                 "description": "valid JSON-pointer as stated in RFC 6901 #6",
                 "data": "/c%d",
-                "valid": true
+                "valid": true,
+                "id": "0746ce5b488561367ba79e5fec4dcf2e"
             },
             {
                 "description": "valid JSON-pointer as stated in RFC 6901 #7",
                 "data": "/e^f",
-                "valid": true
+                "valid": true,
+                "id": "4d10ff48b04ac8dd3d71de0e3a14c4e1"
             },
             {
                 "description": "valid JSON-pointer as stated in RFC 6901 #8",
                 "data": "/g|h",
-                "valid": true
+                "valid": true,
+                "id": "924df1cd32b987bdd77115e3f8ceb090"
             },
             {
                 "description": "valid JSON-pointer as stated in RFC 6901 #9",
                 "data": "/i\\j",
-                "valid": true
+                "valid": true,
+                "id": "f1af95ffc88956d231f71c894fa0626e"
             },
             {
                 "description": "valid JSON-pointer as stated in RFC 6901 #10",
                 "data": "/k\"l",
-                "valid": true
+                "valid": true,
+                "id": "1980012db35aef9da3d0177c42a9d03f"
             },
             {
                 "description": "valid JSON-pointer as stated in RFC 6901 #11",
                 "data": "/ ",
-                "valid": true
+                "valid": true,
+                "id": "1baad336d3d03b66d49285fc4ec3c966"
             },
             {
                 "description": "valid JSON-pointer as stated in RFC 6901 #12",
                 "data": "/m~0n",
-                "valid": true
+                "valid": true,
+                "id": "c6f53a1ad23ee6360a4a6265fad91ffd"
             },
             {
                 "description": "valid JSON-pointer used adding to the last array position",
                 "data": "/foo/-",
-                "valid": true
+                "valid": true,
+                "id": "07c0730a16b2e93e0d57141718457801"
             },
             {
                 "description": "valid JSON-pointer (- used as object member name)",
                 "data": "/foo/-/bar",
-                "valid": true
+                "valid": true,
+                "id": "f292def61aa22b3a15c66894100afc58"
             },
             {
                 "description": "valid JSON-pointer (multiple escaped characters)",
                 "data": "/~1~0~0~1~1",
-                "valid": true
+                "valid": true,
+                "id": "c5514a7baec7ae42462281077d438bca"
             },
             {
                 "description": "valid JSON-pointer (escaped with fraction part) #1",
                 "data": "/~1.1",
-                "valid": true
+                "valid": true,
+                "id": "fe4985b575ed3f648280f59f1d3127f4"
             },
             {
                 "description": "valid JSON-pointer (escaped with fraction part) #2",
                 "data": "/~0.1",
-                "valid": true
+                "valid": true,
+                "id": "f1092b8d5f445065f6134f20f9a4b386"
             },
             {
                 "description": "not a valid JSON-pointer (URI Fragment Identifier) #1",
                 "data": "#",
-                "valid": false
+                "valid": false,
+                "id": "168010fc3344500b800ca428a856a49f"
             },
             {
                 "description": "not a valid JSON-pointer (URI Fragment Identifier) #2",
                 "data": "#/",
-                "valid": false
+                "valid": false,
+                "id": "8b4ec7df6f0140519f72748dd32cece9"
             },
             {
                 "description": "not a valid JSON-pointer (URI Fragment Identifier) #3",
                 "data": "#a",
-                "valid": false
+                "valid": false,
+                "id": "fcbafd55aab5d22f203dbd65deb86cc0"
             },
             {
                 "description": "not a valid JSON-pointer (some escaped, but not all) #1",
                 "data": "/~0~",
-                "valid": false
+                "valid": false,
+                "id": "75d753fea6db03cd3810635005863879"
             },
             {
                 "description": "not a valid JSON-pointer (some escaped, but not all) #2",
                 "data": "/~0/~",
-                "valid": false
+                "valid": false,
+                "id": "79dac703914db0d74d77a240ddcec2e2"
             },
             {
                 "description": "not a valid JSON-pointer (wrong escape character) #1",
                 "data": "/~2",
-                "valid": false
+                "valid": false,
+                "id": "744d2c1041ff191e8239c5fe4accc7ad"
             },
             {
                 "description": "not a valid JSON-pointer (wrong escape character) #2",
                 "data": "/~-1",
-                "valid": false
+                "valid": false,
+                "id": "62921b5d26cc3d5e1cfc5d36e605023a"
             },
             {
                 "description": "not a valid JSON-pointer (multiple characters not escaped)",
                 "data": "/~~",
-                "valid": false
+                "valid": false,
+                "id": "b8d05059b27bb42238b8262e1bee0659"
             },
             {
                 "description": "not a valid JSON-pointer (isn't empty nor starts with /) #1",
                 "data": "a",
-                "valid": false
+                "valid": false,
+                "id": "d407c135e7e3453d434aa3b23c631d63"
             },
             {
                 "description": "not a valid JSON-pointer (isn't empty nor starts with /) #2",
                 "data": "0",
-                "valid": false
+                "valid": false,
+                "id": "a2162952f556a4bcab135813667b864c"
             },
             {
                 "description": "not a valid JSON-pointer (isn't empty nor starts with /) #3",
                 "data": "a/a",
-                "valid": false
+                "valid": false,
+                "id": "3bf3440853fc6c9e19a9b710fbadf248"
             }
         ]
     }

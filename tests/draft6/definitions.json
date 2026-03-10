@@ -10,7 +10,8 @@
                         "foo": {"type": "integer"}
                     }
                 },
-                "valid": true
+                "valid": true,
+                "id": "15f42f2b4f093c89da73b1e21bac785d"
             },
             {
                 "description": "invalid definition schema",
@@ -19,7 +20,8 @@
                         "foo": {"type": 1}
                     }
                 },
-                "valid": false
+                "valid": false,
+                "id": "e2b71d8b61f4ef12ba9027ab18d15143"
             }
         ]
     }

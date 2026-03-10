@@ -10,12 +10,14 @@
             {
                 "description": "format-assertion: false: valid string",
                 "data": "127.0.0.1",
-                "valid": true
+                "valid": true,
+                "id": "c556d72d2088581f443bd774e37e2e65"
             },
             {
                 "description": "format-assertion: false: invalid string",
                 "data": "not-an-ipv4",
-                "valid": false
+                "valid": false,
+                "id": "848848589e22261075e30e605ebef62e"
             }
         ]
     },
@@ -30,12 +32,14 @@
             {
                 "description": "format-assertion: true: valid string",
                 "data": "127.0.0.1",
-                "valid": true
+                "valid": true,
+                "id": "cbdd098a04a265788451e9c6f62b5ad7"
             },
             {
                 "description": "format-assertion: true: invalid string",
                 "data": "not-an-ipv4",
-                "valid": false
+                "valid": false,
+                "id": "5856b5cb96d200dff0cab32da15e3fb3"
             }
         ]
     }

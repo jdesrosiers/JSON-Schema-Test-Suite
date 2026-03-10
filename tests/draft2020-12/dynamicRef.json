@@ -17,12 +17,14 @@
             {
                 "description": "An array of strings is valid",
                 "data": ["foo", "bar"],
-                "valid": true
+                "valid": true,
+                "id": "f268b73e92d409ababbe5b8d27eaff78"
             },
             {
                 "description": "An array containing non-strings is invalid",
                 "data": ["foo", 42],
-                "valid": false
+                "valid": false,
+                "id": "ac963367c114e9a7f4aaed79084a9cb2"
             }
         ]
     },
@@ -44,12 +46,14 @@
             {
                 "description": "An array of strings is valid",
                 "data": ["foo", "bar"],
-                "valid": true
+                "valid": true,
+                "id": "01d6b474355e448ee7c40a5d7fd0f5d8"
             },
             {
                 "description": "An array containing non-strings is invalid",
                 "data": ["foo", 42],
-                "valid": false
+                "valid": false,
+                "id": "1478e8629a4a478958b042ab869ff7b5"
             }
         ]
     },
@@ -71,12 +75,14 @@
             {
                 "description": "An array of strings is valid",
                 "data": ["foo", "bar"],
-                "valid": true
+                "valid": true,
+                "id": "d7418e1e25d23b955e7ad305b925019b"
             },
             {
                 "description": "An array containing non-strings is invalid",
                 "data": ["foo", 42],
-                "valid": false
+                "valid": false,
+                "id": "19cb60e1034cb1fb543616a099d63673"
             }
         ]
     },
@@ -108,12 +114,14 @@
             {
                 "description": "An array of strings is valid",
                 "data": ["foo", "bar"],
-                "valid": true
+                "valid": true,
+                "id": "ea155b9d824db24bd41330d18e9b4be5"
             },
             {
                 "description": "An array containing non-strings is invalid",
                 "data": ["foo", 42],
-                "valid": false
+                "valid": false,
+                "id": "a5692d09e186548468da1785f76081e9"
             }
         ]
     },
@@ -146,12 +154,14 @@
             {
                 "description": "An array of strings is invalid",
                 "data": ["foo", "bar"],
-                "valid": false
+                "valid": false,
+                "id": "d79dc560ee4552f6228d7a0b236e3e84"
             },
             {
                 "description": "An array of numbers is valid",
                 "data": [24, 42],
-                "valid": true
+                "valid": true,
+                "id": "d8d27d010b555b0bed4013d10e9c0ff2"
             }
         ]
     },
@@ -187,12 +197,14 @@
             {
                 "description": "An array of strings is valid",
                 "data": ["foo", "bar"],
-                "valid": true
+                "valid": true,
+                "id": "449a225869731449e133c0d1d81b913d"
             },
             {
                 "description": "An array containing non-strings is invalid",
                 "data": ["foo", 42],
-                "valid": false
+                "valid": false,
+                "id": "c24c899ee75c15945a1d2e1bf29789e1"
             }
         ]
     },
@@ -224,7 +236,8 @@
             {
                 "description": "Any array is valid",
                 "data": ["foo", 42],
-                "valid": true
+                "valid": true,
+                "id": "b3cbc8ed13f25bbcae6810a03b7b044e"
             }
         ]
     },
@@ -256,7 +269,8 @@
             {
                 "description": "Any array is valid",
                 "data": ["foo", 42],
-                "valid": true
+                "valid": true,
+                "id": "615163ca34015789a737d48c9216f571"
             }
         ]
     },
@@ -289,7 +303,8 @@
             {
                 "description": "Any array is valid",
                 "data": ["foo", 42],
-                "valid": true
+                "valid": true,
+                "id": "3ebedef4be7e64a995c9665ebf4c9428"
             }
         ]
     },
@@ -331,7 +346,8 @@
                         "baz": { "foo": "pass" }
                     }
                 },
-                "valid": true
+                "valid": true,
+                "id": "f359b56fd800b46921fd97739aeb8753"
             },
             {
                 "description": "The recursive part is not valid against the root",
@@ -341,7 +357,8 @@
                         "baz": { "foo": "fail" }
                     }
                 },
-                "valid": false
+                "valid": false,
+                "id": "a1c61cf134a1e7b959e627017270dffa"
             }
         ]
     },
@@ -383,7 +400,8 @@
                         "baz": { "foo": "fail" }
                     }
                 },
-                "valid": true
+                "valid": true,
+                "id": "5760f496db8df4bc9ffd7bf5f2a2fd78"
             }
         ]
     },
@@ -445,7 +463,8 @@
                     "kindOfList": "numbers",
                     "list": [1.1]
                 },
-                "valid": true
+                "valid": true,
+                "id": "8d982c195645015d846a35c82fdd3342"
             },
             {
                 "description": "number list with string values",
@@ -453,7 +472,8 @@
                     "kindOfList": "numbers",
                     "list": ["foo"]
                 },
-                "valid": false
+                "valid": false,
+                "id": "606915aa0517e54f438af6db8e716042"
             },
             {
                 "description": "string list with number values",
@@ -461,7 +481,8 @@
                     "kindOfList": "strings",
                     "list": [1.1]
                 },
-                "valid": false
+                "valid": false,
+                "id": "4d2a550c9dc3ef9301b0e43b1cb0443e"
             },
             {
                 "description": "string list with string values",
@@ -469,7 +490,8 @@
                     "kindOfList": "strings",
                     "list": ["foo"]
                 },
-                "valid": true
+                "valid": true,
+                "id": "2199824cad20a2303d4ae0a1d1d5d8b0"
             }
         ]
     },
@@ -517,17 +539,20 @@
             {
                 "description": "string matches /$defs/thingy, but the $dynamicRef does not stop here",
                 "data": "a string",
-                "valid": false
+                "valid": false,
+                "id": "fbada2a10277191cd51ced68e3d814ef"
             },
             {
                 "description": "first_scope is not in dynamic scope for the $dynamicRef",
                 "data": 42,
-                "valid": false
+                "valid": false,
+                "id": "3659453edbfa1fd0f7f015b6951e68b7"
             },
             {
                 "description": "/then/$defs/thingy is the final stop for the $dynamicRef",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "8095537f51c3e612fa3373a8adfdd5c9"
             }
         ]
     },
@@ -549,7 +574,8 @@
                             "daat": 1
                         }]
                 },
-                "valid": false
+                "valid": false,
+                "id": "3e0680c6991433445c6627c28416af47"
             },
             {
                 "description": "instance with correct field",
@@ -558,7 +584,8 @@
                             "data": 1
                         }]
                 },
-                "valid": true
+                "valid": true,
+                "id": "207d016b338583059a7730d9a9971b00"
             }
         ]
     },
@@ -585,7 +612,8 @@
                 "data": {
                     "a": true
                 },
-                "valid": false
+                "valid": false,
+                "id": "da3c5afbe54c3217b0cb39a4f3c9f3a3"
             },
             {
                 "description": "incorrect extended schema",
@@ -594,7 +622,8 @@
                         { "b": 1 }
                     ]
                 },
-                "valid": false
+                "valid": false,
+                "id": "01ec2c3dfce2a26fe14d67dc65e64e8c"
             },
             {
                 "description": "correct extended schema",
@@ -603,7 +632,8 @@
                         { "a": 1 }
                     ]
                 },
-                "valid": true
+                "valid": true,
+                "id": "ec141e2a3515fe93019bb23bbd35a728"
             }
         ]
     },
@@ -636,7 +666,8 @@
                 "data": {
                     "a": true
                 },
-                "valid": false
+                "valid": false,
+                "id": "65f7a5ef72d3003fc1939ae905afc13f"
             },
             {
                 "description": "incorrect extended schema",
@@ -645,7 +676,8 @@
                         { "b": 1 }
                     ]
                 },
-                "valid": false
+                "valid": false,
+                "id": "0d443a917ffc6002f2179db12abd16c0"
             },
             {
                 "description": "correct extended schema",
@@ -654,7 +686,8 @@
                         { "a": 1 }
                     ]
                 },
-                "valid": true
+                "valid": true,
+                "id": "af162377b67e48553dbd6c3559b1735d"
             }
         ]
     },
@@ -687,7 +720,8 @@
                 "data": {
                     "a": true
                 },
-                "valid": false
+                "valid": false,
+                "id": "f538112fda449129064154fa99f45285"
             },
             {
                 "description": "incorrect extended schema",
@@ -696,7 +730,8 @@
                         { "b": 1 }
                     ]
                 },
-                "valid": false
+                "valid": false,
+                "id": "05b4a2833cfe2a1075a5a73d87b724cf"
             },
             {
                 "description": "correct extended schema",
@@ -705,7 +740,8 @@
                         { "a": 1 }
                     ]
                 },
-                "valid": true
+                "valid": true,
+                "id": "829f0bf58e99470d940779a972838ea6"
             }
         ]
     },
@@ -718,12 +754,14 @@
             {
                 "description": "number is valid",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "34774fb770787c8d566243449c0e5d58"
             },
             {
                 "description": "non-number is invalid",
                 "data": "a",
-                "valid": false
+                "valid": false,
+                "id": "a90dca37bd4034948d4a53ad423684e7"
             }
         ]
     },
@@ -748,12 +786,14 @@
             {
                 "description": "follow $dynamicRef to a true schema",
                 "data": { "true": 1 },
-                "valid": true
+                "valid": true,
+                "id": "d754cc17e02163a6d5a8b9adc8a08f6b"
             },
             {
                 "description": "follow $dynamicRef to a false schema",
                 "data": { "false": 1 },
-                "valid": false
+                "valid": false,
+                "id": "0bc496d76e1a2ca9f7f1611f38a321ca"
             }
         ]
     },
@@ -803,12 +843,14 @@
             {
                 "description": "integer property passes",
                 "data": { "bar-item": { "content": 42 } },
-                "valid": true
+                "valid": true,
+                "id": "0a3c98f9ea2c2ad29229b0fd9fea9f5e"
             },
             {
                 "description": "string property fails",
                 "data": { "bar-item": { "content": "value" } },
-                "valid": false
+                "valid": false,
+                "id": "4440f5f1a543711b254575e156821155"
             }
         ]
     },
@@ -861,12 +903,14 @@
             {
                 "description": "data is sufficient for schema at second#/$defs/length",
                 "data": "hi",
-                "valid": true
+                "valid": true,
+                "id": "a402122ce1ba022e9877cba05151dcd4"
             },
             {
                 "description": "data is not sufficient for schema at second#/$defs/length",
                 "data": "hey",
-                "valid": false
+                "valid": false,
+                "id": "c92c33607b64deb7f571149a6e567b39"
             }
         ]
     }

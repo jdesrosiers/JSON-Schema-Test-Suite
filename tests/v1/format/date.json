@@ -9,242 +9,290 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "6b4588799b872662bf3db4365e90f345"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "b78de69a31bc106f5934c768e578c00f"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "829ff16895b7e3f06c6b2a40f4dd6503"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "08a387499e165a3989bd0dd4c0933aba"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "b02f886ae7ea2ba04f1ebf0871a35fff"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "874ee36cf4b040d060f07a84e14306b4"
             },
             {
                 "description": "a valid date string",
                 "data": "1963-06-19",
-                "valid": true
+                "valid": true,
+                "id": "f11f581ca3d947611f1ffa693379b401"
             },
             {
                 "description": "a valid date string with 31 days in January",
                 "data": "2020-01-31",
-                "valid": true
+                "valid": true,
+                "id": "1711aad98a30129fee6bce4e0cc5386a"
             },
             {
                 "description": "a invalid date string with 32 days in January",
                 "data": "2020-01-32",
-                "valid": false
+                "valid": false,
+                "id": "032749b3a22687dcb5e2b916228251f8"
             },
             {
                 "description": "a valid date string with 28 days in February (normal)",
                 "data": "2021-02-28",
-                "valid": true
+                "valid": true,
+                "id": "1f7e6e5e3ea0931e76fa659b8c7f7de3"
             },
             {
                 "description": "a invalid date string with 29 days in February (normal)",
                 "data": "2021-02-29",
-                "valid": false
+                "valid": false,
+                "id": "594c2647149b5948d71bb4dd76de9463"
             },
             {
                 "description": "a valid date string with 29 days in February (leap)",
                 "data": "2020-02-29",
-                "valid": true
+                "valid": true,
+                "id": "5a8b9bd0e060b06e3636bb1e90ca5ddf"
             },
             {
                 "description": "a invalid date string with 30 days in February (leap)",
                 "data": "2020-02-30",
-                "valid": false
+                "valid": false,
+                "id": "00f86ba4d00e1397a34be10ffb9b546f"
             },
             {
                 "description": "a valid date string with 31 days in March",
                 "data": "2020-03-31",
-                "valid": true
+                "valid": true,
+                "id": "256b6bb654896caaa10af781531d585a"
             },
             {
                 "description": "a invalid date string with 32 days in March",
                 "data": "2020-03-32",
-                "valid": false
+                "valid": false,
+                "id": "d02b51eed34e8f276209d8fd35096de3"
             },
             {
                 "description": "a valid date string with 30 days in April",
                 "data": "2020-04-30",
-                "valid": true
+                "valid": true,
+                "id": "e12ac460e605ff26c262d5dfc90f10b0"
             },
             {
                 "description": "a invalid date string with 31 days in April",
                 "data": "2020-04-31",
-                "valid": false
+                "valid": false,
+                "id": "96a0c11de1a4e37cf4c5a02465fba5a4"
             },
             {
                 "description": "a valid date string with 31 days in May",
                 "data": "2020-05-31",
-                "valid": true
+                "valid": true,
+                "id": "cc15b18272c49abac3193cbf95c09e9d"
             },
             {
                 "description": "a invalid date string with 32 days in May",
                 "data": "2020-05-32",
-                "valid": false
+                "valid": false,
+                "id": "e62a1bbcea64718016497c7de3570f48"
             },
             {
                 "description": "a valid date string with 30 days in June",
                 "data": "2020-06-30",
-                "valid": true
+                "valid": true,
+                "id": "00c7ad58d0c5f003591c1cbfc88f90de"
             },
             {
                 "description": "a invalid date string with 31 days in June",
                 "data": "2020-06-31",
-                "valid": false
+                "valid": false,
+                "id": "314b6eb03536da95b98e1edd14f39c0b"
             },
             {
                 "description": "a valid date string with 31 days in July",
                 "data": "2020-07-31",
-                "valid": true
+                "valid": true,
+                "id": "2531997cf3f94d3edabd6872e2e102bb"
             },
             {
                 "description": "a invalid date string with 32 days in July",
                 "data": "2020-07-32",
-                "valid": false
+                "valid": false,
+                "id": "7baf9846ea4c5ac1196c1ae73a4cb911"
             },
             {
                 "description": "a valid date string with 31 days in August",
                 "data": "2020-08-31",
-                "valid": true
+                "valid": true,
+                "id": "5f41d97b9a9c949526df51700422b355"
             },
             {
                 "description": "a invalid date string with 32 days in August",
                 "data": "2020-08-32",
-                "valid": false
+                "valid": false,
+                "id": "e89d5de8f118fb9c619647676be7803b"
             },
             {
                 "description": "a valid date string with 30 days in September",
                 "data": "2020-09-30",
-                "valid": true
+                "valid": true,
+                "id": "8af2a7c916ee7789cba17ee58f15927f"
             },
             {
                 "description": "a invalid date string with 31 days in September",
                 "data": "2020-09-31",
-                "valid": false
+                "valid": false,
+                "id": "e7c184af0822bccec8a6a558c42219d2"
             },
             {
                 "description": "a valid date string with 31 days in October",
                 "data": "2020-10-31",
-                "valid": true
+                "valid": true,
+                "id": "883f165936563b670011d5748d6da1ef"
             },
             {
                 "description": "a invalid date string with 32 days in October",
                 "data": "2020-10-32",
-                "valid": false
+                "valid": false,
+                "id": "41c1d511bc7ebcf02b8c69fac1715f2f"
             },
             {
                 "description": "a valid date string with 30 days in November",
                 "data": "2020-11-30",
-                "valid": true
+                "valid": true,
+                "id": "df7b85aecea78ed154026a4d6f5f22de"
             },
             {
                 "description": "a invalid date string with 31 days in November",
                 "data": "2020-11-31",
-                "valid": false
+                "valid": false,
+                "id": "ea2d72bc9cecf108f93274cab874bd1a"
             },
             {
                 "description": "a valid date string with 31 days in December",
                 "data": "2020-12-31",
-                "valid": true
+                "valid": true,
+                "id": "e97c0972878c98da7183d056a592ac59"
             },
             {
                 "description": "a invalid date string with 32 days in December",
                 "data": "2020-12-32",
-                "valid": false
+                "valid": false,
+                "id": "474bfd8ba6e351a446abf1bdf835fe24"
             },
             {
                 "description": "a invalid date string with invalid month",
                 "data": "2020-13-01",
-                "valid": false
+                "valid": false,
+                "id": "63212484c57c97e15a5083f5178b9ba7"
             },
             {
                 "description": "an invalid date string",
                 "data": "06/19/1963",
-                "valid": false
+                "valid": false,
+                "id": "8b117cdb176322e5ec5d230c318ba552"
             },
             {
                 "description": "only RFC3339 not all of ISO 8601 are valid",
                 "data": "2013-350",
-                "valid": false
+                "valid": false,
+                "id": "5f685e4a22db403327b0227778b07f7c"
             },
             {
                 "description": "non-padded month dates are not valid",
                 "data": "1998-1-20",
-                "valid": false
+                "valid": false,
+                "id": "0824c87cbfa5389e47b0c9e74c30cabe"
             },
             {
                 "description": "non-padded day dates are not valid",
                 "data": "1998-01-1",
-                "valid": false
+                "valid": false,
+                "id": "fd9adfbaae777fb271d956f7dba9cfca"
             },
             {
                 "description": "invalid month",
                 "data": "1998-13-01",
-                "valid": false
+                "valid": false,
+                "id": "27e73503f187cb158687420ffa9e04ba"
             },
             {
                 "description": "invalid month-day combination",
                 "data": "1998-04-31",
-                "valid": false
+                "valid": false,
+                "id": "fa2109e50b4484ed892f828b0ea94f17"
             },
             {
                 "description": "2021 is not a leap year",
                 "data": "2021-02-29",
-                "valid": false
+                "valid": false,
+                "id": "594c2647149b5948d71bb4dd76de9463"
             },
             {
                 "description": "2020 is a leap year",
                 "data": "2020-02-29",
-                "valid": true
+                "valid": true,
+                "id": "5a8b9bd0e060b06e3636bb1e90ca5ddf"
             },
             {
                 "description": "invalid non-ASCII '৪' (a Bengali 4)",
                 "data": "1963-06-1৪",
-                "valid": false
+                "valid": false,
+                "id": "8e4ea26f4ef396287daee201884e493f"
             },
             {
                 "description": "ISO8601 / non-RFC3339: YYYYMMDD without dashes (2023-03-28)",
                 "data": "20230328",
-                "valid": false
+                "valid": false,
+                "id": "1c7a06f1d974bb67bee36e5aa97e6974"
             },
             {
                 "description": "ISO8601 / non-RFC3339: week number implicit day of week (2023-01-02)",
                 "data": "2023-W01",
-                "valid": false
+                "valid": false,
+                "id": "fe5eda31512e23b0403e66b9c5ef6ba3"
             },
             {
                 "description": "ISO8601 / non-RFC3339: week number with day of week (2023-03-28)",
                 "data": "2023-W13-2",
-                "valid": false
+                "valid": false,
+                "id": "48b6c53233d2beee57d58c903b0b41d8"
             },
             {
                 "description": "ISO8601 / non-RFC3339: week number rollover to next year (2023-01-01)",
                 "data": "2022W527",
-                "valid": false
+                "valid": false,
+                "id": "ef9dfb338f51b801b0b757165f9d5484"
             },
             {
                 "description": "an invalid time string in date-time format",
                 "data": "2020-11-28T23:55:45Z",
-                "valid": false
+                "valid": false,
+                "id": "47c9f1477cb662f8eaa28978bde34806"
             }
         ]
     }

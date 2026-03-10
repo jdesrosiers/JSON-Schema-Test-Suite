@@ -48,7 +48,8 @@
                     "kindOfList": "numbers",
                     "list": [1.1]
                 },
-                "valid": true
+                "valid": true,
+                "id": "0a1af3f51fd73b24ce87e25346b1f18a"
             },
             {
                 "description": "number list with string values",
@@ -56,7 +57,8 @@
                     "kindOfList": "numbers",
                     "list": ["foo"]
                 },
-                "valid": false
+                "valid": false,
+                "id": "1bf040e9ef909ae0bdae198aa7600f6b"
             },
             {
                 "description": "string list with number values",
@@ -64,7 +66,8 @@
                     "kindOfList": "strings",
                     "list": [1.1]
                 },
-                "valid": false
+                "valid": false,
+                "id": "6b3f92fbf4f0bd09073177f0aa81a8bf"
             },
             {
                 "description": "string list with string values",
@@ -72,7 +75,8 @@
                     "kindOfList": "strings",
                     "list": ["foo"]
                 },
-                "valid": true
+                "valid": true,
+                "id": "892060b5dd8b85c77d9c80970d97f18e"
             }
         ]
     },
@@ -128,7 +132,8 @@
                     "expectedTypes": "strings",
                     "anotherProperty": "also a string"
                 },
-                "valid": true
+                "valid": true,
+                "id": "5ba0e60717545ec29afa8b84462b6a4e"
             },
             {
                 "description": "expected strings - additional property as not string is invalid",
@@ -136,7 +141,8 @@
                     "expectedTypes": "strings",
                     "anotherProperty": 42
                 },
-                "valid": false
+                "valid": false,
+                "id": "cd8b14fec6f90a61b56923fb53015c84"
             },
             {
                 "description": "expected integers - additional property as integer is valid",
@@ -144,7 +150,8 @@
                     "expectedTypes": "integers",
                     "anotherProperty": 42
                 },
-                "valid": true
+                "valid": true,
+                "id": "dd2220348a07f0b18d91e5b782644774"
             },
             {
                 "description": "expected integers - additional property as not integer is invalid",
@@ -152,7 +159,8 @@
                     "expectedTypes": "integers",
                     "anotherProperty": "a string"
                 },
-                "valid": false
+                "valid": false,
+                "id": "4266e9b38d606188649f8af94430f127"
             }
         ]
     }

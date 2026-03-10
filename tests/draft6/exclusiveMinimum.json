@@ -8,22 +8,26 @@
             {
                 "description": "above the exclusiveMinimum is valid",
                 "data": 1.2,
-                "valid": true
+                "valid": true,
+                "id": "f88f3ae0ba0d7af6fbcd8040c340bec0"
             },
             {
                 "description": "boundary point is invalid",
                 "data": 1.1,
-                "valid": false
+                "valid": false,
+                "id": "9bcea6dc42246a0c69a80792591112d9"
             },
             {
                 "description": "below the exclusiveMinimum is invalid",
                 "data": 0.6,
-                "valid": false
+                "valid": false,
+                "id": "f3d3f20e2fc8b8d58ee6abadfb7567d0"
             },
             {
                 "description": "ignores non-numbers",
                 "data": "x",
-                "valid": true
+                "valid": true,
+                "id": "dd9bb27f727f8cbdc6e63a9ba3da0c3e"
             }
         ]
     }

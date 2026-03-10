@@ -35,17 +35,20 @@
                     "$id": "https://localhost:1234/id/my_identifier.json",
                     "type": "null"
                 },
-                "valid": true
+                "valid": true,
+                "id": "c8d803b1d407b84d09f085e01c1ebca2"
             },
             {
                 "description": "match $ref to id",
                 "data": "a string to match #/definitions/id_in_enum",
-                "valid": true
+                "valid": true,
+                "id": "ce3443d739921fa0a65180fce73b3bb5"
             },
             {
                 "description": "no match on enum or $ref to id",
                 "data": 1,
-                "valid": false
+                "valid": false,
+                "id": "dc5effbb90d196a9c9eec39e3e4fe5bd"
             }
         ]
     },
@@ -71,12 +74,14 @@
             {
                 "description": "skip traversing definition for a valid result",
                 "data": "skip not_a_real_anchor",
-                "valid": true
+                "valid": true,
+                "id": "338a3e5a6cfe55ec93194215a7f8db52"
             },
             {
                 "description": "const at const_not_anchor does not match",
                 "data": 1,
-                "valid": false
+                "valid": false,
+                "id": "c02c3c18a922fbb1df476da999b80782"
             }
         ]
     },
@@ -102,12 +107,14 @@
             {
                 "description": "skip traversing definition for a valid result",
                 "data": "skip not_a_real_id",
-                "valid": true
+                "valid": true,
+                "id": "423ceded04e98433ffe97d3052c84444"
             },
             {
                 "description": "const at const_not_id does not match",
                 "data": 1,
-                "valid": false
+                "valid": false,
+                "id": "6ec35a7c34dc2267bcaefdc09e7825bf"
             }
         ]
     }

@@ -12,22 +12,26 @@
             {
                 "description": "match",
                 "data": {"foo": false},
-                "valid": true
+                "valid": true,
+                "id": "ace38449bb86dbf81af38b5e78273583"
             },
             {
                 "description": "recursive match",
                 "data": { "foo": { "foo": false } },
-                "valid": true
+                "valid": true,
+                "id": "e53b7bdf3bd047b1aefbb65a58055d49"
             },
             {
                 "description": "mismatch",
                 "data": { "bar": false },
-                "valid": false
+                "valid": false,
+                "id": "c76b3355f7b68952d6003103220ae091"
             },
             {
                 "description": "recursive mismatch",
                 "data": { "foo": { "bar": false } },
-                "valid": false
+                "valid": false,
+                "id": "21c5058aa9eb8142e3e585d1d331414d"
             }
         ]
     },
@@ -58,27 +62,32 @@
             {
                 "description": "integer matches at the outer level",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "718512a980e182c4836d460707db19fa"
             },
             {
                 "description": "single level match",
                 "data": { "foo": "hi" },
-                "valid": true
+                "valid": true,
+                "id": "bfda17c6068280c8457d2968bb055f4e"
             },
             {
                 "description": "integer does not match as a property value",
                 "data": { "foo": 1 },
-                "valid": false
+                "valid": false,
+                "id": "6bedf05b8b3610a6cff9beb393dbaff0"
             },
             {
                 "description": "two levels, properties match with inner definition",
                 "data": { "foo": { "bar": "hi" } },
-                "valid": true
+                "valid": true,
+                "id": "7d7b855e31a4f94bec515d7be7c0a155"
             },
             {
                 "description": "two levels, no match",
                 "data": { "foo": { "bar": 1 } },
-                "valid": false
+                "valid": false,
+                "id": "a0496689fa6ec2d3fca1b6bfc40e8331"
             }
         ]
     },
@@ -110,27 +119,32 @@
             {
                 "description": "integer matches at the outer level",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "4f1459e69fdba6ee837fc43de9271753"
             },
             {
                 "description": "single level match",
                 "data": { "foo": "hi" },
-                "valid": true
+                "valid": true,
+                "id": "efa12faaf3a6a4ceb2498b9249bf6e74"
             },
             {
                 "description": "integer now matches as a property value",
                 "data": { "foo": 1 },
-                "valid": true
+                "valid": true,
+                "id": "ca97bf80886b5d9d552234fb6d2b9962"
             },
             {
                 "description": "two levels, properties match with inner definition",
                 "data": { "foo": { "bar": "hi" } },
-                "valid": true
+                "valid": true,
+                "id": "6bd9d596029700eac75c2d2c4f7eefd2"
             },
             {
                 "description": "two levels, properties match with $recursiveRef",
                 "data": { "foo": { "bar": 1 } },
-                "valid": true
+                "valid": true,
+                "id": "9905448ea490984c8b1053c35eb35036"
             }
         ]
     },
@@ -162,27 +176,32 @@
             {
                 "description": "integer matches at the outer level",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "8315397eceec76d4c12c3c69a2760c1b"
             },
             {
                 "description": "single level match",
                 "data": { "foo": "hi" },
-                "valid": true
+                "valid": true,
+                "id": "e16fffbfe32a8a5a8661f043b510190c"
             },
             {
                 "description": "integer does not match as a property value",
                 "data": { "foo": 1 },
-                "valid": false
+                "valid": false,
+                "id": "5c0eac3c6400d0c47263974703648e49"
             },
             {
                 "description": "two levels, properties match with inner definition",
                 "data": { "foo": { "bar": "hi" } },
-                "valid": true
+                "valid": true,
+                "id": "4474f692797c8240691d2ffb705f64dc"
             },
             {
                 "description": "two levels, integer does not match as a property value",
                 "data": { "foo": { "bar": 1 } },
-                "valid": false
+                "valid": false,
+                "id": "14eb1b585c017f1e767dc67f965df0f7"
             }
         ]
     },
@@ -213,27 +232,32 @@
             {
                 "description": "integer matches at the outer level",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "271d0cf0e963d554a89d52a1ce27810b"
             },
             {
                 "description": "single level match",
                 "data": { "foo": "hi" },
-                "valid": true
+                "valid": true,
+                "id": "5c7a0495c785ccf305621488d56807db"
             },
             {
                 "description": "integer does not match as a property value",
                 "data": { "foo": 1 },
-                "valid": false
+                "valid": false,
+                "id": "5e960c048d1e447d9694af0d5da63262"
             },
             {
                 "description": "two levels, properties match with inner definition",
                 "data": { "foo": { "bar": "hi" } },
-                "valid": true
+                "valid": true,
+                "id": "b63064471d328667e03f2da5123f174d"
             },
             {
                 "description": "two levels, integer does not match as a property value",
                 "data": { "foo": { "bar": 1 } },
-                "valid": false
+                "valid": false,
+                "id": "71bc147a764e342b6ddbb8ddb0fac632"
             }
         ]
     },
@@ -262,17 +286,20 @@
             {
                 "description": "leaf node does not match; no recursion",
                 "data": { "foo": true },
-                "valid": false
+                "valid": false,
+                "id": "cdf73410849d6b9cd02c8f8015c43a23"
             },
             {
                 "description": "leaf node matches: recursion uses the inner schema",
                 "data": { "foo": { "bar": 1 } },
-                "valid": true
+                "valid": true,
+                "id": "a8aa750410e4eca0fcdc76c92dbbced0"
             },
             {
                 "description": "leaf node does not match: recursion uses the inner schema",
                 "data": { "foo": { "bar": true } },
-                "valid": false
+                "valid": false,
+                "id": "d7378bcac360454b61a0fb50c211de1b"
             }
         ]
     },
@@ -300,17 +327,20 @@
             {
                 "description": "leaf node does not match; no recursion",
                 "data": { "foo": true },
-                "valid": false
+                "valid": false,
+                "id": "abba21282bfd1737c6756c7fab4d197e"
             },
             {
                 "description": "leaf node matches: recursion only uses inner schema",
                 "data": { "foo": { "bar": 1 } },
-                "valid": true
+                "valid": true,
+                "id": "e8a2875db9eac5871d0e9e4ecd70cf49"
             },
             {
                 "description": "leaf node does not match: recursion only uses inner schema",
                 "data": { "foo": { "bar": true } },
-                "valid": false
+                "valid": false,
+                "id": "c9e7706ba11eb7352b53560b1b6100fc"
             }
         ]
     },
@@ -352,12 +382,14 @@
             {
                 "description": "recurse to anyLeafNode - floats are allowed",
                 "data": { "alpha": 1.1 },
-                "valid": true
+                "valid": true,
+                "id": "4ee58a63a1420f2d3e53e78760982bdc"
             },
             {
                 "description": "recurse to integerNode - floats are not allowed",
                 "data": { "november": 1.1 },
-                "valid": false
+                "valid": false,
+                "id": "fc97ccf6a8fa92ced888b7d01a19c26a"
             }
         ]
     },
@@ -396,12 +428,14 @@
             {
                 "description": "numeric node",
                 "data": { "alpha": 1.1 },
-                "valid": true
+                "valid": true,
+                "id": "691d981521a91810980d7200f9884088"
             },
             {
                 "description": "integer node",
                 "data": { "november": 1.1 },
-                "valid": false
+                "valid": false,
+                "id": "0cbf96067f5b51e2f7ec87d23b0fcc8f"
             }
         ]
     }

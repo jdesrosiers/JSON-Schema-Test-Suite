@@ -36,17 +36,20 @@
                     "$id": "https://localhost:1234/v1/id/my_identifier.json",
                     "type": "null"
                 },
-                "valid": true
+                "valid": true,
+                "id": "74493a6a2393ef2e3834d6e5d6e564a1"
             },
             {
                 "description": "match $ref to $id",
                 "data": "a string to match #/$defs/id_in_enum",
-                "valid": true
+                "valid": true,
+                "id": "d45b23f3a6ca536447d46fd630493f52"
             },
             {
                 "description": "no match on enum or $ref to $id",
                 "data": 1,
-                "valid": false
+                "valid": false,
+                "id": "77c468828a4fd2737e9aff669ba30df1"
             }
         ]
     }

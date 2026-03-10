@@ -6,22 +6,26 @@
             {
                 "description": "above the minimum is valid",
                 "data": 2.6,
-                "valid": true
+                "valid": true,
+                "id": "9ccb2778042acb76befdabf96b23df13"
             },
             {
                 "description": "boundary point is valid",
                 "data": 1.1,
-                "valid": true
+                "valid": true,
+                "id": "66d0da91cecf0ddce8951f0e97323bff"
             },
             {
                 "description": "below the minimum is invalid",
                 "data": 0.6,
-                "valid": false
+                "valid": false,
+                "id": "a599ddcc9dd29ea6c9604cbe2b5ebb85"
             },
             {
                 "description": "ignores non-numbers",
                 "data": "x",
-                "valid": true
+                "valid": true,
+                "id": "921530bbbab5155d80e95fa9e9a68598"
             }
         ]
     },
@@ -32,37 +36,44 @@
             {
                 "description": "negative above the minimum is valid",
                 "data": -1,
-                "valid": true
+                "valid": true,
+                "id": "ad94eb378ff0fd3e156381aa6786b274"
             },
             {
                 "description": "positive above the minimum is valid",
                 "data": 0,
-                "valid": true
+                "valid": true,
+                "id": "94aeef3a4d48d89b3d3ae272866f4a5f"
             },
             {
                 "description": "boundary point is valid",
                 "data": -2,
-                "valid": true
+                "valid": true,
+                "id": "d340d1ea5673f7ee5322a3c1caa85a90"
             },
             {
                 "description": "boundary point with float is valid",
                 "data": -2.0,
-                "valid": true
+                "valid": true,
+                "id": "d340d1ea5673f7ee5322a3c1caa85a90"
             },
             {
                 "description": "float below the minimum is invalid",
                 "data": -2.0001,
-                "valid": false
+                "valid": false,
+                "id": "673e2c769cd7b0ec3ae40dceef813f8f"
             },
             {
                 "description": "int below the minimum is invalid",
                 "data": -3,
-                "valid": false
+                "valid": false,
+                "id": "f58d7580aa3badd8e68915923321dd28"
             },
             {
                 "description": "ignores non-numbers",
                 "data": "x",
-                "valid": true
+                "valid": true,
+                "id": "1557334e78a156522ab87b5c676468c3"
             }
         ]
     }

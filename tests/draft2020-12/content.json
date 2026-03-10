@@ -9,17 +9,20 @@
             {
                 "description": "a valid JSON document",
                 "data": "{\"foo\": \"bar\"}",
-                "valid": true
+                "valid": true,
+                "id": "cb08a578f83ca2d87024c973ae127ac7"
             },
             {
                 "description": "an invalid JSON document; validates true",
                 "data": "{:}",
-                "valid": true
+                "valid": true,
+                "id": "afe911bdb4880483600eb3f4ade89710"
             },
             {
                 "description": "ignores non-strings",
                 "data": 100,
-                "valid": true
+                "valid": true,
+                "id": "3497807130268f91be05d06facc68970"
             }
         ]
     },
@@ -33,17 +36,20 @@
             {
                 "description": "a valid base64 string",
                 "data": "eyJmb28iOiAiYmFyIn0K",
-                "valid": true
+                "valid": true,
+                "id": "9881b78d9d78c389651953350650fd0b"
             },
             {
                 "description": "an invalid base64 string (% is not a valid character); validates true",
                 "data": "eyJmb28iOi%iYmFyIn0K",
-                "valid": true
+                "valid": true,
+                "id": "9d1e870a19f6c95d782d49329247802a"
             },
             {
                 "description": "ignores non-strings",
                 "data": 100,
-                "valid": true
+                "valid": true,
+                "id": "8f468629c8a59ef3a163677a67446f1b"
             }
         ]
     },
@@ -58,22 +64,26 @@
             {
                 "description": "a valid base64-encoded JSON document",
                 "data": "eyJmb28iOiAiYmFyIn0K",
-                "valid": true
+                "valid": true,
+                "id": "d2c8f4f8ba0f39f788f79880ecc541ef"
             },
             {
                 "description": "a validly-encoded invalid JSON document; validates true",
                 "data": "ezp9Cg==",
-                "valid": true
+                "valid": true,
+                "id": "871ea889db844505a13c527b0d55d704"
             },
             {
                 "description": "an invalid base64 string that is valid JSON; validates true",
                 "data": "{}",
-                "valid": true
+                "valid": true,
+                "id": "87c3faa2fecb2d11d73116e4e1da4c56"
             },
             {
                 "description": "ignores non-strings",
                 "data": 100,
-                "valid": true
+                "valid": true,
+                "id": "5082310e881b184aa7c01a788d85ac39"
             }
         ]
     },
@@ -89,42 +99,50 @@
             {
                 "description": "a valid base64-encoded JSON document",
                 "data": "eyJmb28iOiAiYmFyIn0K",
-                "valid": true
+                "valid": true,
+                "id": "580813575067ec06c96248beaaf91e95"
             },
             {
                 "description": "another valid base64-encoded JSON document",
                 "data": "eyJib28iOiAyMCwgImZvbyI6ICJiYXoifQ==",
-                "valid": true
+                "valid": true,
+                "id": "74a6bef0751e7877b53a17668301fa49"
             },
             {
                 "description": "an invalid base64-encoded JSON document; validates true",
                 "data": "eyJib28iOiAyMH0=",
-                "valid": true
+                "valid": true,
+                "id": "d656d16f49616f370c4212a0e313a9fe"
             },
             {
                 "description": "an empty object as a base64-encoded JSON document; validates true",
                 "data": "e30=",
-                "valid": true
+                "valid": true,
+                "id": "2b45a279ce19f18b4d9ec08b19d06c78"
             },
             {
                 "description": "an empty array as a base64-encoded JSON document",
                 "data": "W10=",
-                "valid": true
+                "valid": true,
+                "id": "e55daa8cedcbd1e352aba3c4a14b355e"
             },
             {
                 "description": "a validly-encoded invalid JSON document; validates true",
                 "data": "ezp9Cg==",
-                "valid": true
+                "valid": true,
+                "id": "c6a0308f821176d84de53ff15bab6ffd"
             },
             {
                 "description": "an invalid base64 string that is valid JSON; validates true",
                 "data": "{}",
-                "valid": true
+                "valid": true,
+                "id": "94b130167c38f89d463d671fd3bf01c7"
             },
             {
                 "description": "ignores non-strings",
                 "data": 100,
-                "valid": true
+                "valid": true,
+                "id": "31401df53863fe5d1dc5c84828921306"
             }
         ]
     }

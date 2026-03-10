@@ -10,14 +10,16 @@
             {
                 "description": "with no unevaluated properties",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "a37eb2ba3f145afdcae20aef388359cd"
             },
             {
                 "description": "with unevaluated properties",
                 "data": {
                     "foo": "foo"
                 },
-                "valid": true
+                "valid": true,
+                "id": "1b81b3db6b0e585a8aed8141fadd4f17"
             }
         ]
     },
@@ -35,21 +37,24 @@
             {
                 "description": "with no unevaluated properties",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "73f9944c4e2bdbf6b8fd1b3d19cbdb7a"
             },
             {
                 "description": "with valid unevaluated properties",
                 "data": {
                     "foo": "foo"
                 },
-                "valid": true
+                "valid": true,
+                "id": "5e214b2690b8562ff6b4d6fcfe647957"
             },
             {
                 "description": "with invalid unevaluated properties",
                 "data": {
                     "foo": "fo"
                 },
-                "valid": false
+                "valid": false,
+                "id": "5d300e1a9265e98f1c3c66cfbf7e0ae4"
             }
         ]
     },
@@ -64,14 +69,16 @@
             {
                 "description": "with no unevaluated properties",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "2a8312d1c4434d4bdaff0ac7c36ea1af"
             },
             {
                 "description": "with unevaluated properties",
                 "data": {
                     "foo": "foo"
                 },
-                "valid": false
+                "valid": false,
+                "id": "d2a1046982b813c744320208925f9ba2"
             }
         ]
     },
@@ -91,7 +98,8 @@
                 "data": {
                     "foo": "foo"
                 },
-                "valid": true
+                "valid": true,
+                "id": "962886b74c67e23f9034bb3840d15d30"
             },
             {
                 "description": "with unevaluated properties",
@@ -99,7 +107,8 @@
                     "foo": "foo",
                     "bar": "bar"
                 },
-                "valid": false
+                "valid": false,
+                "id": "4c580faab7b0f941f4edfd8a5ac649d9"
             }
         ]
     },
@@ -119,7 +128,8 @@
                 "data": {
                     "foo": "foo"
                 },
-                "valid": true
+                "valid": true,
+                "id": "e17a9bc5fd72579b44c63870316d51f0"
             },
             {
                 "description": "with unevaluated properties",
@@ -127,7 +137,8 @@
                     "foo": "foo",
                     "bar": "bar"
                 },
-                "valid": false
+                "valid": false,
+                "id": "e040db6c7f39014eff69fbe2c20c6d2e"
             }
         ]
     },
@@ -148,7 +159,8 @@
                 "data": {
                     "foo": "foo"
                 },
-                "valid": true
+                "valid": true,
+                "id": "1878e323aa18aa7aa4ae8fa06801c585"
             },
             {
                 "description": "with additional properties",
@@ -156,7 +168,8 @@
                     "foo": "foo",
                     "bar": "bar"
                 },
-                "valid": true
+                "valid": true,
+                "id": "fa411e2bb86faf07abaab2fe9f043224"
             }
         ]
     },
@@ -177,7 +190,8 @@
                 "data": {
                     "foo": "foo"
                 },
-                "valid": true
+                "valid": true,
+                "id": "3017756f5b99da22f4208f9a827488d3"
             },
             {
                 "description": "with additional properties",
@@ -185,7 +199,8 @@
                     "foo": "foo",
                     "bar": "bar"
                 },
-                "valid": true
+                "valid": true,
+                "id": "d015dd6913ed8ec1238322e92c6561bb"
             }
         ]
     },
@@ -213,7 +228,8 @@
                     "foo": "foo",
                     "bar": "bar"
                 },
-                "valid": true
+                "valid": true,
+                "id": "73320378f62174763f9fad25c22cee10"
             },
             {
                 "description": "with additional properties",
@@ -222,7 +238,8 @@
                     "bar": "bar",
                     "baz": "baz"
                 },
-                "valid": false
+                "valid": false,
+                "id": "0a8182453bc1504700646c27fc74a838"
             }
         ]
     },
@@ -250,7 +267,8 @@
                     "foo": "foo",
                     "bar": "bar"
                 },
-                "valid": true
+                "valid": true,
+                "id": "8123d34d1e8422c3761ac76e2f58583c"
             },
             {
                 "description": "with additional properties",
@@ -259,7 +277,8 @@
                     "bar": "bar",
                     "baz": "baz"
                 },
-                "valid": false
+                "valid": false,
+                "id": "c7e77cecfcb12d093a049b16ac5e036e"
             }
         ]
     },
@@ -284,7 +303,8 @@
                 "data": {
                     "foo": "foo"
                 },
-                "valid": true
+                "valid": true,
+                "id": "3a3a14b4f2e0909c909e20328ae79ee4"
             },
             {
                 "description": "with additional properties",
@@ -292,7 +312,8 @@
                     "foo": "foo",
                     "bar": "bar"
                 },
-                "valid": true
+                "valid": true,
+                "id": "9d1c9fa16a01cb307f26f38875ee776c"
             }
         ]
     },
@@ -320,7 +341,8 @@
                 "data": {
                     "foo": "foo"
                 },
-                "valid": true
+                "valid": true,
+                "id": "ec37ff4fcffc598babb6daec2f165daa"
             },
             {
                 "description": "with nested unevaluated properties",
@@ -328,7 +350,8 @@
                     "foo": "foo",
                     "bar": "bar"
                 },
-                "valid": true
+                "valid": true,
+                "id": "c5aafbdae185f934d7ba0c9f5fe1cd6e"
             }
         ]
     },
@@ -369,7 +392,8 @@
                     "foo": "foo",
                     "bar": "bar"
                 },
-                "valid": true
+                "valid": true,
+                "id": "277123759bf52b5f87a8b82f766c1550"
             },
             {
                 "description": "when one matches and has unevaluated properties",
@@ -378,7 +402,8 @@
                     "bar": "bar",
                     "baz": "not-baz"
                 },
-                "valid": false
+                "valid": false,
+                "id": "02598ab116f625c502558966712b375c"
             },
             {
                 "description": "when two match and has no unevaluated properties",
@@ -387,7 +412,8 @@
                     "bar": "bar",
                     "baz": "baz"
                 },
-                "valid": true
+                "valid": true,
+                "id": "1cece566475d5ba10d5c40842e15d766"
             },
             {
                 "description": "when two match and has unevaluated properties",
@@ -397,7 +423,8 @@
                     "baz": "baz",
                     "quux": "not-quux"
                 },
-                "valid": false
+                "valid": false,
+                "id": "df841764daa3dd6bf83491d56d5cafe5"
             }
         ]
     },
@@ -432,7 +459,8 @@
                     "foo": "foo",
                     "bar": "bar"
                 },
-                "valid": true
+                "valid": true,
+                "id": "2c5facff765a547ac35c3a02cd9ac69d"
             },
             {
                 "description": "with unevaluated properties",
@@ -441,7 +469,8 @@
                     "bar": "bar",
                     "quux": "quux"
                 },
-                "valid": false
+                "valid": false,
+                "id": "83280bd551a6bb9959354563f959b8cd"
             }
         ]
     },
@@ -470,7 +499,8 @@
                     "foo": "foo",
                     "bar": "bar"
                 },
-                "valid": false
+                "valid": false,
+                "id": "a76e6135a72bb755570614ca9abf2ca9"
             }
         ]
     },
@@ -506,7 +536,8 @@
                     "foo": "then",
                     "bar": "bar"
                 },
-                "valid": true
+                "valid": true,
+                "id": "1f7b08fd0cf2e3647e9b92b6c0ccf700"
             },
             {
                 "description": "when if is true and has unevaluated properties",
@@ -515,14 +546,16 @@
                     "bar": "bar",
                     "baz": "baz"
                 },
-                "valid": false
+                "valid": false,
+                "id": "0e3f9724e012eb1babe8c8843622f70d"
             },
             {
                 "description": "when if is false and has no unevaluated properties",
                 "data": {
                     "baz": "baz"
                 },
-                "valid": true
+                "valid": true,
+                "id": "23a7545fd38dd79ca2f2abdb4fb430b0"
             },
             {
                 "description": "when if is false and has unevaluated properties",
@@ -530,7 +563,8 @@
                     "foo": "else",
                     "baz": "baz"
                 },
-                "valid": false
+                "valid": false,
+                "id": "0728879465e739485355e2da4a45c760"
             }
         ]
     },
@@ -559,7 +593,8 @@
                 "data": {
                     "foo": "then"
                 },
-                "valid": true
+                "valid": true,
+                "id": "80de08d3b74f12f10ca6d016e7f4a3cc"
             },
             {
                 "description": "when if is true and has unevaluated properties",
@@ -567,14 +602,16 @@
                     "foo": "then",
                     "bar": "bar"
                 },
-                "valid": false
+                "valid": false,
+                "id": "d253139696c3cfe5941f727b365898f3"
             },
             {
                 "description": "when if is false and has no unevaluated properties",
                 "data": {
                     "baz": "baz"
                 },
-                "valid": true
+                "valid": true,
+                "id": "c0c42a07ff569a2f7a063c4a547bf775"
             },
             {
                 "description": "when if is false and has unevaluated properties",
@@ -582,7 +619,8 @@
                     "foo": "else",
                     "baz": "baz"
                 },
-                "valid": false
+                "valid": false,
+                "id": "a8534ed0534539533356da9ac56faff2"
             }
         ]
     },
@@ -612,7 +650,8 @@
                     "foo": "then",
                     "bar": "bar"
                 },
-                "valid": true
+                "valid": true,
+                "id": "25239ad7242949f17801d32668dc7c1d"
             },
             {
                 "description": "when if is true and has unevaluated properties",
@@ -621,14 +660,16 @@
                     "bar": "bar",
                     "baz": "baz"
                 },
-                "valid": false
+                "valid": false,
+                "id": "6b15d6e6e4cc61c73cb77ba12f85ad30"
             },
             {
                 "description": "when if is false and has no unevaluated properties",
                 "data": {
                     "baz": "baz"
                 },
-                "valid": false
+                "valid": false,
+                "id": "ab96759fbd6a58b69487a6280e493a2e"
             },
             {
                 "description": "when if is false and has unevaluated properties",
@@ -636,7 +677,8 @@
                     "foo": "else",
                     "baz": "baz"
                 },
-                "valid": false
+                "valid": false,
+                "id": "92f392aea0aec5bc993a8ca40dd4ea39"
             }
         ]
     },
@@ -665,14 +707,16 @@
                     "foo": "foo",
                     "bar": "bar"
                 },
-                "valid": true
+                "valid": true,
+                "id": "fe63d5c00640836bb43f83efa71ae70a"
             },
             {
                 "description": "with unevaluated properties",
                 "data": {
                     "bar": "bar"
                 },
-                "valid": false
+                "valid": false,
+                "id": "d8d72e09795a9fd8eac11fc9783d0bb9"
             }
         ]
     },
@@ -693,14 +737,16 @@
                 "data": {
                     "foo": "foo"
                 },
-                "valid": true
+                "valid": true,
+                "id": "63a9cde815ddfd83e03f7cc9a718a8dd"
             },
             {
                 "description": "with unevaluated properties",
                 "data": {
                     "bar": "bar"
                 },
-                "valid": false
+                "valid": false,
+                "id": "ecf72eaea2fad5a7b5b4ef056dbc7f81"
             }
         ]
     },
@@ -729,7 +775,8 @@
                     "foo": "foo",
                     "bar": "bar"
                 },
-                "valid": true
+                "valid": true,
+                "id": "ad5aa61529d142f0c8df3ebf5fae2111"
             },
             {
                 "description": "with unevaluated properties",
@@ -738,7 +785,8 @@
                     "bar": "bar",
                     "baz": "baz"
                 },
-                "valid": false
+                "valid": false,
+                "id": "5e778e896287fc11d05ea7f3fd16b817"
             }
         ]
     },
@@ -767,7 +815,8 @@
                     "foo": "foo",
                     "bar": "bar"
                 },
-                "valid": true
+                "valid": true,
+                "id": "eba2e5c2a3fdbf73e30603e91faf5530"
             },
             {
                 "description": "with unevaluated properties",
@@ -776,7 +825,8 @@
                     "bar": "bar",
                     "baz": "baz"
                 },
-                "valid": false
+                "valid": false,
+                "id": "36e66a500dcf869415638609136223f4"
             }
         ]
     },
@@ -815,7 +865,8 @@
                     "foo": "foo",
                     "bar": "bar"
                 },
-                "valid": true
+                "valid": true,
+                "id": "df6551236c3c19e95bb80a1d65998388"
             },
             {
                 "description": "with unevaluated properties",
@@ -824,7 +875,8 @@
                     "bar": "bar",
                     "baz": "baz"
                 },
-                "valid": false
+                "valid": false,
+                "id": "27b4d52d75c5714c5a0872ecec3e36ca"
             }
         ]
     },
@@ -849,7 +901,8 @@
                 "data": {
                     "foo": 1
                 },
-                "valid": false
+                "valid": false,
+                "id": "58f00d5ab808702be048781dd49b9f0d"
             }
         ]
     },
@@ -874,7 +927,8 @@
                 "data": {
                     "foo": 1
                 },
-                "valid": false
+                "valid": false,
+                "id": "8cec26bbefe00f301a7bafc861137ae2"
             }
         ]
     },
@@ -899,7 +953,8 @@
                 "data": {
                     "foo": "foo"
                 },
-                "valid": true
+                "valid": true,
+                "id": "ae7db13a1494e27c15fc1fa3677abc76"
             },
             {
                 "description": "with nested unevaluated properties",
@@ -907,7 +962,8 @@
                     "foo": "foo",
                     "bar": "bar"
                 },
-                "valid": true
+                "valid": true,
+                "id": "fa49125d8b4e7e7c1529209db6f4fc66"
             }
         ]
     },
@@ -932,7 +988,8 @@
                 "data": {
                     "foo": "foo"
                 },
-                "valid": true
+                "valid": true,
+                "id": "980726eaaade1f3c780c801dfa85bbe1"
             },
             {
                 "description": "with nested unevaluated properties",
@@ -940,7 +997,8 @@
                     "foo": "foo",
                     "bar": "bar"
                 },
-                "valid": true
+                "valid": true,
+                "id": "130577bbdce2e216dccc1076f0937230"
             }
         ]
     },
@@ -965,7 +1023,8 @@
                 "data": {
                     "foo": "foo"
                 },
-                "valid": false
+                "valid": false,
+                "id": "626546ba1fdb6892b190812ced62c54d"
             },
             {
                 "description": "with nested unevaluated properties",
@@ -973,7 +1032,8 @@
                     "foo": "foo",
                     "bar": "bar"
                 },
-                "valid": false
+                "valid": false,
+                "id": "d57dee7f286cafa2a169b5fb40598307"
             }
         ]
     },
@@ -998,7 +1058,8 @@
                 "data": {
                     "foo": "foo"
                 },
-                "valid": true
+                "valid": true,
+                "id": "81971381ea615d3366d1577f33a2bfe6"
             },
             {
                 "description": "with nested unevaluated properties",
@@ -1006,7 +1067,8 @@
                     "foo": "foo",
                     "bar": "bar"
                 },
-                "valid": false
+                "valid": false,
+                "id": "632af3395b9eda656b178be4ee38844c"
             }
         ]
     },
@@ -1033,7 +1095,8 @@
                 "data": {
                     "foo": "foo"
                 },
-                "valid": false
+                "valid": false,
+                "id": "6ce4f766cab33224b2283c33542b3fe5"
             },
             {
                 "description": "with nested unevaluated properties",
@@ -1041,7 +1104,8 @@
                     "foo": "foo",
                     "bar": "bar"
                 },
-                "valid": false
+                "valid": false,
+                "id": "fbe16528903e2571caefed4fd0b20cd0"
             }
         ]
     },
@@ -1068,7 +1132,8 @@
                 "data": {
                     "foo": "foo"
                 },
-                "valid": true
+                "valid": true,
+                "id": "754522b6fee3234e73f51f7332c5d0a0"
             },
             {
                 "description": "with nested unevaluated properties",
@@ -1076,7 +1141,8 @@
                     "foo": "foo",
                     "bar": "bar"
                 },
-                "valid": false
+                "valid": false,
+                "id": "76f7f8ae423fb1f9cf7e662ddbc4d12d"
             }
         ]
     },
@@ -1119,7 +1185,8 @@
                         "bar": "test"
                     }
                 },
-                "valid": true
+                "valid": true,
+                "id": "35fe28b1fa0138a833dcfce67212727d"
             },
             {
                 "description": "uncle keyword evaluation is not significant",
@@ -1129,7 +1196,8 @@
                         "faz": "test"
                     }
                 },
-                "valid": false
+                "valid": false,
+                "id": "5267ded619adf9aa2e9c0c076344404f"
             }
         ]
     },
@@ -1161,21 +1229,24 @@
                     "foo": 1,
                     "bar": 1
                 },
-                "valid": false
+                "valid": false,
+                "id": "834c30a1d73b5b56d59f718c6055ebda"
             },
             {
                 "description": "in place applicator siblings, bar is missing",
                 "data": {
                     "foo": 1
                 },
-                "valid": true
+                "valid": true,
+                "id": "cdf9f61f27aaac50771bee3f0e4a6d93"
             },
             {
                 "description": "in place applicator siblings, foo is missing",
                 "data": {
                     "bar": 1
                 },
-                "valid": false
+                "valid": false,
+                "id": "1f924de3550f22ce556ac668e103f021"
             }
         ]
     },
@@ -1207,21 +1278,24 @@
                     "foo": 1,
                     "bar": 1
                 },
-                "valid": false
+                "valid": false,
+                "id": "b7d56d4be4fbf4fd930e6d97410ce699"
             },
             {
                 "description": "in place applicator siblings, bar is missing",
                 "data": {
                     "foo": 1
                 },
-                "valid": false
+                "valid": false,
+                "id": "ef60e986c25eb5692012cf0a841a6df7"
             },
             {
                 "description": "in place applicator siblings, foo is missing",
                 "data": {
                     "bar": 1
                 },
-                "valid": true
+                "valid": true,
+                "id": "586b5e995a9a183774fccabd675bcb63"
             }
         ]
     },
@@ -1239,37 +1313,44 @@
             {
                 "description": "Empty is valid",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "744f3f4a213e163623d8b6d04bd81ac0"
             },
             {
                 "description": "Single is valid",
                 "data": { "x": {} },
-                "valid": true
+                "valid": true,
+                "id": "eef7348c41def3f07c2bb461fb720327"
             },
             {
                 "description": "Unevaluated on 1st level is invalid",
                 "data": { "x": {}, "y": {} },
-                "valid": false
+                "valid": false,
+                "id": "3c6d8996d998c16ed773f653a2dd9a25"
             },
             {
                 "description": "Nested is valid",
                 "data": { "x": { "x": {} } },
-                "valid": true
+                "valid": true,
+                "id": "935abb110403099e2b4b05eff1e60692"
             },
             {
                 "description": "Unevaluated on 2nd level is invalid",
                 "data": { "x": { "x": {}, "y": {} } },
-                "valid": false
+                "valid": false,
+                "id": "5148a0b210e92bc7a8ab461d8c4d3521"
             },
             {
                 "description": "Deep nested is valid",
                 "data": { "x": { "x": { "x": {} } } },
-                "valid": true
+                "valid": true,
+                "id": "d0b71560f1ecd3b07d85e335be4b094b"
             },
             {
                 "description": "Unevaluated on 3rd level is invalid",
                 "data": { "x": { "x": { "x": {}, "y": {} } } },
-                "valid": false
+                "valid": false,
+                "id": "eb4deef045d4a8177255d4765a639cfa"
             }
         ]
     },
@@ -1305,42 +1386,50 @@
             {
                 "description": "Empty is invalid (no x or y)",
                 "data": {},
-                "valid": false
+                "valid": false,
+                "id": "44f7bfa687efb51e2084721c6b8bd76d"
             },
             {
                 "description": "a and b are invalid (no x or y)",
                 "data": { "a": 1, "b": 1 },
-                "valid": false
+                "valid": false,
+                "id": "7326b8e5fd174a4e99a71a15a9c56470"
             },
             {
                 "description": "x and y are invalid",
                 "data": { "x": 1, "y": 1 },
-                "valid": false
+                "valid": false,
+                "id": "6c58eda9c2d33cb26da4a2462f9d6fc8"
             },
             {
                 "description": "a and x are valid",
                 "data": { "a": 1, "x": 1 },
-                "valid": true
+                "valid": true,
+                "id": "28ae2c58ec8bbc7d58b5954ab49ff3ca"
             },
             {
                 "description": "a and y are valid",
                 "data": { "a": 1, "y": 1 },
-                "valid": true
+                "valid": true,
+                "id": "de69e7142db67287759e8f1079ca75e9"
             },
             {
                 "description": "a and b and x are valid",
                 "data": { "a": 1, "b": 1, "x": 1 },
-                "valid": true
+                "valid": true,
+                "id": "9dcf216ef9bda21d67cbe9305350a1b5"
             },
             {
                 "description": "a and b and y are valid",
                 "data": { "a": 1, "b": 1, "y": 1 },
-                "valid": true
+                "valid": true,
+                "id": "5de85d0404a78dd7e4ea3c92f11d6219"
             },
             {
                 "description": "a and b and x and y are invalid",
                 "data": { "a": 1, "b": 1, "x": 1, "y": 1 },
-                "valid": false
+                "valid": false,
+                "id": "f01f74d879008791f87fdb222c221d08"
             }
         ]
     },
@@ -1374,107 +1463,128 @@
             {
                 "description": "Empty is invalid",
                 "data": {},
-                "valid": false
+                "valid": false,
+                "id": "b5b114289a41dc2dda4271d0b86fef67"
             },
             {
                 "description": "a is valid",
                 "data": { "a": 1 },
-                "valid": true
+                "valid": true,
+                "id": "388cd457a03d7430d52de3c48a907816"
             },
             {
                 "description": "b is valid",
                 "data": { "b": 1 },
-                "valid": true
+                "valid": true,
+                "id": "aede6be527429a8763b30466c4af36d0"
             },
             {
                 "description": "c is valid",
                 "data": { "c": 1 },
-                "valid": true
+                "valid": true,
+                "id": "c830763317d3ca3d43ab15ccac72c051"
             },
             {
                 "description": "d is valid",
                 "data": { "d": 1 },
-                "valid": true
+                "valid": true,
+                "id": "b8b8cd6c06532193418957a42af2e027"
             },
             {
                 "description": "a + b is invalid",
                 "data": { "a": 1, "b": 1 },
-                "valid": false
+                "valid": false,
+                "id": "4b43fa00a4c4fd2d709538c182e760a4"
             },
             {
                 "description": "a + c is invalid",
                 "data": { "a": 1, "c": 1 },
-                "valid": false
+                "valid": false,
+                "id": "db10b03cffb5f285e59f897fc0f88143"
             },
             {
                 "description": "a + d is invalid",
                 "data": { "a": 1, "d": 1 },
-                "valid": false
+                "valid": false,
+                "id": "163d575bfa040d8969fd7daa1ba60981"
             },
             {
                 "description": "b + c is invalid",
                 "data": { "b": 1, "c": 1 },
-                "valid": false
+                "valid": false,
+                "id": "d1402d0ebd7d0aedd48c249457ee61c9"
             },
             {
                 "description": "b + d is invalid",
                 "data": { "b": 1, "d": 1 },
-                "valid": false
+                "valid": false,
+                "id": "e4813ee09fbe628828ca6e15a0f1fb5b"
             },
             {
                 "description": "c + d is invalid",
                 "data": { "c": 1, "d": 1 },
-                "valid": false
+                "valid": false,
+                "id": "40c5a547df22485863357ae6e59c7fcd"
             },
             {
                 "description": "xx is valid",
                 "data": { "xx": 1 },
-                "valid": true
+                "valid": true,
+                "id": "e15849b52caa27eade75ca65c1fdd1ac"
             },
             {
                 "description": "xx + foox is valid",
                 "data": { "xx": 1, "foox": 1 },
-                "valid": true
+                "valid": true,
+                "id": "199e73316e97e427c6ca3595519a7837"
             },
             {
                 "description": "xx + foo is invalid",
                 "data": { "xx": 1, "foo": 1 },
-                "valid": false
+                "valid": false,
+                "id": "84d90993c54908afc09f2b648ca7779f"
             },
             {
                 "description": "xx + a is invalid",
                 "data": { "xx": 1, "a": 1 },
-                "valid": false
+                "valid": false,
+                "id": "032e4fbb98f3abd6977651da999aae50"
             },
             {
                 "description": "xx + b is invalid",
                 "data": { "xx": 1, "b": 1 },
-                "valid": false
+                "valid": false,
+                "id": "8304d7a43eade0bef700272c862e4575"
             },
             {
                 "description": "xx + c is invalid",
                 "data": { "xx": 1, "c": 1 },
-                "valid": false
+                "valid": false,
+                "id": "5d9f9cc213f93210aa6197119a458f9f"
             },
             {
                 "description": "xx + d is invalid",
                 "data": { "xx": 1, "d": 1 },
-                "valid": false
+                "valid": false,
+                "id": "3d408294eac28a46b001eaaa6d016501"
             },
             {
                 "description": "all is valid",
                 "data": { "all": 1 },
-                "valid": true
+                "valid": true,
+                "id": "aa3ac6dc6ea68a82c05882d5fdd76197"
             },
             {
                 "description": "all + foo is valid",
                 "data": { "all": 1, "foo": 1 },
-                "valid": true
+                "valid": true,
+                "id": "72d9d7a11fadc20f2556b53b15213cb7"
             },
             {
                 "description": "all + a is invalid",
                 "data": { "all": 1, "a": 1 },
-                "valid": false
+                "valid": false,
+                "id": "788e6ce94ffd6928b392210b695e5d48"
             }
         ]
     },
@@ -1488,32 +1598,38 @@
             {
                 "description": "ignores booleans",
                 "data": true,
-                "valid": true
+                "valid": true,
+                "id": "19b5944a02e6abf9e809369474003a1c"
             },
             {
                 "description": "ignores integers",
                 "data": 123,
-                "valid": true
+                "valid": true,
+                "id": "14ca99d8240389238ecf5cb86cd1057d"
             },
             {
                 "description": "ignores floats",
                 "data": 1.0,
-                "valid": true
+                "valid": true,
+                "id": "45005e5c38197c5bbdcadbed8f35c2a4"
             },
             {
                 "description": "ignores arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "3c492e458ef0be69d2abd2e6985ecb66"
             },
             {
                 "description": "ignores strings",
                 "data": "foo",
-                "valid": true
+                "valid": true,
+                "id": "ced738a5a7c477124bacdd88bb3d2dd0"
             },
             {
                 "description": "ignores null",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "1758e74e213be885fd145023385220f9"
             }
         ]
     },
@@ -1529,7 +1645,8 @@
             {
                 "description": "allows null valued properties",
                 "data": {"foo": null},
-                "valid": true
+                "valid": true,
+                "id": "04532e8fad68e45a49f90d375d557b9e"
             }
         ]
     },
@@ -1546,12 +1663,14 @@
             {
                 "description": "allows only number properties",
                 "data": {"a": 1},
-                "valid": true
+                "valid": true,
+                "id": "0c8614f267ea6556d8a1d5f2eb064e3b"
             },
             {
                 "description": "string property is invalid",
                 "data": {"a": "b"},
-                "valid": false
+                "valid": false,
+                "id": "bf1f464227f2e8239700c73e18579420"
             }
         ]
     },
@@ -1574,14 +1693,16 @@
                 "data": {
                     "foo": "a"
                 },
-                "valid": true
+                "valid": true,
+                "id": "0a93c450768b762b2e0dade38345282b"
             },
             {
                 "description": "invalid in case if is evaluated",
                 "data": {
                     "bar": "a"
                 },
-                "valid": false
+                "valid": false,
+                "id": "27721a8f66f05b454d4aee183e85580c"
             }
         ]
     },
@@ -1604,17 +1725,20 @@
             {
                 "description": "unevaluatedProperties doesn't consider dependentSchemas",
                 "data": {"foo": ""},
-                "valid": false
+                "valid": false,
+                "id": "d7114ea724e42e7618142d757127e209"
             },
             {
                 "description": "unevaluatedProperties doesn't see bar when foo2 is absent",
                 "data": {"bar": ""},
-                "valid": false
+                "valid": false,
+                "id": "3e4fad34bae5e57f981316b11b807caa"
             },
             {
                 "description": "unevaluatedProperties sees bar when foo2 is present",
                 "data": {"foo2": "", "bar": ""},
-                "valid": true
+                "valid": true,
+                "id": "56de73f590287b6eef6593f2d7806b2e"
             }
         ]
     },
@@ -1638,7 +1762,8 @@
                     "foo": { "bar": "foo" },
                     "bar": "bar"
                 },
-                "valid": false
+                "valid": false,
+                "id": "f3af97355ff775f23a90ceeee9d44f6f"
             }
         ]
     }

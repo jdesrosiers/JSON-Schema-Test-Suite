@@ -9,132 +9,158 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "26e93fe884a74ca4c0083ae7d5e7f4de"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "0187a76e0571d5e6daa4eb0208a6233c"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "ac6564db2d78eace664967b437eae078"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "a8835db16c0599e203f61e8efd4fa621"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "da661fd6c60a68ac8524755f478b82de"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "cdc5ff80de8cc259caa37e4c89853164"
             },
             {
                 "description": "a valid duration string",
                 "data": "P4DT12H30M5S",
-                "valid": true
+                "valid": true,
+                "id": "1f5efbec6d92149c1f1ae3545ea8164b"
             },
             {
                 "description": "an invalid duration string",
                 "data": "PT1D",
-                "valid": false
+                "valid": false,
+                "id": "791472086b21d53fd7aedf6f4c3c6335"
             },
             {
                 "description": "must start with P",
                 "data": "4DT12H30M5S",
-                "valid": false
+                "valid": false,
+                "id": "5c7341fd961b4a0d9f5474cf9328b9da"
             },
             {
                 "description": "no elements present",
                 "data": "P",
-                "valid": false
+                "valid": false,
+                "id": "5ed48e093c188d8988eccf1bcae8449f"
             },
             {
                 "description": "no time elements present",
                 "data": "P1YT",
-                "valid": false
+                "valid": false,
+                "id": "434c71a45778bfd9720034f07375ab4c"
             },
             {
                 "description": "no date or time elements present",
                 "data": "PT",
-                "valid": false
+                "valid": false,
+                "id": "8b6e6ce650ac514cc2f7379e458fc8fb"
             },
             {
                 "description": "elements out of order",
                 "data": "P2D1Y",
-                "valid": false
+                "valid": false,
+                "id": "80bd22b7182787ee6a2ebb7fd9c47a20"
             },
             {
                 "description": "missing time separator",
                 "data": "P1D2H",
-                "valid": false
+                "valid": false,
+                "id": "919c00e0c56384a6ef817b953c41ee95"
             },
             {
                 "description": "time element in the date position",
                 "data": "P2S",
-                "valid": false
+                "valid": false,
+                "id": "cff14447cda772a74897fc14603bb649"
             },
             {
                 "description": "four years duration",
                 "data": "P4Y",
-                "valid": true
+                "valid": true,
+                "id": "e2e69969ce4c1ba17ac7902c22c997b5"
             },
             {
                 "description": "zero time, in seconds",
                 "data": "PT0S",
-                "valid": true
+                "valid": true,
+                "id": "5a878652ffcc1eda39dfd50ccf5505c0"
             },
             {
                 "description": "zero time, in days",
                 "data": "P0D",
-                "valid": true
+                "valid": true,
+                "id": "73ecbc15daaf4f88c078ae7a193b690b"
             },
             {
                 "description": "one month duration",
                 "data": "P1M",
-                "valid": true
+                "valid": true,
+                "id": "0c7bff88a45c494cc7e0d75e9bd1d00a"
             },
             {
                 "description": "one minute duration",
                 "data": "PT1M",
-                "valid": true
+                "valid": true,
+                "id": "48e3a0fd07f1f925ff988ac409707fb8"
             },
             {
                 "description": "one and a half days, in hours",
                 "data": "PT36H",
-                "valid": true
+                "valid": true,
+                "id": "0b7c0b6b1701b9b88f3079ee508272e6"
             },
             {
                 "description": "one and a half days, in days and hours",
                 "data": "P1DT12H",
-                "valid": true
+                "valid": true,
+                "id": "9f0a4e10082b1e767fa6abe52df44987"
             },
             {
                 "description": "two weeks",
                 "data": "P2W",
-                "valid": true
+                "valid": true,
+                "id": "123d5df367a9265bdf86c41b6c7ee560"
             },
             {
                 "description": "weeks cannot be combined with other units",
                 "data": "P1Y2W",
-                "valid": false
+                "valid": false,
+                "id": "775afc85586b5b7df446606b8818d36d"
             },
             {
                 "description": "invalid non-ASCII '২' (a Bengali 2)",
                 "data": "P২Y",
-                "valid": false
+                "valid": false,
+                "id": "cd735ee3c4d6f90cae51dd75cfbf3332"
             },
             {
                 "description": "element without unit",
                 "data": "P1",
-                "valid": false
+                "valid": false,
+                "id": "67e65f21faadcb4c6552b1c3442ab027"
             }
         ]
     }

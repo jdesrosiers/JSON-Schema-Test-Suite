@@ -9,17 +9,20 @@
             {
                 "description": "valid items",
                 "data": [ 1, 2, 3 ],
-                "valid": true
+                "valid": true,
+                "id": "1fd7662f00d96b6c37a55cbcf66ee9d2"
             },
             {
                 "description": "wrong type of items",
                 "data": [1, "x"],
-                "valid": false
+                "valid": false,
+                "id": "26bec3a99984b00201ebc634b4b236f6"
             },
             {
                 "description": "ignores non-arrays",
                 "data": {"foo" : "bar"},
-                "valid": true
+                "valid": true,
+                "id": "a21fc84cc9c82fda9131246b9547b9ff"
             },
             {
                 "description": "JavaScript pseudo-array is valid",
@@ -27,7 +30,8 @@
                     "0": "invalid",
                     "length": 1
                 },
-                "valid": true
+                "valid": true,
+                "id": "e7036ea534391907903be6aefc202abe"
             }
         ]
     },
@@ -41,12 +45,14 @@
             {
                 "description": "any array is valid",
                 "data": [ 1, "foo", true ],
-                "valid": true
+                "valid": true,
+                "id": "3021bcedbc5e4a58d297628ea23eda3f"
             },
             {
                 "description": "empty array is valid",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "c97b26007286537e8a5ed0ac4889d97b"
             }
         ]
     },
@@ -60,12 +66,14 @@
             {
                 "description": "any non-empty array is invalid",
                 "data": [ 1, "foo", true ],
-                "valid": false
+                "valid": false,
+                "id": "f487751135243546fdc2618d319ea04e"
             },
             {
                 "description": "empty array is valid",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "67bc5558ef1dbce4f8cf669b7424ad66"
             }
         ]
     },
@@ -103,7 +111,8 @@
                     [ {"foo": null}, {"foo": null} ],
                     [ {"foo": null}, {"foo": null} ]
                 ],
-                "valid": true
+                "valid": true,
+                "id": "7cc774763c851fb0fd27a829ea81cc87"
             },
             {
                 "description": "too many items",
@@ -113,7 +122,8 @@
                     [ {"foo": null}, {"foo": null} ],
                     [ {"foo": null}, {"foo": null} ]
                 ],
-                "valid": false
+                "valid": false,
+                "id": "c8ba4898c7eaf51a0d7e2290ac854b6a"
             },
             {
                 "description": "too many sub-items",
@@ -122,7 +132,8 @@
                     [ {"foo": null}, {"foo": null} ],
                     [ {"foo": null}, {"foo": null} ]
                 ],
-                "valid": false
+                "valid": false,
+                "id": "6ac8ef40fbefeec42780d14547794dd0"
             },
             {
                 "description": "wrong item",
@@ -131,7 +142,8 @@
                     [ {"foo": null}, {"foo": null} ],
                     [ {"foo": null}, {"foo": null} ]
                 ],
-                "valid": false
+                "valid": false,
+                "id": "ee7826e2d5a1503fbb2e99114a432951"
             },
             {
                 "description": "wrong sub-item",
@@ -140,7 +152,8 @@
                     [ {"foo": null}, {"foo": null} ],
                     [ {"foo": null}, {"foo": null} ]
                 ],
-                "valid": false
+                "valid": false,
+                "id": "d925cc64491399d146b62ad1dd2761d0"
             },
             {
                 "description": "fewer items is valid",
@@ -148,7 +161,8 @@
                     [ {"foo": null} ],
                     [ {"foo": null} ]
                 ],
-                "valid": true
+                "valid": true,
+                "id": "331fef467b639eaa4a6038de14a02471"
             }
         ]
     },
@@ -174,17 +188,20 @@
             {
                 "description": "valid nested array",
                 "data": [[[[1]], [[2],[3]]], [[[4], [5], [6]]]],
-                "valid": true
+                "valid": true,
+                "id": "1e2bf1211d409abd80e469435d98260b"
             },
             {
                 "description": "nested array with invalid type",
                 "data": [[[["1"]], [[2],[3]]], [[[4], [5], [6]]]],
-                "valid": false
+                "valid": false,
+                "id": "8b0cccc3237df4dfca6a0a67e37fb9e3"
             },
             {
                 "description": "not deep enough",
                 "data": [[[1], [2],[3]], [[4], [5], [6]]],
-                "valid": false
+                "valid": false,
+                "id": "a169761603e5ab1cfaa9fa4ae3f8fc83"
             }
         ]
     },
@@ -199,27 +216,32 @@
             {
                 "description": "empty array",
                 "data": [ ],
-                "valid": true
+                "valid": true,
+                "id": "d436cac3fb6ba587563b58d022bdcad5"
             },
             {
                 "description": "fewer number of items present (1)",
                 "data": [ 1 ],
-                "valid": true
+                "valid": true,
+                "id": "5b7e78b9deed325c4328c1136520b2f9"
             },
             {
                 "description": "fewer number of items present (2)",
                 "data": [ 1, 2 ],
-                "valid": true
+                "valid": true,
+                "id": "3030be16fdac9cfd1d05c310ef954cd7"
             },
             {
                 "description": "equal number of items present",
                 "data": [ 1, 2, 3 ],
-                "valid": true
+                "valid": true,
+                "id": "380a6d2a8570fa4d1b17ee5371db5a83"
             },
             {
                 "description": "additional items are not permitted",
                 "data": [ 1, 2, 3, 4 ],
-                "valid": false
+                "valid": false,
+                "id": "2cc46a3d09bfd844bf702e3da10ccbc4"
             }
         ]
     },
@@ -236,12 +258,14 @@
             {
                 "description": "prefixItems in allOf does not constrain items, invalid case",
                 "data": [ 3, 5 ],
-                "valid": false
+                "valid": false,
+                "id": "c712a08f8e2a00159ef4b4049350e2ce"
             },
             {
                 "description": "prefixItems in allOf does not constrain items, valid case",
                 "data": [ 5, 5 ],
-                "valid": true
+                "valid": true,
+                "id": "93a9bb6178243b4d8751a9de595c38c7"
             }
         ]
     },
@@ -256,12 +280,14 @@
             {
                 "description": "valid items",
                 "data": [ "x", 2, 3 ],
-                "valid": true
+                "valid": true,
+                "id": "040777e70861929478e78d38255dfcff"
             },
             {
                 "description": "wrong type of second item",
                 "data": [ "x", "y" ],
-                "valid": false
+                "valid": false,
+                "id": "567cac5c2cefc466623fdffa768c87a6"
             }
         ]
     },
@@ -276,12 +302,14 @@
             {
                 "description": "heterogeneous invalid instance",
                 "data": [ "foo", "bar", 37 ],
-                "valid": false
+                "valid": false,
+                "id": "121cada70fe37e3be4ce150fe26ba32d"
             },
             {
                 "description": "valid instance",
                 "data": [ null ],
-                "valid": true
+                "valid": true,
+                "id": "cda2c1630846779e9cd0fc092205d831"
             }
         ]
     },
@@ -297,7 +325,8 @@
             {
                 "description": "allows null elements",
                 "data": [ null ],
-                "valid": true
+                "valid": true,
+                "id": "3cc911cceac494ae18b1516dc677d8f3"
             }
         ]
     }

@@ -13,37 +13,44 @@
             {
                 "description": "present required property is valid",
                 "data": {"foo": 1},
-                "valid": true
+                "valid": true,
+                "id": "094cacfe854d5e8687620ae936d1e30a"
             },
             {
                 "description": "non-present required property is invalid",
                 "data": {"bar": 1},
-                "valid": false
+                "valid": false,
+                "id": "7fb3f010fccb6872af755f240d0d66d5"
             },
             {
                 "description": "ignores arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "e5c716e39dadb0f25c426e52bd86cd24"
             },
             {
                 "description": "ignores strings",
                 "data": "",
-                "valid": true
+                "valid": true,
+                "id": "4ea4855265f78aaaa25fda947282c764"
             },
             {
                 "description": "ignores other non-objects",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "fd3f87532d6e8324a26e5060df936b1f"
             },
             {
                 "description": "ignores null",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "d314b1b17a04bf91af9bf1eff9cf9c9a"
             },
             {
                 "description": "ignores boolean",
                 "data": true,
-                "valid": true
+                "valid": true,
+                "id": "b9a4176287e0189f27b2d154cce721a2"
             }
         ]
     },
@@ -59,7 +66,8 @@
             {
                 "description": "not required by default",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "0a1ef1ccfac881c3da9334155601c9aa"
             }
         ]
     },
@@ -76,7 +84,8 @@
             {
                 "description": "property not required",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "5169686d3fddca6ac9f34159c67685b9"
             }
         ]
     },
@@ -104,7 +113,8 @@
                     "foo\tbar": 1,
                     "foo\fbar": 1
                 },
-                "valid": true
+                "valid": true,
+                "id": "18911e9d3363e1a175dac1aeb6413fa4"
             },
             {
                 "description": "object with some properties missing is invalid",
@@ -112,7 +122,8 @@
                     "foo\nbar": "1",
                     "foo\"bar": "1"
                 },
-                "valid": false
+                "valid": false,
+                "id": "8ff8645458b4470b37e026a76a351076"
             }
         ]
     },
@@ -127,32 +138,38 @@
             {
                 "description": "ignores arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "142c8cd257fc97e31c2a0dab727a9181"
             },
             {
                 "description": "ignores other non-objects",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "2cf33021354bfe589f2e968830d4581d"
             },
             {
                 "description": "none of the properties mentioned",
                 "data": {},
-                "valid": false
+                "valid": false,
+                "id": "fbc6651dc934028e4b755993adc6152d"
             },
             {
                 "description": "__proto__ present",
                 "data": { "__proto__": "foo" },
-                "valid": false
+                "valid": false,
+                "id": "09a3990778ec7a584f09e273cc57dac3"
             },
             {
                 "description": "toString present",
                 "data": { "toString": { "length": 37 } },
-                "valid": false
+                "valid": false,
+                "id": "a0675218feeae62d0ac297dcdc39f814"
             },
             {
                 "description": "constructor present",
                 "data": { "constructor": { "length": 37 } },
-                "valid": false
+                "valid": false,
+                "id": "4d0bb68f7e3d62744193ee0c379e2c7c"
             },
             {
                 "description": "all present",
@@ -161,7 +178,8 @@
                     "toString": { "length": "foo" },
                     "constructor": 37
                 },
-                "valid": true
+                "valid": true,
+                "id": "f803d435be3397621894c3de19c1e06d"
             }
         ]
     }

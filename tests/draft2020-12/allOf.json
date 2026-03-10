@@ -22,22 +22,26 @@
             {
                 "description": "allOf",
                 "data": {"foo": "baz", "bar": 2},
-                "valid": true
+                "valid": true,
+                "id": "cabde26d49c378e7115610e445105909"
             },
             {
                 "description": "mismatch second",
                 "data": {"foo": "baz"},
-                "valid": false
+                "valid": false,
+                "id": "f9b15a4f2bcf6f8f8be0eed4e7beb36a"
             },
             {
                 "description": "mismatch first",
                 "data": {"bar": 2},
-                "valid": false
+                "valid": false,
+                "id": "54787f62df3b4fc50f0e970deb3043a6"
             },
             {
                 "description": "wrong type",
                 "data": {"foo": "baz", "bar": "quux"},
-                "valid": false
+                "valid": false,
+                "id": "11409e42b88caad9ed607a5049423231"
             }
         ]
     },
@@ -66,27 +70,32 @@
             {
                 "description": "valid",
                 "data": {"foo": "quux", "bar": 2, "baz": null},
-                "valid": true
+                "valid": true,
+                "id": "07a8049163d5f7612022191b2c49d580"
             },
             {
                 "description": "mismatch base schema",
                 "data": {"foo": "quux", "baz": null},
-                "valid": false
+                "valid": false,
+                "id": "5fa8fb333bfe4390f67fa1fbc5c98160"
             },
             {
                 "description": "mismatch first allOf",
                 "data": {"bar": 2, "baz": null},
-                "valid": false
+                "valid": false,
+                "id": "70fe54ab93b438f24d2fb02ca5a2f534"
             },
             {
                 "description": "mismatch second allOf",
                 "data": {"foo": "quux", "bar": 2},
-                "valid": false
+                "valid": false,
+                "id": "ce8873c336b7f48b99c583aca8285880"
             },
             {
                 "description": "mismatch both",
                 "data": {"bar": 2},
-                "valid": false
+                "valid": false,
+                "id": "e86599b5e55940f4abc1aec4ddb681ae"
             }
         ]
     },
@@ -103,12 +112,14 @@
             {
                 "description": "valid",
                 "data": 25,
-                "valid": true
+                "valid": true,
+                "id": "1d06130e2431a10be50a4fc3cf4a340b"
             },
             {
                 "description": "mismatch one",
                 "data": 35,
-                "valid": false
+                "valid": false,
+                "id": "80d93fb1aa307b1bd2549756ce5e0b21"
             }
         ]
     },
@@ -122,7 +133,8 @@
             {
                 "description": "any value is valid",
                 "data": "foo",
-                "valid": true
+                "valid": true,
+                "id": "fe42b2423dca4585521852137ae7a1ac"
             }
         ]
     },
@@ -136,7 +148,8 @@
             {
                 "description": "any value is invalid",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "f0addd64eab2e1ba4a07e66af6a38656"
             }
         ]
     },
@@ -150,7 +163,8 @@
             {
                 "description": "any value is invalid",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "69819e160823538ba6f8eafd21e9f97c"
             }
         ]
     },
@@ -166,7 +180,8 @@
             {
                 "description": "any data is valid",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "7af30d43f05a0d7e5d278989d755ea9a"
             }
         ]
     },
@@ -183,7 +198,8 @@
             {
                 "description": "any data is valid",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "11672306209a4e11c49185abed017347"
             }
         ]
     },
@@ -200,12 +216,14 @@
             {
                 "description": "number is valid",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "bdc98702079247dc9f2b2baaf3d67f34"
             },
             {
                 "description": "string is invalid",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "a7f0d7f0fcf9ca97b31a660f25114083"
             }
         ]
     },
@@ -222,12 +240,14 @@
             {
                 "description": "number is valid",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "fd9d264879fc31952ee98b66086ab45b"
             },
             {
                 "description": "string is invalid",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "2fd5a502f7fadb94cba328a74db4268c"
             }
         ]
     },
@@ -249,12 +269,14 @@
             {
                 "description": "null is valid",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "8f375fc0a93332850efa422140ffd1b3"
             },
             {
                 "description": "anything non-null is invalid",
                 "data": 123,
-                "valid": false
+                "valid": false,
+                "id": "627d767482f5c26846555dc0798cebd8"
             }
         ]
     },
@@ -270,42 +292,50 @@
             {
                 "description": "allOf: false, anyOf: false, oneOf: false",
                 "data": 1,
-                "valid": false
+                "valid": false,
+                "id": "6fc518d7fadb6ca516755f22624bd478"
             },
             {
                 "description": "allOf: false, anyOf: false, oneOf: true",
                 "data": 5,
-                "valid": false
+                "valid": false,
+                "id": "353c11b3f67f89f22dd87b76102ae495"
             },
             {
                 "description": "allOf: false, anyOf: true, oneOf: false",
                 "data": 3,
-                "valid": false
+                "valid": false,
+                "id": "eee9d22b6afe70ed8e0ae2804cc32541"
             },
             {
                 "description": "allOf: false, anyOf: true, oneOf: true",
                 "data": 15,
-                "valid": false
+                "valid": false,
+                "id": "0fd7795d959b5d4cdd5b1abcbc37531e"
             },
             {
                 "description": "allOf: true, anyOf: false, oneOf: false",
                 "data": 2,
-                "valid": false
+                "valid": false,
+                "id": "57a001fb0c57e07709256895817689d7"
             },
             {
                 "description": "allOf: true, anyOf: false, oneOf: true",
                 "data": 10,
-                "valid": false
+                "valid": false,
+                "id": "71e538f0279a703bf2b639509d233b67"
             },
             {
                 "description": "allOf: true, anyOf: true, oneOf: false",
                 "data": 6,
-                "valid": false
+                "valid": false,
+                "id": "3da735caad966960eaada829df54a910"
             },
             {
                 "description": "allOf: true, anyOf: true, oneOf: true",
                 "data": 30,
-                "valid": true
+                "valid": true,
+                "id": "39e93c225ac7e57a6e69efbe3437aab6"
             }
         ]
     }

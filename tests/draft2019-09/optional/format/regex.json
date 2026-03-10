@@ -9,42 +9,50 @@
             {
                 "description": "all string formats ignore integers",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "c6d805347fa9e91a6179d0ca50b62180"
             },
             {
                 "description": "all string formats ignore floats",
                 "data": 13.7,
-                "valid": true
+                "valid": true,
+                "id": "002ce872cb43c0c23b7ea5ac310784b9"
             },
             {
                 "description": "all string formats ignore objects",
                 "data": {},
-                "valid": true
+                "valid": true,
+                "id": "7202e5fe4a9df5540559c9ddcb6dde51"
             },
             {
                 "description": "all string formats ignore arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "eb48876f224cb57fbfc47942ab89c003"
             },
             {
                 "description": "all string formats ignore booleans",
                 "data": false,
-                "valid": true
+                "valid": true,
+                "id": "ab0b5d262633c218a7f201a4c33cc502"
             },
             {
                 "description": "all string formats ignore nulls",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "29b66c37ab25df3f2b62892b5736f11b"
             },
             {
                 "description": "a valid regular expression",
                 "data": "([abc])+\\s+$",
-                "valid": true
+                "valid": true,
+                "id": "7b4c73a2887797ff5745b79f7d342088"
             },
             {
                 "description": "a regular expression with unclosed parens is invalid",
                 "data": "^(abc]",
-                "valid": false
+                "valid": false,
+                "id": "55458814d0eb68fb58e6379c05dd6c67"
             }
         ]
     }

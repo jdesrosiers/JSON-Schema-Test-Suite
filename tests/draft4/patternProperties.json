@@ -11,37 +11,44 @@
             {
                 "description": "a single valid match is valid",
                 "data": {"foo": 1},
-                "valid": true
+                "valid": true,
+                "id": "f59448619f04e344aaeb23f8a121027c"
             },
             {
                 "description": "multiple valid matches is valid",
                 "data": {"foo": 1, "foooooo" : 2},
-                "valid": true
+                "valid": true,
+                "id": "52e0b4f08a09a2a9bc799ac168ae86e2"
             },
             {
                 "description": "a single invalid match is invalid",
                 "data": {"foo": "bar", "fooooo": 2},
-                "valid": false
+                "valid": false,
+                "id": "599fac2cb8971d407d31ef9d76844a00"
             },
             {
                 "description": "multiple invalid matches is invalid",
                 "data": {"foo": "bar", "foooooo" : "baz"},
-                "valid": false
+                "valid": false,
+                "id": "241fcc7607b721dbe4b5f07b3ce586f9"
             },
             {
                 "description": "ignores arrays",
                 "data": [],
-                "valid": true
+                "valid": true,
+                "id": "82b72e72d9bf8b1786f82dad5837ec32"
             },
             {
                 "description": "ignores strings",
                 "data": "",
-                "valid": true
+                "valid": true,
+                "id": "03aba6913c8deb0017b7b7b4894a9493"
             },
             {
                 "description": "ignores other non-objects",
                 "data": 12,
-                "valid": true
+                "valid": true,
+                "id": "ba6d7f95a9eb81f5f458e71837251291"
             }
         ]
     },
@@ -57,32 +64,38 @@
             {
                 "description": "a single valid match is valid",
                 "data": {"a": 21},
-                "valid": true
+                "valid": true,
+                "id": "4cc23324ec3b2b0f89662ecf082ba30c"
             },
             {
                 "description": "a simultaneous match is valid",
                 "data": {"aaaa": 18},
-                "valid": true
+                "valid": true,
+                "id": "fb2ed9cced483868130ce88f4f2dad47"
             },
             {
                 "description": "multiple matches is valid",
                 "data": {"a": 21, "aaaa": 18},
-                "valid": true
+                "valid": true,
+                "id": "4cc655d53738624d63aed3834a400363"
             },
             {
                 "description": "an invalid due to one is invalid",
                 "data": {"a": "bar"},
-                "valid": false
+                "valid": false,
+                "id": "f9a23f21b886d4281e3cba974825c05d"
             },
             {
                 "description": "an invalid due to the other is invalid",
                 "data": {"aaaa": 31},
-                "valid": false
+                "valid": false,
+                "id": "da3e0ee77c524e6df15100ab4127083c"
             },
             {
                 "description": "an invalid due to both is invalid",
                 "data": {"aaa": "foo", "aaaa": 31},
-                "valid": false
+                "valid": false,
+                "id": "0682f4aab2bb03344a51013fefc3f710"
             }
         ]
     },
@@ -98,22 +111,26 @@
             {
                 "description": "non recognized members are ignored",
                 "data": { "answer 1": "42" },
-                "valid": true
+                "valid": true,
+                "id": "f0bee91dd023c6b2550b596369f136ce"
             },
             {
                 "description": "recognized members are accounted for",
                 "data": { "a31b": null },
-                "valid": false
+                "valid": false,
+                "id": "dd9e0583640b5e0c79f579703a661466"
             },
             {
                 "description": "regexes are case sensitive",
                 "data": { "a_x_3": 3 },
-                "valid": true
+                "valid": true,
+                "id": "211711a0cacf1881e37669dece82f710"
             },
             {
                 "description": "regexes are case sensitive, 2",
                 "data": { "a_X_3": 3 },
-                "valid": false
+                "valid": false,
+                "id": "11be0377dd93ecd0290db59094f79ede"
             }
         ]
     },
@@ -128,7 +145,8 @@
             {
                 "description": "allows null values",
                 "data": {"foobar": null},
-                "valid": true
+                "valid": true,
+                "id": "07f2d1c4c3bde1e92893aea568dc3a57"
             }
         ]
     }

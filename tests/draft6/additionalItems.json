@@ -9,12 +9,14 @@
             {
                 "description": "additional items match schema",
                 "data": [ null, 2, 3, 4 ],
-                "valid": true
+                "valid": true,
+                "id": "f36fbf6987e1c5b4a7ce7c5565733cc3"
             },
             {
                 "description": "additional items do not match schema",
                 "data": [ null, 2, 3, "foo" ],
-                "valid": false
+                "valid": false,
+                "id": "055003328a11c33cd2ee07e212d797fc"
             }
         ]
     },
@@ -32,12 +34,14 @@
             {
                 "description": "valid with a array of type integers",
                 "data": [1,2,3],
-                "valid": true
+                "valid": true,
+                "id": "31446840f7b923d6b4d1e7adcdcb9295"
             },
             {
                 "description": "invalid with a array of mixed types",
                 "data": [1,"2","3"],
-                "valid": false
+                "valid": false,
+                "id": "1b77ee817fa76153a9d758a243cf1969"
             }
         ]
     },
@@ -51,7 +55,8 @@
             {
                 "description": "all items match schema",
                 "data": [ 1, 2, 3, 4, 5 ],
-                "valid": true
+                "valid": true,
+                "id": "2b66963533a9b7ba3309008d90b8349b"
             }
         ]
     },
@@ -65,27 +70,32 @@
             {
                 "description": "empty array",
                 "data": [ ],
-                "valid": true
+                "valid": true,
+                "id": "ef4e6d928435cdfd22e77460c92002dc"
             },
             {
                 "description": "fewer number of items present (1)",
                 "data": [ 1 ],
-                "valid": true
+                "valid": true,
+                "id": "06542d34179cb9bced2dc6b36baa05f4"
             },
             {
                 "description": "fewer number of items present (2)",
                 "data": [ 1, 2 ],
-                "valid": true
+                "valid": true,
+                "id": "1885ef18530eb4b2038c0701622b1eee"
             },
             {
                 "description": "equal number of items present",
                 "data": [ 1, 2, 3 ],
-                "valid": true
+                "valid": true,
+                "id": "2f6748357b4fffdda40e91ab9c39a1da"
             },
             {
                 "description": "additional items are not permitted",
                 "data": [ 1, 2, 3, 4 ],
-                "valid": false
+                "valid": false,
+                "id": "380044e1601210d5553d477e6ef5ae4d"
             }
         ]
     },
@@ -97,12 +107,14 @@
                 "description":
                     "items defaults to empty schema so everything is valid",
                 "data": [ 1, 2, 3, 4, 5 ],
-                "valid": true
+                "valid": true,
+                "id": "fe31dc2eb4c173d064862c97d1c067c4"
             },
             {
                 "description": "ignores non-arrays",
                 "data": {"foo" : "bar"},
-                "valid": true
+                "valid": true,
+                "id": "9cbabdb0b9fc342833bdb3f311ceb9a1"
             }
         ]
     },
@@ -113,7 +125,8 @@
             {
                 "description": "only the first item is validated",
                 "data": [1, "foo", false],
-                "valid": true
+                "valid": true,
+                "id": "ef5e63b03a7c92b3c02cd9c7e2a97573"
             }
         ]
     },
@@ -130,7 +143,8 @@
             {
                 "description": "items defined in allOf are not examined",
                 "data": [ 1, "hello" ],
-                "valid": false
+                "valid": false,
+                "id": "876c85547ae87cd4e9780a414d56aa49"
             }
         ]
     },
@@ -144,12 +158,14 @@
             {
                 "description": "valid items",
                 "data": [ "x", 2, 3 ],
-                "valid": true
+                "valid": true,
+                "id": "2fd5db5400977342cc6093b3795252f2"
             },
             {
                 "description": "wrong type of second item",
                 "data": [ "x", "y" ],
-                "valid": false
+                "valid": false,
+                "id": "58ddb10314dff5d2ad7fed77ffe2a2db"
             }
         ]
     },
@@ -163,12 +179,14 @@
             {
                 "description": "heterogeneous invalid instance",
                 "data": [ "foo", "bar", 37 ],
-                "valid": false
+                "valid": false,
+                "id": "426d94ea0f582334426d7174f1459db2"
             },
             {
                 "description": "valid instance",
                 "data": [ null ],
-                "valid": true
+                "valid": true,
+                "id": "f8c72e85c1d6a5319f482b7be2a73420"
             }
         ]
     },
@@ -183,7 +201,8 @@
             {
                 "description": "allows null elements",
                 "data": [ null ],
-                "valid": true
+                "valid": true,
+                "id": "47132df457d3d7cda69b6337899bbe13"
             }
         ]
     }

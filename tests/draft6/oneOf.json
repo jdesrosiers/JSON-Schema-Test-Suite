@@ -15,22 +15,26 @@
             {
                 "description": "first oneOf valid",
                 "data": 1,
-                "valid": true
+                "valid": true,
+                "id": "daca71219ff361b42f170b4beead47f1"
             },
             {
                 "description": "second oneOf valid",
                 "data": 2.5,
-                "valid": true
+                "valid": true,
+                "id": "6e76f81762053707703cc597e981591c"
             },
             {
                 "description": "both oneOf valid",
                 "data": 3,
-                "valid": false
+                "valid": false,
+                "id": "551a0226a748fa23f759efe14640f760"
             },
             {
                 "description": "neither oneOf valid",
                 "data": 1.5,
-                "valid": false
+                "valid": false,
+                "id": "8fa0df058e9d5feb06122886f513a69c"
             }
         ]
     },
@@ -51,17 +55,20 @@
             {
                 "description": "mismatch base schema",
                 "data": 3,
-                "valid": false
+                "valid": false,
+                "id": "7ea8db553e678629ef23a04ccd803823"
             },
             {
                 "description": "one oneOf valid",
                 "data": "foobar",
-                "valid": true
+                "valid": true,
+                "id": "c803913195f598665d0821a8bb564b52"
             },
             {
                 "description": "both oneOf valid",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "35b78e605514e0937af8ca41f8964fea"
             }
         ]
     },
@@ -72,7 +79,8 @@
             {
                 "description": "any value is invalid",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "8bf379c023112a0707494098f3f236e3"
             }
         ]
     },
@@ -83,7 +91,8 @@
             {
                 "description": "any value is valid",
                 "data": "foo",
-                "valid": true
+                "valid": true,
+                "id": "f25d2409734d7e97e214c6acc676964d"
             }
         ]
     },
@@ -94,7 +103,8 @@
             {
                 "description": "any value is invalid",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "c298519c2a10bab53508f40ea4fada50"
             }
         ]
     },
@@ -105,7 +115,8 @@
             {
                 "description": "any value is invalid",
                 "data": "foo",
-                "valid": false
+                "valid": false,
+                "id": "06852c0565d56b0d8cbce143ef5f15fb"
             }
         ]
     },
@@ -131,22 +142,26 @@
             {
                 "description": "first oneOf valid (complex)",
                 "data": {"bar": 2},
-                "valid": true
+                "valid": true,
+                "id": "5a6e69c6d38f251ef294e28163291459"
             },
             {
                 "description": "second oneOf valid (complex)",
                 "data": {"foo": "baz"},
-                "valid": true
+                "valid": true,
+                "id": "52b096ca9c8d8b587318be2bcb3efdf1"
             },
             {
                 "description": "both oneOf valid (complex)",
                 "data": {"foo": "baz", "bar": 2},
-                "valid": false
+                "valid": false,
+                "id": "37e584043f2385c8784f1144135bf313"
             },
             {
                 "description": "neither oneOf valid (complex)",
                 "data": {"foo": 2, "bar": "quux"},
-                "valid": false
+                "valid": false,
+                "id": "6d65eaebfa4b4b8f07eef1dd295d0b14"
             }
         ]
     },
@@ -162,12 +177,14 @@
             {
                 "description": "one valid - valid",
                 "data": "foo",
-                "valid": true
+                "valid": true,
+                "id": "2e2a4056c9e26ccb1ff91f293cd84fc7"
             },
             {
                 "description": "both valid - invalid",
                 "data": 123,
-                "valid": false
+                "valid": false,
+                "id": "23800eedb4f051d6b90d1c4d2cbad5a8"
             }
         ]
     },
@@ -184,22 +201,26 @@
             {
                 "description": "both invalid - invalid",
                 "data": {"bar": 2},
-                "valid": false
+                "valid": false,
+                "id": "d10de0d48cec99a685b6d0c26325b41d"
             },
             {
                 "description": "first valid - valid",
                 "data": {"foo": 1, "bar": 2},
-                "valid": true
+                "valid": true,
+                "id": "1fee55c6a259a5f6c1620dbb40ae97c5"
             },
             {
                 "description": "second valid - valid",
                 "data": {"foo": 1, "baz": 3},
-                "valid": true
+                "valid": true,
+                "id": "15e607317e834dbf18b12298bdf076ba"
             },
             {
                 "description": "both valid - invalid",
                 "data": {"foo": 1, "bar": 2, "baz" : 3},
-                "valid": false
+                "valid": false,
+                "id": "0f5778a05ed4754d5834e09a8e3946bb"
             }
         ]
     },
@@ -226,22 +247,26 @@
             {
                 "description": "first oneOf valid",
                 "data": {"bar": 8},
-                "valid": true
+                "valid": true,
+                "id": "49cc76b61bfa250cdae65751661a5908"
             },
             {
                 "description": "second oneOf valid",
                 "data": {"foo": "foo"},
-                "valid": true
+                "valid": true,
+                "id": "b430d93e10552300481ffc8764d5a9b3"
             },
             {
                 "description": "both oneOf valid",
                 "data": {"foo": "foo", "bar": 8},
-                "valid": false
+                "valid": false,
+                "id": "e76b38c84cbd749d8ce37ad5b8d2165f"
             },
             {
                 "description": "neither oneOf valid",
                 "data": {"baz": "quux"},
-                "valid": false
+                "valid": false,
+                "id": "affc95e2fd2cc8647845d9eb7ebb7475"
             }
         ]
     },
@@ -262,12 +287,14 @@
             {
                 "description": "null is valid",
                 "data": null,
-                "valid": true
+                "valid": true,
+                "id": "92877e98e21dffe1533ef9d42ad11c8d"
             },
             {
                 "description": "anything non-null is invalid",
                 "data": 123,
-                "valid": false
+                "valid": false,
+                "id": "846548800ea3e845412070f29464a000"
             }
         ]
     }

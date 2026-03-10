@@ -9,12 +9,14 @@
             {
                 "description": "matches in Python, but not in ECMA 262",
                 "data": "abc\\n",
-                "valid": false
+                "valid": false,
+                "id": "9579e877c6f3863fae63bb8672f4f964"
             },
             {
                 "description": "matches",
                 "data": "abc",
-                "valid": true
+                "valid": true,
+                "id": "b80dd2f0268225a5bb66130f01a6fe62"
             }
         ]
     },
@@ -28,12 +30,14 @@
             {
                 "description": "does not match",
                 "data": "\\t",
-                "valid": false
+                "valid": false,
+                "id": "d04cf1f09b37c7b0ed68fe4057ae5e14"
             },
             {
                 "description": "matches",
                 "data": "\u0009",
-                "valid": true
+                "valid": true,
+                "id": "ff6625ef613ca56f94bb2fdbd33659b3"
             }
         ]
     },
@@ -47,12 +51,14 @@
             {
                 "description": "does not match",
                 "data": "\\cC",
-                "valid": false
+                "valid": false,
+                "id": "5d9709d79bb67ef515b1aa8512bf1486"
             },
             {
                 "description": "matches",
                 "data": "\u0003",
-                "valid": true
+                "valid": true,
+                "id": "fa00e76ec674f4f2eb217caa38f1ba37"
             }
         ]
     },
@@ -66,12 +72,14 @@
             {
                 "description": "does not match",
                 "data": "\\cc",
-                "valid": false
+                "valid": false,
+                "id": "f467af7daadb5d6f90706f360bab13b2"
             },
             {
                 "description": "matches",
                 "data": "\u0003",
-                "valid": true
+                "valid": true,
+                "id": "3a31b8b233f39bc5b8d7cd1fb0796af7"
             }
         ]
     },
@@ -85,17 +93,20 @@
             {
                 "description": "ASCII zero matches",
                 "data": "0",
-                "valid": true
+                "valid": true,
+                "id": "55e5c3b50938a6fdfd349a25adb5b088"
             },
             {
                 "description": "NKO DIGIT ZERO does not match (unlike e.g. Python)",
                 "data": "߀",
-                "valid": false
+                "valid": false,
+                "id": "df6b550b130c9e82221d3c82b7995302"
             },
             {
                 "description": "NKO DIGIT ZERO (as \\u escape) does not match",
                 "data": "\u07c0",
-                "valid": false
+                "valid": false,
+                "id": "df6b550b130c9e82221d3c82b7995302"
             }
         ]
     },
@@ -109,17 +120,20 @@
             {
                 "description": "ASCII zero does not match",
                 "data": "0",
-                "valid": false
+                "valid": false,
+                "id": "1d1e1cf79f57f2c2622f742b4375eb97"
             },
             {
                 "description": "NKO DIGIT ZERO matches (unlike e.g. Python)",
                 "data": "߀",
-                "valid": true
+                "valid": true,
+                "id": "4780449c3dfebd937087f4ee795d4433"
             },
             {
                 "description": "NKO DIGIT ZERO (as \\u escape) matches",
                 "data": "\u07c0",
-                "valid": true
+                "valid": true,
+                "id": "4780449c3dfebd937087f4ee795d4433"
             }
         ]
     },
@@ -133,12 +147,14 @@
             {
                 "description": "ASCII 'a' matches",
                 "data": "a",
-                "valid": true
+                "valid": true,
+                "id": "e588a516251d7825cbab3a748164f3c2"
             },
             {
                 "description": "latin-1 e-acute does not match (unlike e.g. Python)",
                 "data": "é",
-                "valid": false
+                "valid": false,
+                "id": "e17225d2eddcacf8fe49e5f56ebdcd64"
             }
         ]
     },
@@ -152,12 +168,14 @@
             {
                 "description": "ASCII 'a' does not match",
                 "data": "a",
-                "valid": false
+                "valid": false,
+                "id": "d147c3dc54c255a86cf61c31d641d499"
             },
             {
                 "description": "latin-1 e-acute matches (unlike e.g. Python)",
                 "data": "é",
-                "valid": true
+                "valid": true,
+                "id": "e408148d7737cd1f63b41d3bcc11dfbf"
             }
         ]
     },
@@ -171,57 +189,68 @@
             {
                 "description": "ASCII space matches",
                 "data": " ",
-                "valid": true
+                "valid": true,
+                "id": "a5c5dfe187ebb5c4f06a6ce179618074"
             },
             {
                 "description": "Character tabulation matches",
                 "data": "\t",
-                "valid": true
+                "valid": true,
+                "id": "e810c7dbd99698e9b6398ccb2dd96ca6"
             },
             {
                 "description": "Line tabulation matches",
                 "data": "\u000b",
-                "valid": true
+                "valid": true,
+                "id": "b76b057deea8334d5936e4bb366ecc82"
             },
             {
                 "description": "Form feed matches",
                 "data": "\u000c",
-                "valid": true
+                "valid": true,
+                "id": "16db0fabd6d3b60015f7cd2406bfdff1"
             },
             {
                 "description": "latin-1 non-breaking-space matches",
                 "data": "\u00a0",
-                "valid": true
+                "valid": true,
+                "id": "c723d80e2222901bfee63a9e9488f4e0"
             },
             {
                 "description": "zero-width whitespace matches",
                 "data": "\ufeff",
-                "valid": true
+                "valid": true,
+                "id": "fe29ffa5ca6d05ae76265267191aa854"
             },
             {
                 "description": "line feed matches (line terminator)",
                 "data": "\u000a",
-                "valid": true
+                "valid": true,
+                "id": "f2e41101867234e607f103a318cf6486"
             },
             {
                 "description": "paragraph separator matches (line terminator)",
                 "data": "\u2029",
-                "valid": true
+                "valid": true,
+                "id": "d9a72de38debedd0009a77864082872c"
             },
             {
                 "description": "EM SPACE matches (Space_Separator)",
                 "data": "\u2003",
-                "valid": true
+                "valid": true,
+                "id": "fdfd64be68eef981f9c149990bce5c56"
             },
             {
                 "description": "Non-whitespace control does not match",
                 "data": "\u0001",
-                "valid": false
+                "valid": false,
+                "id": "e600724de2172f85f60ee08a3fdc6a4f"
             },
             {
                 "description": "Non-whitespace does not match",
                 "data": "\u2013",
-                "valid": false
+                "valid": false,
+                "id": "b21c2f62d75dd358515e3e83de376e94"
             }
         ]
     },
@@ -235,57 +264,68 @@
             {
                 "description": "ASCII space does not match",
                 "data": " ",
-                "valid": false
+                "valid": false,
+                "id": "3304dde5b6dd5cf913a4b89a6fca645e"
             },
             {
                 "description": "Character tabulation does not match",
                 "data": "\t",
-                "valid": false
+                "valid": false,
+                "id": "d84cde1f093fbb87ae704ba713b49711"
             },
             {
                 "description": "Line tabulation does not match",
                 "data": "\u000b",
-                "valid": false
+                "valid": false,
+                "id": "73d4c585a93b2b19a19a51b55c57889e"
             },
             {
                 "description": "Form feed does not match",
                 "data": "\u000c",
-                "valid": false
+                "valid": false,
+                "id": "d0767ff51fc741487c7634d7a38a7a83"
             },
             {
                 "description": "latin-1 non-breaking-space does not match",
                 "data": "\u00a0",
-                "valid": false
+                "valid": false,
+                "id": "2bfd722fdaf7408bb445da523335954d"
             },
             {
                 "description": "zero-width whitespace does not match",
                 "data": "\ufeff",
-                "valid": false
+                "valid": false,
+                "id": "84f791b4929df40132a2cc66ba62cc0f"
             },
             {
                 "description": "line feed does not match (line terminator)",
                 "data": "\u000a",
-                "valid": false
+                "valid": false,
+                "id": "76aefe99aa1d51a2570ad0eb41d87074"
             },
             {
                 "description": "paragraph separator does not match (line terminator)",
                 "data": "\u2029",
-                "valid": false
+                "valid": false,
+                "id": "7cd7fb86e80bb3ed432a831062d4d453"
             },
             {
                 "description": "EM SPACE does not match (Space_Separator)",
                 "data": "\u2003",
-                "valid": false
+                "valid": false,
+                "id": "e0048deec37292995b1f2f36284cec34"
             },
             {
                 "description": "Non-whitespace control matches",
                 "data": "\u0001",
-                "valid": true
+                "valid": true,
+                "id": "68a41328fc4e58f157bf59efe79c1d02"
             },
             {
                 "description": "Non-whitespace matches",
                 "data": "\u2013",
-                "valid": true
+                "valid": true,
+                "id": "d97b749d73da705c456bd07bf0d07b98"
             }
         ]
     },
@@ -296,22 +336,26 @@
             {
                 "description": "ascii character in json string",
                 "data": "Les hivers de mon enfance etaient des saisons longues, longues. Nous vivions en trois lieux: l'ecole, l'eglise et la patinoire; mais la vraie vie etait sur la patinoire.",
-                "valid": true
+                "valid": true,
+                "id": "569d23402d7bc4c74f9fbbdcd850b96e"
             },
             {
                 "description": "literal unicode character in json string",
                 "data": "Les hivers de mon enfance étaient des saisons longues, longues. Nous vivions en trois lieux: l'école, l'église et la patinoire; mais la vraie vie était sur la patinoire.",
-                "valid": true
+                "valid": true,
+                "id": "17e5b10867c610e33ce40166d1414b4f"
             },
             {
                 "description": "unicode character in hex format in string",
                 "data": "Les hivers de mon enfance étaient des saisons longues, longues. Nous vivions en trois lieux: l'\u00e9cole, l'église et la patinoire; mais la vraie vie était sur la patinoire.",
-                "valid": true
+                "valid": true,
+                "id": "17e5b10867c610e33ce40166d1414b4f"
             },
             {
                 "description": "unicode matching is case-sensitive",
                 "data": "LES HIVERS DE MON ENFANCE ÉTAIENT DES SAISONS LONGUES, LONGUES. NOUS VIVIONS EN TROIS LIEUX: L'ÉCOLE, L'ÉGLISE ET LA PATINOIRE; MAIS LA VRAIE VIE ÉTAIT SUR LA PATINOIRE.",
-                "valid": false
+                "valid": false,
+                "id": "340c49f508a5587788c775350b46e003"
             }
         ]
     },
@@ -322,22 +366,26 @@
             {
                 "description": "ascii character in json string",
                 "data": "Les hivers de mon enfance etaient des saisons longues, longues. Nous vivions en trois lieux: l'ecole, l'eglise et la patinoire; mais la vraie vie etait sur la patinoire.",
-                "valid": true
+                "valid": true,
+                "id": "8c7e17238fa0b16409d692854a9847ff"
             },
             {
                 "description": "literal unicode character in json string",
                 "data": "Les hivers de mon enfance étaient des saisons longues, longues. Nous vivions en trois lieux: l'école, l'église et la patinoire; mais la vraie vie était sur la patinoire.",
-                "valid": false
+                "valid": false,
+                "id": "18419e52440545a81ce63e6a736b4245"
             },
             {
                 "description": "unicode character in hex format in string",
                 "data": "Les hivers de mon enfance étaient des saisons longues, longues. Nous vivions en trois lieux: l'\u00e9cole, l'église et la patinoire; mais la vraie vie était sur la patinoire.",
-                "valid": false
+                "valid": false,
+                "id": "18419e52440545a81ce63e6a736b4245"
             },
             {
                 "description": "unicode matching is case-sensitive",
                 "data": "LES HIVERS DE MON ENFANCE ÉTAIENT DES SAISONS LONGUES, LONGUES. NOUS VIVIONS EN TROIS LIEUX: L'ÉCOLE, L'ÉGLISE ET LA PATINOIRE; MAIS LA VRAIE VIE ÉTAIT SUR LA PATINOIRE.",
-                "valid": false
+                "valid": false,
+                "id": "a922659c7c296fdaa80ed746b3ecbc94"
             }
         ]
     },
@@ -348,17 +396,20 @@
             {
                 "description": "literal unicode character in json string",
                 "data": "Les hivers de mon enfance étaient des saisons longues, longues. Nous vivions en trois lieux: l'école, l'église et la patinoire; mais la vraie vie était sur la patinoire.",
-                "valid": false
+                "valid": false,
+                "id": "7c84252694fcff25db41380fad1e5e3b"
             },
             {
                 "description": "unicode character in hex format in string",
                 "data": "Les hivers de mon enfance étaient des saisons longues, longues. Nous vivions en trois lieux: l'\u00e9cole, l'église et la patinoire; mais la vraie vie était sur la patinoire.",
-                "valid": false
+                "valid": false,
+                "id": "7c84252694fcff25db41380fad1e5e3b"
             },
             {
                 "description": "ascii characters match",
                 "data": "Les hivers de mon enfance etaient des saisons longues, longues. Nous vivions en trois lieux: l'ecole, l'eglise et la patinoire; mais la vraie vie etait sur la patinoire.",
-                "valid": true
+                "valid": true,
+                "id": "d3efb43248a9ea40b26a0c5d6d335e27"
             }
         ]
     },
@@ -369,17 +420,20 @@
             {
                 "description": "ascii digits",
                 "data": "42",
-                "valid": true
+                "valid": true,
+                "id": "07dfac6a7c3053b9383b7673f4e07b4c"
             },
             {
                 "description": "ascii non-digits",
                 "data": "-%#",
-                "valid": false
+                "valid": false,
+                "id": "433d8c62a7d0c6e0ec13d31a52c2bb42"
             },
             {
                 "description": "non-ascii digits (BENGALI DIGIT FOUR, BENGALI DIGIT TWO)",
                 "data": "৪২",
-                "valid": false
+                "valid": false,
+                "id": "b1edf90214f4a8de13621b07a38546b3"
             }
         ]
     },
@@ -390,17 +444,20 @@
             {
                 "description": "ascii digits",
                 "data": "42",
-                "valid": true
+                "valid": true,
+                "id": "979aaa16388c2690066e4c3a2d747c3a"
             },
             {
                 "description": "ascii non-digits",
                 "data": "-%#",
-                "valid": false
+                "valid": false,
+                "id": "6351f976603ffe03f5a9b5c874dbfdda"
             },
             {
                 "description": "non-ascii digits (BENGALI DIGIT FOUR, BENGALI DIGIT TWO)",
                 "data": "৪২",
-                "valid": true
+                "valid": true,
+                "id": "b3c850c6ca014fee548cc15f97b446b7"
             }
         ]
     },
@@ -417,22 +474,26 @@
             {
                 "description": "ascii character in json string",
                 "data": { "l'ecole": "pas de vraie vie" },
-                "valid": true
+                "valid": true,
+                "id": "213e4ba48a941373728743254d5e8b0f"
             },
             {
                 "description": "literal unicode character in json string",
                 "data": { "l'école": "pas de vraie vie" },
-                "valid": true
+                "valid": true,
+                "id": "edf10db5644c0fa25f33efbce74e4bc4"
             },
             {
                 "description": "unicode character in hex format in string",
                 "data": { "l'\u00e9cole": "pas de vraie vie" },
-                "valid": true
+                "valid": true,
+                "id": "edf10db5644c0fa25f33efbce74e4bc4"
             },
             {
                 "description": "unicode matching is case-sensitive",
                 "data": { "L'ÉCOLE": "PAS DE VRAIE VIE" },
-                "valid": false
+                "valid": false,
+                "id": "fe73210904cc944588acdedbc43736ef"
             }
         ]
     },
@@ -449,22 +510,26 @@
             {
                 "description": "ascii character in json string",
                 "data": { "l'ecole": "pas de vraie vie" },
-                "valid": true
+                "valid": true,
+                "id": "bb4aa23b2bcac4a761b9214c171b5145"
             },
             {
                 "description": "literal unicode character in json string",
                 "data": { "l'école": "pas de vraie vie" },
-                "valid": false
+                "valid": false,
+                "id": "d830c6e3fda3e6d98f436f90d792db5b"
             },
             {
                 "description": "unicode character in hex format in string",
                 "data": { "l'\u00e9cole": "pas de vraie vie" },
-                "valid": false
+                "valid": false,
+                "id": "d830c6e3fda3e6d98f436f90d792db5b"
             },
             {
                 "description": "unicode matching is case-sensitive",
                 "data": { "L'ÉCOLE": "PAS DE VRAIE VIE" },
-                "valid": false
+                "valid": false,
+                "id": "e25d158a9feaece1c80f8f36f31d3987"
             }
         ]
     },
@@ -481,17 +546,20 @@
             {
                 "description": "literal unicode character in json string",
                 "data": { "l'école": "pas de vraie vie" },
-                "valid": false
+                "valid": false,
+                "id": "60c0b89b4e23638e2f29172ca849a5d1"
             },
             {
                 "description": "unicode character in hex format in string",
                 "data": { "l'\u00e9cole": "pas de vraie vie" },
-                "valid": false
+                "valid": false,
+                "id": "60c0b89b4e23638e2f29172ca849a5d1"
             },
             {
                 "description": "ascii characters match",
                 "data": { "l'ecole": "pas de vraie vie" },
-                "valid": true
+                "valid": true,
+                "id": "4a0745894518ad4aa345a3fe67eaee94"
             }
         ]
     },
@@ -508,17 +576,20 @@
             {
                 "description": "ascii digits",
                 "data": { "42": "life, the universe, and everything" },
-                "valid": true
+                "valid": true,
+                "id": "a62701f70a71eac0bb72b7a07e7c8b05"
             },
             {
                 "description": "ascii non-digits",
                 "data": { "-%#": "spending the year dead for tax reasons" },
-                "valid": false
+                "valid": false,
+                "id": "709e79f9143b49f84dd94e12db3d8ba3"
             },
             {
                 "description": "non-ascii digits (BENGALI DIGIT FOUR, BENGALI DIGIT TWO)",
                 "data": { "৪২": "khajit has wares if you have coin" },
-                "valid": false
+                "valid": false,
+                "id": "9d5de8d2e577bb7e4526d3c4013d5dd1"
             }
         ]
     },
@@ -535,17 +606,20 @@
             {
                 "description": "ascii digits",
                 "data": { "42": "life, the universe, and everything" },
-                "valid": true
+                "valid": true,
+                "id": "4b418c857606e733016308b8a1030fc0"
             },
             {
                 "description": "ascii non-digits",
                 "data": { "-%#": "spending the year dead for tax reasons" },
-                "valid": false
+                "valid": false,
+                "id": "1689ea6a12c27cb24adacba31399d7d0"
             },
             {
                 "description": "non-ascii digits (BENGALI DIGIT FOUR, BENGALI DIGIT TWO)",
                 "data": { "৪২": "khajit has wares if you have coin" },
-                "valid": true
+                "valid": true,
+                "id": "5040c63f31323fa75002ecab8b12f660"
             }
         ]
     }
